@@ -1,0 +1,11 @@
+SANTAK TOOLS
+============
+
+This is a collection of utilities that help automate creating and
+working with fonts and related image files.  They require the
+following:
+
+ fontforge
+ gimp
+ imagemagick
+

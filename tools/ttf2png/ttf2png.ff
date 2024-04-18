@@ -1,0 +1,8 @@
+import fontforge
+font = fontforge.open("font.ttf")
+for name in font:
+    glyph = font[name]
+    fullnamesvg = name + " , " + str(glyph.unicode) + " , " + str(glyph.altuni) + ".svg"
+    fullnamepng = name + " , " + str(glyph.unicode) + " , " + str(glyph.altuni) + ".png"
+    glyph.export(fullnamesvg)
+    glyph.export(fullnamepng, 1024)

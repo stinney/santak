@@ -1,0 +1,5 @@
+The Python script png2svg.py is from
+https://github.com/vkethana/misc_cuneiform_signs/script.py.
+
+The script operates on a folder of PNG/JPG files and will prompt if
+none is given on the command line.

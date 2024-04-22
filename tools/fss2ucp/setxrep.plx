@@ -16,4 +16,24 @@ use Getopt::Long;
 GetOptions(
     );
 
+my $fssoid = 'fss-oid-ucp.tab';
+die "$0: there must be a $fssoid here for me to work with. Stop.\n"
+    unless -r $fssoid;
+my $reptab = 'rep.tab';
+die "$0: there must be a rep.tab here for me to work with. Stop.\n"
+    unless -r $reptab;
+
+my %set = (); my @set = `cut -f3 $fssoid`; chomp @set; @set{@set} = ();
+my %rep = (); my @repkey = `cut -f1 $reptab`; chomp @repkey;
+my @rep = `cat $reptab`; chomp @rep;
+@rep{@repkey} = @rep;
+
+foreach (sort keys %rep) {
+    # warn "trying $_\n";
+    unless (exists $set{$_}) {
+	warn "$rep{$_}\n"
+	    unless $rep{$_} =~ /\tx[0-9A-F]/;
+    }
+}
+
 1;

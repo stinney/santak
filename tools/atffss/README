@@ -1,0 +1,16 @@
+ATF FSS : ATF File-System-Safe
+==============================
+
+ATF-FSS is a notation used for naming files with sign names or (most)
+sign values in a forgiving way both for humans and the Unix shell.
+
+The notation is very similar to the one used by OSL, and the lookup
+table from ATF-FSS names to OIDs is derived from OSL's slmap.js with
+the following modifications:
+
+    * in OSL is x in ATF-FSS
+    
+    ' in OSL is disallowed in ATF-FSS--this means that sign values
+    containing ' cannot be used in file-naming.
+
+These changes mean that ATF-FSS file names do not need to be escaped or quoted.

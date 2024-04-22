@@ -1,0 +1,3 @@
+FSS2UCP: ATF-FSS to Unicode Code Point
+
+This is done in two stages: fss2oid.plx and oid2ucp.plx

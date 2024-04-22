@@ -10,11 +10,11 @@ use Getopt::Long;
 GetOptions(
     );
 
-my %pua = ();
-my @puatok = `cut -f1 $pua`; chomp; @puatok;
-my @pua = `cut -f1 $
+my %ucp = ();
+my $ucp = "/Users/stinney/orc/osl/00etc/ucp.tab";
+my @ucp1 = `cut -f1 $ucp`; chomp @ucp1;
+my @ucp2 = `cut -f2 $ucp`; chomp @ucp2;
+@ucp{@ucp1} = @ucp2;
 
-my $fss = '/Users/stinney/santak/tools/atffss/fss.tab';
-my $ns = `cat nsprefix.txt`; chomp $ns;
 
 1;

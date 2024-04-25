@@ -6,9 +6,13 @@ export cfg_todo=$(todo)
 tools=$(santak)/tools
 oid2ucp=$(tools)/fss2ucp/oid2ucp.plx
 setxrep=$(tools)/fss2ucp/setxrep.plx
+xcf2png=$(tools)/xcf2png/xcf2png.sh
 
 check:
 	$(tools)/misc/check-config.sh
 
 coverage:
 	$(setxrep)
+
+xcf2png:
+	$(xcf2png)

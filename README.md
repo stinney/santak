@@ -7,16 +7,21 @@ working with fonts and related image files.
 Requirements
 ------------
 
-Santak runs best on a Unix system (some of the processes only work on
-Unix); Multipass is an excellent emulator if you don't have access to
-a Unix machine.
-
 The following packages are required:
 
  fontforge
  gimp
  imagemagick
  potrace
+
+Portability
+-----------
+
+Santak is not entirely portable and some processes require a Unix environment.
+
+* On MacOS Gimp xcf2png may fail because
+  'plug-in-script-fu-text-console' is not available, which disables
+  batchmode.
 
 Overview
 --------
@@ -47,9 +52,10 @@ It must end with the line:
 Depending on the processes listed in the todo variable, the following
 variables may also be required and must appear before the include
 line.
-	nsprefix
-	project	an Oracc project
-	corpus	a corpus within the project
+
+	nsprefix	a prefix for labels in the OSL PUA system
+	project		an Oracc project
+	corpus		a corpus within the project
 
 Processes
 ---------

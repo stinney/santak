@@ -1,0 +1,14 @@
+export cfg_nsprefix=$(nsprefix)
+export cfg_project=$(project)
+export cfg_corpus=$(corpus)
+export cfg_todo=$(todo)
+
+tools=$(santak)/tools
+oid2ucp=$(tools)/fss2ucp/oid2ucp.plx
+setxrep=$(tools)/fss2ucp/setxrep.plx
+
+check:
+	$(tools)/misc/check-config.sh
+
+coverage:
+	$(setxrep)

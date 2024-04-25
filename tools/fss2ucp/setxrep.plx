@@ -4,7 +4,7 @@ binmode STDIN, ':utf8'; binmode STDOUT, ':utf8'; binmode STDERR, ':utf8';
 binmode $DB::OUT, ':utf8' if $DB::OUT;
 use Data::Dumper;
 
-# Take an fss-oid-ucp.tab which defines the set of character images in
+# Take an fss-oid.tab which defines the set of character images in
 # a directory and compare it to a rep.tab, which defines the
 # repertoire of an arbitrary piece of corpus.
 #
@@ -28,10 +28,20 @@ my %rep = (); my @repkey = `cut -f1 $reptab`; chomp @repkey;
 my @rep = `cat $reptab`; chomp @rep;
 @rep{@repkey} = @rep;
 
+my %mrg = (); my @mrg = `cut -f1,2 $reptab|grep =`; chomp @mrg;
+foreach (@mrg) {
+    my($o,$m) = split(/\t/,$_);
+    $mrg{$o} = $m;
+}
+
 my @missing = ();
 
 foreach (sort keys %rep) {
-    # warn "trying $_\n";
+    if ($mrg{$_}) {
+	# warn "detected merge $_ as $mrg{$_}\n";
+	my ($m) = ($mrg{$_} =~ /=(.*?)$/);
+	$_ = $m;
+    }
     unless (exists $set{$_}) {
 	push(@missing, $_)
 	    unless $rep{$_} =~ /\tx[0-9A-F]/;

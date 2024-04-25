@@ -2,8 +2,10 @@ export cfg_nsprefix=$(nsprefix)
 export cfg_project=$(project)
 export cfg_corpus=$(corpus)
 export cfg_todo=$(todo)
+export cfg_fssdir=$(fssdir)
+export tools=$(santak)/tools
 
-tools=$(santak)/tools
+fss2oid=$(tools)/fss2ucp/fss2oid.plx
 oid2ucp=$(tools)/fss2ucp/oid2ucp.plx
 setxrep=$(tools)/fss2ucp/setxrep.plx
 xcf2png=$(tools)/xcf2png/xcf2png.sh
@@ -16,3 +18,12 @@ coverage:
 
 xcf2png:
 	$(xcf2png)
+
+fss2oid:
+	$(fss2oid)
+
+oid2ucp:
+	$(oid2ucp)
+
+osl2fss:
+	(cd $(tools)/atffss ; ./osl2fss.sh)

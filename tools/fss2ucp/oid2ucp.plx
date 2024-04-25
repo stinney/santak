@@ -11,18 +11,18 @@ GetOptions(
     );
 
 my %ucp = ();
-my $ucp = "/Users/stinney/orc/osl/00etc/ucp.tab";
+my $ucp = "$ENV{'ORACC_BUILDS'}/osl/00etc/ucp.tab";
 my @ucp1 = `cut -f1 $ucp`; chomp @ucp1;
 my @ucp2 = `cut -f2 $ucp`; chomp @ucp2;
 @ucp{@ucp1} = @ucp2;
 
 open(F,'fss-oid.tab') || die;
-open(U,'>fss-oid-ucp.tab') || die;
+open(U,'>fss-ucp.tab') || die;
 while (<F>) {
     chomp;
     my($fn,$fss,$oid) = split(/\t/,$_);
     if ($ucp{$oid}) {
-	print U "$_\t$ucp{$oid}\n";
+	print U "$fn\t$ucp{$oid}\n";
     } else {
 	warn "$0: no data for $_\n";
     }

@@ -16,10 +16,10 @@ use Getopt::Long;
 GetOptions(
     );
 
-my $fssoid = 'fss-oid-ucp.tab';
+my $fssoid = 'fss-oid.tab';
 die "$0: there must be a $fssoid here for me to work with. Stop.\n"
     unless -r $fssoid;
-my $reptab = 'rep.tab';
+my $reptab = "$ENV{'ORACC_BUILDS'}/$ENV{'cfg_project'}/00etc/$ENV{'cfg_corpus'}-rep.tab";
 die "$0: there must be a rep.tab here for me to work with. Stop.\n"
     unless -r $reptab;
 
@@ -49,12 +49,12 @@ foreach (@missing) {
 	    my $o = $o[$i];
 	    my $n = $n[$i];
 	    if (exists $set{$o}) {
-		warn "missing $f[0] in $o is in set as $n\n";
+		# warn "missing $f[0] in $o is in set as $n\n";
 		++$seen{$o};
 	    } elsif ($n =~ /\tx[0-9A-F]/) {
 		# ignore because this is a sequence
 	    } else {
-		warn "missing $f[0] in $o not in set\n";
+		# warn "missing $f[0] in $o not in set\n";
 		$seen{$o} = $n;
 		++$really_missing{$_};
 	    }

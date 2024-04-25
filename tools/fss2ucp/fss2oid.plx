@@ -10,19 +10,23 @@ use Getopt::Long;
 GetOptions(
     );
 
-my $fss = '/Users/stinney/santak/tools/atffss/fss.tab';
-my $ns = `cat nsprefix.txt`; chomp $ns;
+my $dir = $ENV{'cfg_fssdir'};
+my $fss = "$ENV{'tools'}/atffss/fss.tab";
+my $ns = "$ENV{'cfg_nsprefix'}";
 
 my %tab = ();
 my @fss = `cut -f1 $fss`; chomp @fss;
 my @oid = `cut -f2 $fss`; chomp @oid;
 @tab{@fss} = @oid;
 
-my @fn = <*>;
+open(O,'>fss-oid.tab') || die "$0: unable to write to fss-oid.tab. Stop.\n"; select O;
+
+my @fn = eval { <$dir/*> };
 foreach (@fn) {
     next unless /\.(xcf|png|jpg|svg)$/;
     my $fn = $_;
     s/\.[^.]+$//;
+    s#.*?/([^/]+)$#$1#;
     my $orig = $_;
     s/sz/c/g;
     tr/x/*/ unless $tab{$_};

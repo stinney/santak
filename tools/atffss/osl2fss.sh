@@ -1,4 +1,5 @@
 #!/bin/sh
+curl -k -s https://build-oracc.museum.upenn.edu/osl/signlist/js/slmap.js >slmap.js
 grep '^"' slmap.js | grep -v selpages | grep -v '⁻\|⁺\|ē\|ī\|ū' | tr -d "'" |
     sed 's#^"\([a-z0-9@*.+%&_~]\{1,\}\)":"#\1	#' | grep -v '^"' >f1
 cut -f1 f1 >f11

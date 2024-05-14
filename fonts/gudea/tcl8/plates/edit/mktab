@@ -1,0 +1,1 @@
+for a in *.png ; do n=`basename $a .png`; printf "<a href=\"$a\">$n</a>"; echo;  done | pr -6 -w1000 -t -J | rocox -tX -xtable | xl -

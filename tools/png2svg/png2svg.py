@@ -12,7 +12,8 @@ def conv_to_svg(folder_path):
         file_id = file_id.replace('/', ' ') # necessary because of how UNIX file structures work
         print("Converting " + file_id + " ...")
 
-        svg_path = 'svg_' + folder_prefix + '/' + file_id
+        #svg_path = 'svg_' + folder_prefix + '/' + file_id
+        svg_path = 'svg/' + file_id
         svg_path += '.svg'
 
         pnm_filepath = "misc_files/" + file_id + ".pnm"
@@ -46,5 +47,8 @@ def conv_to_svg(folder_path):
           #print(cmd)
           os.system(cmd)
 
-dir_name = str(input("Enter name of folder with PNG/JPG files: "))
+#dir_name = str(input("Enter name of folder with PNG/JPG files: "))
+
+dir_name = sys.argv[1]
+
 conv_to_svg(dir_name)

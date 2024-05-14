@@ -10,6 +10,8 @@ use Getopt::Long;
 GetOptions(
     );
 
+my $status = 0;
+
 my %ucp = ();
 my $ucp = "$ENV{'ORACC_BUILDS'}/osl/00etc/ucp.tab";
 my @ucp1 = `cut -f1 $ucp`; chomp @ucp1;
@@ -25,9 +27,12 @@ while (<F>) {
 	print U "$fn\t$ucp{$oid}\n";
     } else {
 	warn "$0: no data for $_\n";
+	++$status;
     }
 }
 close(U);
 close(F);
+
+exit($status);
 
 1;

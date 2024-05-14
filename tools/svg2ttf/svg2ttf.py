@@ -20,8 +20,8 @@ https://fontforge.org/docs/scripting/python/fontforge.html
 import fontforge
 import os
 
-INPUTFOLDER = 'svg3'
-OUTPUTFILENAME = 'sha-test.ttf'
+INPUTFOLDER = 'svg'
+OUTPUTFILENAME = 'svg.ttf'
 PLACEHOLDERGEOMETRYSVG = 'svg/25A1.svg'
 
 font = fontforge.font()

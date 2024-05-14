@@ -63,10 +63,10 @@ Processes
 The process stages working from making a font back to image-gathering
 are:
 
-fff
+ttf
 ***
 
-	fontforge-font--generates the font from the svg/ directory;
+	true-type-font--generates the font from the svg/ directory;
 	the files must be named with the Unicode codepoint of their
 	location in the font.
 
@@ -81,7 +81,7 @@ ucp
 
 	unicode-code-point--translates OIDs/labels to code points and
 	creates a directory of links in the ucp/ directory. The links
-	are named by the code point and link to the source png files.
+	are named by the code point and point to the source png files.
 
 rep
 ***

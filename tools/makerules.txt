@@ -9,6 +9,8 @@ fss2oid=$(tools)/fss2ucp/fss2oid.plx
 oid2ucp=$(tools)/fss2ucp/oid2ucp.plx
 setxrep=$(tools)/fss2ucp/setxrep.plx
 xcf2png=$(tools)/xcf2png/xcf2png.sh
+png2svg=$(tools)/png2svg/png2svg.sh
+svg2ttf=$(tools)/svg2ttf/svg2ttf.sh
 
 check:
 	$(tools)/misc/check-config.sh
@@ -16,14 +18,21 @@ check:
 coverage:
 	$(setxrep)
 
-xcf2png:
+png:
 	$(xcf2png)
 
-fss2oid:
+oid:
 	$(fss2oid)
 
-oid2ucp:
+ucp:
 	$(oid2ucp)
+	$(tools)/fss2ucp/ucplinks.sh
+
+svg:
+	$(png2svg) $(tools)/png2svg
+
+ttf:
+	$(svg2ttf) $(tools)/svg2ttf
 
 osl2fss:
 	(cd $(tools)/atffss ; ./osl2fss.sh)

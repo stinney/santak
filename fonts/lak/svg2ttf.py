@@ -20,7 +20,7 @@ https://fontforge.org/docs/scripting/python/fontforge.html
 import fontforge
 import os
 
-INPUTFOLDER = 'svg'
+INPUTFOLDER = 'one'
 OUTPUTFILENAME = 'lak.ttf'
 PLACEHOLDERGEOMETRYSVG = 'svg/25A1.svg'
 
@@ -89,32 +89,32 @@ for codepoint, filename in simplecharacters:
 # If a codepoint is not present as a glyph, we can't add it into a combined character.
 # And if geometry isn't added to a glyph, FontForge will discard it.
 # Therefore a placeholder glyph is used. 
-presentcomponents = set([g.glyphname for g in font.glyphs()])
-missingcodepoints = set()
-for codepoints,filename in codetuples:
-    for codepoint in codepoints:
-        xcp = codepoint.split(",")[0]
-        if 'u'+xcp not in presentcomponents:
-            missingcodepoints.add(xcp)
-for codepoint in missingcodepoints:
-    print('creating missing char '+xcp+' named u'+xcp+' from '+codepoint)
-    char = font.createChar(int(xcp,16), 'u'+xcp)
-    importAndCleanOutlines(PLACEHOLDERGEOMETRYSVG,char)
+##presentcomponents = set([g.glyphname for g in font.glyphs()])
+##missingcodepoints = set()
+##for codepoints,filename in codetuples:
+##    for codepoint in codepoints:
+##        xcp = codepoint.split(",")[0]
+##        if 'u'+xcp not in presentcomponents:
+##            missingcodepoints.add(xcp)
+##for codepoint in missingcodepoints:
+##    print('creating missing char '+xcp+' named u'+xcp+' from '+codepoint)
+##    char = font.createChar(int(xcp,16), 'u'+xcp)
+##    importAndCleanOutlines(PLACEHOLDERGEOMETRYSVG,char)
 
 # Now make the combination characters via FontForge's ligature feature.
 # To be quite honest, I don't fully understand what all this syntax up front is doing.
 # Just treat these next couple of lines as if they are a mystical incantation.
-font.addLookup('myLookup','gsub_ligature',None,(("liga",(('DFLT',("dflt")),)),))
-font.addLookupSubtable("myLookup", "mySubtable")
+##font.addLookup('myLookup','gsub_ligature',None,(("liga",(('DFLT',("dflt")),)),))
+##font.addLookupSubtable("myLookup", "mySubtable")
 
 combocharacters = [(codepoints,filename) for codepoints,filename in codetuples if len(codepoints)>1]
 
 # Imports glyphs for all the non-skintone combination characters. 
-for codepoints,filename in combocharacters:
-    components = tuple('u'+codepoint for codepoint in codepoints)
-    char = font.createChar(-1, '_'.join(components))
-    char.addPosSub("mySubtable", components)
-    importAndCleanOutlines(INPUTFOLDER+'/'+filename,char)
+##for codepoints,filename in combocharacters:
+##    components = tuple('u'+codepoint for codepoint in codepoints)
+##    char = font.createChar(-1, '_'.join(components))
+##    char.addPosSub("mySubtable", components)
+##    importAndCleanOutlines(INPUTFOLDER+'/'+filename,char)
 
 #%% SECTION THREE - Adjust some of the font's global properties.
 # Automagically adjust the horizontal position of the font.

@@ -5,4 +5,16 @@ if [ ! -d svg ]; then
     exit 1
 fi
 cp $path/25A1.svg svg
-fontforge -script $path/svg2ttf.py
+ff=`which fontforge`
+if [ "$ff" = "" ]; then
+    if [ -r /Applications/FontForge.app/Contents/MacOS/FFPython ]; then
+	ff=/Applications/FontForge.app/Contents/MacOS/FFPython
+    fi
+fi
+uname=`uname`
+if [ "$uname" = "Darwin" ]; then
+    script=
+else
+    script=-script
+fi
+$ff $script $path/svg2ttf.py

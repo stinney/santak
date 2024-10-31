@@ -21,7 +21,7 @@ import fontforge
 import os
 
 INPUTFOLDER = 'svg'
-OUTPUTFILENAME = 'svg.ttf'
+OUTPUTFILENAME = 'lak.ttf'
 PLACEHOLDERGEOMETRYSVG = 'svg/25A1.svg'
 
 font = fontforge.font()
@@ -72,14 +72,15 @@ codetuples = [(tuple(filename[:-4].split('-')), filename) for filename in files 
 simplecharacters = [(codepoints[0],filename) for codepoints,filename in codetuples if len(codepoints)==1]
 for codepoint, filename in simplecharacters:
     if "," in codepoint:
-        point = codepoint[codepoint.index(",")+1]
-        hex = codepoint;
-        n = -1
-        name = 'u'+hex+'.'+point
+        x = codepoint.split(",")
+        code = x[0]
+        n = int(x[0],16)
+        point = x[1]
+        name = 'u'+code+'.'+point
     else:
         n = int(codepoint,16)
         name = 'u'+codepoint
-    print('creating char '+hex(n)+' named '+name)
+    print('creating char '+hex(n)+' named '+name+' from '+codepoint)
     char = font.createChar(n, name)
     print('importing '+filename+' as '+name+' at '+hex(n))
     importAndCleanOutlines(INPUTFOLDER+'/'+filename,char)
@@ -92,10 +93,12 @@ presentcomponents = set([g.glyphname for g in font.glyphs()])
 missingcodepoints = set()
 for codepoints,filename in codetuples:
     for codepoint in codepoints:
-        if 'u'+codepoint not in presentcomponents:
-            missingcodepoints.add(codepoint)
+        xcp = codepoint.split(",")[0]
+        if 'u'+xcp not in presentcomponents:
+            missingcodepoints.add(xcp)
 for codepoint in missingcodepoints:
-    char = font.createChar(int(codepoint,16), 'u'+codepoint)
+    print('creating missing char '+xcp+' named u'+xcp+' from '+codepoint)
+    char = font.createChar(int(xcp,16), 'u'+xcp)
     importAndCleanOutlines(PLACEHOLDERGEOMETRYSVG,char)
 
 # Now make the combination characters via FontForge's ligature feature.
@@ -128,7 +131,7 @@ if MAXWIDTH:
             g.transform((rescalefactor,0,0,rescalefactor,0,0))
 
 font.selection.all()
-font.autoWidth(SEPARATION)
+#font.autoWidth(SEPARATION)
 
 # If the parameter is set, standardize the spacing to the right and left
 # This can make the unusually wide glyphs overlap a bit.
@@ -148,11 +151,3 @@ if SPACEWIDTH:
 #%% FINALLY - Generate the font
 print("Generating black font to", OUTPUTFILENAME)
 font.generate(OUTPUTFILENAME)
-
-
-
-
-
-
-
-

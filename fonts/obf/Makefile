@@ -1,5 +1,5 @@
 santak=../..
-todo="svg fnt"
+todo="svg ttf"
 fssdir=png
 nsprefix=obf
 project=obf

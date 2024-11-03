@@ -2,7 +2,8 @@ SANTAK
 ======
 
 Santak is a collection of tools that help automate creating and
-working with fonts and related image files.
+working with fonts and related image files.  It's not very 
+thoroughly documented or maintained, but I use it.
 
 Requirements
 ------------

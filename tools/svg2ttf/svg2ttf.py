@@ -32,8 +32,8 @@ font.version = "1.0 or something like that."
 
 # The following variables are for scaling the imported outlines.
 SVGHEIGHT = 72 # units of height of source svg viewbox.
-GLYPHHEIGHT = 1000 # font units, default = 1000
-PORTIONABOVEBASELINE = 1.2 # default is 0.8
+GLYPHHEIGHT = 1800 # font units, default = 1000
+PORTIONABOVEBASELINE = .7 # default is 0.8
 # The following parameter sets the spacing between characters. 
 # It is made redundant by MONOSPACEWIDTH if that parameter is set.
 SEPARATION = 0
@@ -59,8 +59,8 @@ def importAndCleanOutlines(outlinefile,glyph):
         for point in contour:
             point.transform((1,0,0,1,0,-800)) # Translate top of glyph down to baseline.
             point.transform((SCALEFACTOR,0,0,SCALEFACTOR,0,0)) # Scale up. Top of glyph will remain at baseline. 
-            point.transform((1,0,0,1,0,2000))
-#                             PORTIONABOVEBASELINE*GLYPHHEIGHT)) # translate up to desired cap height
+            point.transform((1,0,0,1,0,PORTIONABOVEBASELINE*GLYPHHEIGHT))
+#                             )) # translate up to desired cap height
     glyph.setLayer(foregroundlayer,'Fore')
 
 #%% SECTION TWO B - CREATE GLYPHS FROM THE SVG SOURCE FILES

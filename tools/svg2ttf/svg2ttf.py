@@ -32,8 +32,8 @@ font.version = "1.0 or something like that."
 
 # The following variables are for scaling the imported outlines.
 SVGHEIGHT = 72 # units of height of source svg viewbox.
-GLYPHHEIGHT = 1800 # font units, default = 1000
-PORTIONABOVEBASELINE = .7 # default is 0.8
+GLYPHHEIGHT = 1350 # font units, default = 1000
+PORTIONABOVEBASELINE = .55 # default is 0.8
 # The following parameter sets the spacing between characters. 
 # It is made redundant by MONOSPACEWIDTH if that parameter is set.
 SEPARATION = 0

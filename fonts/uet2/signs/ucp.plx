@@ -22,10 +22,11 @@ foreach (@u) {
     if ($uni =~ s/^U\+//) {
 	$u{$uet} = $uni;
     } else {
+	warn "$_\n";
 	$u{$uet} = sprintf("%X", $pua++);
     }
 }
-
+open(SALT, '>salt.log') || die;
 while (<>) {
     chomp;
     my $u = $_;
@@ -33,8 +34,11 @@ while (<>) {
     $u =~ s/,.*$//;
     if ($u{$u}) {
 	if (/,/) {
+#	    my $salt = $1;
+#	    print "cp png/$_ ucp/$u{$u},$salt.png\n";
 	    my $s = sprintf("%X", $salt++);
 	    print "cp png/$_ ucp/$s.png\n";
+	    print SALT "$s\t$_\n";
 	} else {
 	    print "cp png/$_ ucp/$u{$u}.png\n";
 	}
@@ -44,6 +48,7 @@ while (<>) {
 	print "cp png/$_ ucp/$n.png\n";
     }
 }
+close(SALT);
 
 1;
 

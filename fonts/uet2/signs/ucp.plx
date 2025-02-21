@@ -38,7 +38,7 @@ while (<>) {
 #	    print "cp png/$_ ucp/$u{$u},$salt.png\n";
 	    my $s = sprintf("%X", $salt++);
 	    print "cp png/$_ ucp/$s.png\n";
-	    print SALT "$s\t$_\n";
+	    print SALT "$s\t$u{$u}\t$_\n";
 	} else {
 	    print "cp png/$_ ucp/$u{$u}.png\n";
 	}

@@ -49,7 +49,7 @@ die "$0: errors in map table. Stop.\n" if $status;
 if (-r $ttxfile) {
     open(T,$ttxfile) || die;
 } elsif (-r "$ttxfile.gz") {
-    open(T,'gzip -cd PC-240412.ttx.gz|') || die;
+    open(T,'gzip -cd $ttxfile.gz|') || die;
 } else {
     die "$0: unable to open $ttxfile or $ttxfile.gz. Stop.";
 }

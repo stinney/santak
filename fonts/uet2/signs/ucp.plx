@@ -17,16 +17,23 @@ my $pua = 0xF2000;
 my $not = 0xF3000;
 my $salt = 0xF4000;
 my @u = `cut -f1,6 bau.tsv`; chomp @u;
+my %seen = ();
+open(L,'>F234.log');
 foreach (@u) {
+    next if $seen{$_}++;
     my($uet,$uni) = split(/\t/,$_);
     if ($uni =~ s/^U\+//) {
 	$u{$uet} = $uni;
+	print L "$uet\t$uni\n";
     } else {
-	warn "$_\n";
+	my $p = $_; $p =~ s/^\S+\s+//;
+	printf L "$uet\t%X\t$p\n", $pua;
 	$u{$uet} = sprintf("%X", $pua++);
     }
 }
-open(SALT, '>salt.log') || die;
+#close(L);
+#open(SALT, '>salt.log') || die;
+my %saltindex = ();
 while (<>) {
     chomp;
     my $u = $_;
@@ -37,18 +44,20 @@ while (<>) {
 #	    my $salt = $1;
 #	    print "cp png/$_ ucp/$u{$u},$salt.png\n";
 	    my $s = sprintf("%X", $salt++);
+	    printf L "$_\t$s\t$u{$u}.%d\n", ++$saltindex{$u};
 	    print "cp png/$_ ucp/$s.png\n";
-	    print SALT "$s\t$u{$u}\t$_\n";
 	} else {
 	    print "cp png/$_ ucp/$u{$u}.png\n";
 	}
     } else {
 	# warn "$_ not found\n";
+	printf L "$u\t%X\t\n", $not;
 	my $n = sprintf("%X", $not++);
 	print "cp png/$_ ucp/$n.png\n";
     }
 }
-close(SALT);
+#close(SALT);
+close(L);
 
 1;
 

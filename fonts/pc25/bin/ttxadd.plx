@@ -46,6 +46,8 @@ my @add = (); my %add = (); load_adds();
 
 my %hmtx = (); load_hmtx();
 
+my %ttglyph = (); load_ttglyph();
+
 die "$0: errors in add table. Stop.\n" if $status;
 
 # print Dumper \%add; exit 1;
@@ -65,9 +67,17 @@ foreach my $a (@add) {
     } else {
 	warn "$0: bad src $src when adding $a\n";
     }
+    if ($ttglyph{$src}) {
+	my $t = $ttglyph{$src};
+	$t =~ s/name=".*?"/name="$a"/;
+	my $c =  "<component glyphName=\"$src\" x=\"0\" y=\"0\" flags=\"0x1000\"/>";
+	push @t, $t.$c."</TTGlyph>";
+    } else {
+	warn "$0: bad src $src when adding $a\n";
+    }
 } 
 
-print @h;
+print @t;
 
 1;
 
@@ -104,9 +114,17 @@ sub load_adds {
 }
 
 sub load_hmtx {
-    my @h = `grep '<mtx' $ttxbase._h_m_t_x.ttx`; chomp @h;
-    foreach (@h) {
+    my @x = `grep '<mtx' $ttxbase._h_m_t_x.ttx`; chomp @x;
+    foreach (@x) {
 	my($n) = (/name="(.*?)"/);
 	$hmtx{$n} = $_;
+    }
+}
+
+sub load_ttglyph {
+    my @x = `grep '<TTGlyph' $ttxbase._g_l_y_f.ttx`; chomp @x;
+    foreach (@x) {
+	my($n) = (/name="(.*?)"/);
+	$ttglyph{$n} = $_;
     }
 }

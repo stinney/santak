@@ -77,7 +77,9 @@ foreach my $a (@add) {
     }
 } 
 
-print @t;
+#print @t;
+
+ttxadd("$ttxbase.GlyphOrder.ttx", '</GlyphOrder>', @g);
 
 1;
 
@@ -128,3 +130,20 @@ sub load_ttglyph {
 	$ttglyph{$n} = $_;
     }
 }
+
+sub ttxadd {
+    my($file,$tag,@add) = @_;
+    open(F,$file) || die "$0: ttxadd failed to open $file for read. Stop.\n";
+    my $outfile = $file; $outfile =~ s/src/out/;
+    open(O,">$outfile") || die "$0: ttxadd unable to write to $outfile. Stop.\n";
+    select O;
+    while (<F>) {
+	if (/$tag/) {
+	    print join("\n",@add),"\n";
+	}
+	print;
+    }
+    close(O);
+    close(F);
+}
+  

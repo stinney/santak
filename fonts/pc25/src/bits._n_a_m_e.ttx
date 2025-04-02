@@ -3,37 +3,37 @@
 
   <name>
     <namerecord nameID="1" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Test
+      Bits
     </namerecord>
     <namerecord nameID="2" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Regular
     </namerecord>
     <namerecord nameID="4" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Test Regular
+      Bits Regular
     </namerecord>
     <namerecord nameID="5" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Version 1.000
     </namerecord>
     <namerecord nameID="6" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Test-Regular
+      Bits-Regular
     </namerecord>
     <namerecord nameID="1" platformID="3" platEncID="1" langID="0x409">
-      Test
+      Bits
     </namerecord>
     <namerecord nameID="2" platformID="3" platEncID="1" langID="0x409">
       Regular
     </namerecord>
     <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
-      Version 1.000;;Test-Regular;2025;FL842
+      Version 1.000;;Bits-Regular;2025;FL842
     </namerecord>
     <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
-      Test Regular
+      Bits Regular
     </namerecord>
     <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
       Version 1.000
     </namerecord>
     <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
-      Test-Regular
+      Bits-Regular
     </namerecord>
   </name>
 

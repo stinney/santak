@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ttFont ttLibVersion="4.43">
+
+  <hmtx>
+    <mtx name=".notdef" width="500" lsb="0"/>
+    <mtx name=".null" width="0" lsb="0"/>
+    <mtx name="space" width="250" lsb="0"/>
+    <mtx name="uE0100" width="333" lsb="0"/>
+    <mtx name="uE0101" width="333" lsb="0"/>
+    <mtx name="uE0102" width="333" lsb="0"/>
+    <mtx name="uE0103" width="333" lsb="0"/>
+    <mtx name="uE0104" width="333" lsb="0"/>
+    <mtx name="uE0105" width="333" lsb="0"/>
+    <mtx name="uE0106" width="333" lsb="0"/>
+    <mtx name="uE0107" width="333" lsb="0"/>
+    <mtx name="uE0108" width="333" lsb="0"/>
+    <mtx name="uE0109" width="333" lsb="0"/>
+    <mtx name="uE010A" width="333" lsb="0"/>
+    <mtx name="uE010B" width="333" lsb="0"/>
+    <mtx name="uE010C" width="333" lsb="0"/>
+    <mtx name="uE010D" width="333" lsb="0"/>
+    <mtx name="uE010E" width="333" lsb="0"/>
+    <mtx name="uE010F" width="333" lsb="0"/>
+    <mtx name="uE0110" width="333" lsb="0"/>
+    <mtx name="uE0111" width="333" lsb="0"/>
+    <mtx name="uE0112" width="333" lsb="0"/>
+    <mtx name="uE0113" width="333" lsb="0"/>
+    <mtx name="uE0114" width="333" lsb="0"/>
+    <mtx name="uE0115" width="333" lsb="0"/>
+    <mtx name="uE0116" width="333" lsb="0"/>
+    <mtx name="uE0117" width="333" lsb="0"/>
+    <mtx name="uE0118" width="333" lsb="0"/>
+    <mtx name="uE0119" width="333" lsb="0"/>
+    <mtx name="uE011A" width="333" lsb="0"/>
+    <mtx name="uE011B" width="333" lsb="0"/>
+    <mtx name="uE011C" width="333" lsb="0"/>
+    <mtx name="uE011D" width="333" lsb="0"/>
+    <mtx name="uE011E" width="333" lsb="0"/>
+    <mtx name="uE011F" width="333" lsb="0"/>
+    <mtx name="uE0120" width="333" lsb="0"/>
+    <mtx name="uE0121" width="333" lsb="0"/>
+    <mtx name="uE0122" width="333" lsb="0"/>
+    <mtx name="uE0123" width="333" lsb="0"/>
+    <mtx name="uE0124" width="333" lsb="0"/>
+    <mtx name="uE0125" width="333" lsb="0"/>
+    <mtx name="uE0126" width="333" lsb="0"/>
+    <mtx name="uE0127" width="333" lsb="0"/>
+    <mtx name="uE0128" width="333" lsb="0"/>
+    <mtx name="uE0129" width="333" lsb="0"/>
+    <mtx name="uE012A" width="333" lsb="0"/>
+    <mtx name="uE012B" width="333" lsb="0"/>
+    <mtx name="uE012C" width="333" lsb="0"/>
+    <mtx name="uE012D" width="333" lsb="0"/>
+    <mtx name="uE012E" width="333" lsb="0"/>
+    <mtx name="uE012F" width="333" lsb="0"/>
+    <mtx name="uni000D" width="250" lsb="0"/>
+    <mtx name="uni200D" width="333" lsb="0"/>
+  </hmtx>
+
+</ttFont>

@@ -9,6 +9,6 @@ default: pc25
 %.ttf: src/%.ttx src/bits.ttx
 	true
 
-src/%.ttx: src/%.ttf
-	ttx -o $@ -i $<
+src/%.ttx: src/%.ttf Makefile
+	ttx -o $@ -s -i $<
 

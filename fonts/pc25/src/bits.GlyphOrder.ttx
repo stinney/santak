@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ttFont ttLibVersion="4.43">
+
+  <GlyphOrder>
+    <!-- The 'id' attribute is only for humans; it is ignored when parsed. -->
+    <GlyphID id="0" name=".notdef"/>
+    <GlyphID id="1" name=".null"/>
+    <GlyphID id="2" name="uni000D"/>
+    <GlyphID id="3" name="space"/>
+    <GlyphID id="4" name="uni200D"/>
+    <GlyphID id="5" name="uE0100"/>
+    <GlyphID id="6" name="uE0101"/>
+    <GlyphID id="7" name="uE0102"/>
+    <GlyphID id="8" name="uE0103"/>
+    <GlyphID id="9" name="uE0104"/>
+    <GlyphID id="10" name="uE0105"/>
+    <GlyphID id="11" name="uE0106"/>
+    <GlyphID id="12" name="uE0107"/>
+    <GlyphID id="13" name="uE0108"/>
+    <GlyphID id="14" name="uE0109"/>
+    <GlyphID id="15" name="uE010A"/>
+    <GlyphID id="16" name="uE010B"/>
+    <GlyphID id="17" name="uE010C"/>
+    <GlyphID id="18" name="uE010D"/>
+    <GlyphID id="19" name="uE010E"/>
+    <GlyphID id="20" name="uE010F"/>
+    <GlyphID id="21" name="uE0110"/>
+    <GlyphID id="22" name="uE0111"/>
+    <GlyphID id="23" name="uE0112"/>
+    <GlyphID id="24" name="uE0113"/>
+    <GlyphID id="25" name="uE0114"/>
+    <GlyphID id="26" name="uE0115"/>
+    <GlyphID id="27" name="uE0116"/>
+    <GlyphID id="28" name="uE0117"/>
+    <GlyphID id="29" name="uE0118"/>
+    <GlyphID id="30" name="uE0119"/>
+    <GlyphID id="31" name="uE011A"/>
+    <GlyphID id="32" name="uE011B"/>
+    <GlyphID id="33" name="uE011C"/>
+    <GlyphID id="34" name="uE011D"/>
+    <GlyphID id="35" name="uE011E"/>
+    <GlyphID id="36" name="uE011F"/>
+    <GlyphID id="37" name="uE0120"/>
+    <GlyphID id="38" name="uE0121"/>
+    <GlyphID id="39" name="uE0122"/>
+    <GlyphID id="40" name="uE0123"/>
+    <GlyphID id="41" name="uE0124"/>
+    <GlyphID id="42" name="uE0125"/>
+    <GlyphID id="43" name="uE0126"/>
+    <GlyphID id="44" name="uE0127"/>
+    <GlyphID id="45" name="uE0128"/>
+    <GlyphID id="46" name="uE0129"/>
+    <GlyphID id="47" name="uE012A"/>
+    <GlyphID id="48" name="uE012B"/>
+    <GlyphID id="49" name="uE012C"/>
+    <GlyphID id="50" name="uE012D"/>
+    <GlyphID id="51" name="uE012E"/>
+    <GlyphID id="52" name="uE012F"/>
+  </GlyphOrder>
+
+</ttFont>

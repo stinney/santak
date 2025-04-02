@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ttFont ttLibVersion="4.56">
+<ttFont ttLibVersion="4.43">
 
   <post>
     <formatType value="2.0"/>
@@ -25,7 +25,7 @@
       <psName name="uni000D"/>
       <psName name="u12AB5"/>
       <psName name="u12D75"/>
-      <psName name="u12D76"/>
+      <psName name="uF2000"/>
     </extraNames>
   </post>
 

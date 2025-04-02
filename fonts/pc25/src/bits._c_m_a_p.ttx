@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ttFont ttLibVersion="4.43">
+
+  <cmap>
+    <tableVersion version="0"/>
+    <cmap_format_4 platformID="0" platEncID="3" language="0">
+      <map code="0x0" name=".null"/><!-- ???? -->
+      <map code="0xd" name="uni000D"/><!-- ???? -->
+      <map code="0x20" name="space"/><!-- SPACE -->
+      <map code="0x200d" name="uni200D"/><!-- ZERO WIDTH JOINER -->
+    </cmap_format_4>
+    <cmap_format_12 platformID="0" platEncID="4" format="12" reserved="0" length="76" language="0" nGroups="5">
+      <map code="0x0" name=".null"/><!-- ???? -->
+      <map code="0xd" name="uni000D"/><!-- ???? -->
+      <map code="0x20" name="space"/><!-- SPACE -->
+      <map code="0x200d" name="uni200D"/><!-- ZERO WIDTH JOINER -->
+      <map code="0xe0100" name="uE0100"/><!-- VARIATION SELECTOR-17 -->
+      <map code="0xe0101" name="uE0101"/><!-- VARIATION SELECTOR-18 -->
+      <map code="0xe0102" name="uE0102"/><!-- VARIATION SELECTOR-19 -->
+      <map code="0xe0103" name="uE0103"/><!-- VARIATION SELECTOR-20 -->
+      <map code="0xe0104" name="uE0104"/><!-- VARIATION SELECTOR-21 -->
+      <map code="0xe0105" name="uE0105"/><!-- VARIATION SELECTOR-22 -->
+      <map code="0xe0106" name="uE0106"/><!-- VARIATION SELECTOR-23 -->
+      <map code="0xe0107" name="uE0107"/><!-- VARIATION SELECTOR-24 -->
+      <map code="0xe0108" name="uE0108"/><!-- VARIATION SELECTOR-25 -->
+      <map code="0xe0109" name="uE0109"/><!-- VARIATION SELECTOR-26 -->
+      <map code="0xe010a" name="uE010A"/><!-- VARIATION SELECTOR-27 -->
+      <map code="0xe010b" name="uE010B"/><!-- VARIATION SELECTOR-28 -->
+      <map code="0xe010c" name="uE010C"/><!-- VARIATION SELECTOR-29 -->
+      <map code="0xe010d" name="uE010D"/><!-- VARIATION SELECTOR-30 -->
+      <map code="0xe010e" name="uE010E"/><!-- VARIATION SELECTOR-31 -->
+      <map code="0xe010f" name="uE010F"/><!-- VARIATION SELECTOR-32 -->
+      <map code="0xe0110" name="uE0110"/><!-- VARIATION SELECTOR-33 -->
+      <map code="0xe0111" name="uE0111"/><!-- VARIATION SELECTOR-34 -->
+      <map code="0xe0112" name="uE0112"/><!-- VARIATION SELECTOR-35 -->
+      <map code="0xe0113" name="uE0113"/><!-- VARIATION SELECTOR-36 -->
+      <map code="0xe0114" name="uE0114"/><!-- VARIATION SELECTOR-37 -->
+      <map code="0xe0115" name="uE0115"/><!-- VARIATION SELECTOR-38 -->
+      <map code="0xe0116" name="uE0116"/><!-- VARIATION SELECTOR-39 -->
+      <map code="0xe0117" name="uE0117"/><!-- VARIATION SELECTOR-40 -->
+      <map code="0xe0118" name="uE0118"/><!-- VARIATION SELECTOR-41 -->
+      <map code="0xe0119" name="uE0119"/><!-- VARIATION SELECTOR-42 -->
+      <map code="0xe011a" name="uE011A"/><!-- VARIATION SELECTOR-43 -->
+      <map code="0xe011b" name="uE011B"/><!-- VARIATION SELECTOR-44 -->
+      <map code="0xe011c" name="uE011C"/><!-- VARIATION SELECTOR-45 -->
+      <map code="0xe011d" name="uE011D"/><!-- VARIATION SELECTOR-46 -->
+      <map code="0xe011e" name="uE011E"/><!-- VARIATION SELECTOR-47 -->
+      <map code="0xe011f" name="uE011F"/><!-- VARIATION SELECTOR-48 -->
+      <map code="0xe0120" name="uE0120"/><!-- VARIATION SELECTOR-49 -->
+      <map code="0xe0121" name="uE0121"/><!-- VARIATION SELECTOR-50 -->
+      <map code="0xe0122" name="uE0122"/><!-- VARIATION SELECTOR-51 -->
+      <map code="0xe0123" name="uE0123"/><!-- VARIATION SELECTOR-52 -->
+      <map code="0xe0124" name="uE0124"/><!-- VARIATION SELECTOR-53 -->
+      <map code="0xe0125" name="uE0125"/><!-- VARIATION SELECTOR-54 -->
+      <map code="0xe0126" name="uE0126"/><!-- VARIATION SELECTOR-55 -->
+      <map code="0xe0127" name="uE0127"/><!-- VARIATION SELECTOR-56 -->
+      <map code="0xe0128" name="uE0128"/><!-- VARIATION SELECTOR-57 -->
+      <map code="0xe0129" name="uE0129"/><!-- VARIATION SELECTOR-58 -->
+      <map code="0xe012a" name="uE012A"/><!-- VARIATION SELECTOR-59 -->
+      <map code="0xe012b" name="uE012B"/><!-- VARIATION SELECTOR-60 -->
+      <map code="0xe012c" name="uE012C"/><!-- VARIATION SELECTOR-61 -->
+      <map code="0xe012d" name="uE012D"/><!-- VARIATION SELECTOR-62 -->
+      <map code="0xe012e" name="uE012E"/><!-- VARIATION SELECTOR-63 -->
+      <map code="0xe012f" name="uE012F"/><!-- VARIATION SELECTOR-64 -->
+    </cmap_format_12>
+    <cmap_format_6 platformID="1" platEncID="0" language="0">
+      <map code="0x0" name=".null"/>
+      <map code="0xd" name="uni000D"/>
+      <map code="0x20" name="space"/>
+    </cmap_format_6>
+    <cmap_format_4 platformID="3" platEncID="1" language="0">
+      <map code="0x0" name=".null"/><!-- ???? -->
+      <map code="0xd" name="uni000D"/><!-- ???? -->
+      <map code="0x20" name="space"/><!-- SPACE -->
+      <map code="0x200d" name="uni200D"/><!-- ZERO WIDTH JOINER -->
+    </cmap_format_4>
+    <cmap_format_12 platformID="3" platEncID="10" format="12" reserved="0" length="76" language="0" nGroups="5">
+      <map code="0x0" name=".null"/><!-- ???? -->
+      <map code="0xd" name="uni000D"/><!-- ???? -->
+      <map code="0x20" name="space"/><!-- SPACE -->
+      <map code="0x200d" name="uni200D"/><!-- ZERO WIDTH JOINER -->
+      <map code="0xe0100" name="uE0100"/><!-- VARIATION SELECTOR-17 -->
+      <map code="0xe0101" name="uE0101"/><!-- VARIATION SELECTOR-18 -->
+      <map code="0xe0102" name="uE0102"/><!-- VARIATION SELECTOR-19 -->
+      <map code="0xe0103" name="uE0103"/><!-- VARIATION SELECTOR-20 -->
+      <map code="0xe0104" name="uE0104"/><!-- VARIATION SELECTOR-21 -->
+      <map code="0xe0105" name="uE0105"/><!-- VARIATION SELECTOR-22 -->
+      <map code="0xe0106" name="uE0106"/><!-- VARIATION SELECTOR-23 -->
+      <map code="0xe0107" name="uE0107"/><!-- VARIATION SELECTOR-24 -->
+      <map code="0xe0108" name="uE0108"/><!-- VARIATION SELECTOR-25 -->
+      <map code="0xe0109" name="uE0109"/><!-- VARIATION SELECTOR-26 -->
+      <map code="0xe010a" name="uE010A"/><!-- VARIATION SELECTOR-27 -->
+      <map code="0xe010b" name="uE010B"/><!-- VARIATION SELECTOR-28 -->
+      <map code="0xe010c" name="uE010C"/><!-- VARIATION SELECTOR-29 -->
+      <map code="0xe010d" name="uE010D"/><!-- VARIATION SELECTOR-30 -->
+      <map code="0xe010e" name="uE010E"/><!-- VARIATION SELECTOR-31 -->
+      <map code="0xe010f" name="uE010F"/><!-- VARIATION SELECTOR-32 -->
+      <map code="0xe0110" name="uE0110"/><!-- VARIATION SELECTOR-33 -->
+      <map code="0xe0111" name="uE0111"/><!-- VARIATION SELECTOR-34 -->
+      <map code="0xe0112" name="uE0112"/><!-- VARIATION SELECTOR-35 -->
+      <map code="0xe0113" name="uE0113"/><!-- VARIATION SELECTOR-36 -->
+      <map code="0xe0114" name="uE0114"/><!-- VARIATION SELECTOR-37 -->
+      <map code="0xe0115" name="uE0115"/><!-- VARIATION SELECTOR-38 -->
+      <map code="0xe0116" name="uE0116"/><!-- VARIATION SELECTOR-39 -->
+      <map code="0xe0117" name="uE0117"/><!-- VARIATION SELECTOR-40 -->
+      <map code="0xe0118" name="uE0118"/><!-- VARIATION SELECTOR-41 -->
+      <map code="0xe0119" name="uE0119"/><!-- VARIATION SELECTOR-42 -->
+      <map code="0xe011a" name="uE011A"/><!-- VARIATION SELECTOR-43 -->
+      <map code="0xe011b" name="uE011B"/><!-- VARIATION SELECTOR-44 -->
+      <map code="0xe011c" name="uE011C"/><!-- VARIATION SELECTOR-45 -->
+      <map code="0xe011d" name="uE011D"/><!-- VARIATION SELECTOR-46 -->
+      <map code="0xe011e" name="uE011E"/><!-- VARIATION SELECTOR-47 -->
+      <map code="0xe011f" name="uE011F"/><!-- VARIATION SELECTOR-48 -->
+      <map code="0xe0120" name="uE0120"/><!-- VARIATION SELECTOR-49 -->
+      <map code="0xe0121" name="uE0121"/><!-- VARIATION SELECTOR-50 -->
+      <map code="0xe0122" name="uE0122"/><!-- VARIATION SELECTOR-51 -->
+      <map code="0xe0123" name="uE0123"/><!-- VARIATION SELECTOR-52 -->
+      <map code="0xe0124" name="uE0124"/><!-- VARIATION SELECTOR-53 -->
+      <map code="0xe0125" name="uE0125"/><!-- VARIATION SELECTOR-54 -->
+      <map code="0xe0126" name="uE0126"/><!-- VARIATION SELECTOR-55 -->
+      <map code="0xe0127" name="uE0127"/><!-- VARIATION SELECTOR-56 -->
+      <map code="0xe0128" name="uE0128"/><!-- VARIATION SELECTOR-57 -->
+      <map code="0xe0129" name="uE0129"/><!-- VARIATION SELECTOR-58 -->
+      <map code="0xe012a" name="uE012A"/><!-- VARIATION SELECTOR-59 -->
+      <map code="0xe012b" name="uE012B"/><!-- VARIATION SELECTOR-60 -->
+      <map code="0xe012c" name="uE012C"/><!-- VARIATION SELECTOR-61 -->
+      <map code="0xe012d" name="uE012D"/><!-- VARIATION SELECTOR-62 -->
+      <map code="0xe012e" name="uE012E"/><!-- VARIATION SELECTOR-63 -->
+      <map code="0xe012f" name="uE012F"/><!-- VARIATION SELECTOR-64 -->
+    </cmap_format_12>
+  </cmap>
+
+</ttFont>

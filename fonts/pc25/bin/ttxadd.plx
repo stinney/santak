@@ -28,42 +28,85 @@ my %warned = ();
 
 my $addfile = undef;
 my $outfile = undef;
-my $ttxfile = undef;
+my $ttxbase = undef;
 my $verbose = 0;
 
 GetOptions(
     'add:s'=>\$addfile,
     'out:s'=>\$outfile,
-    'ttx:s'=>\$ttxfile,
+    'ttx:s'=>\$ttxbase,
     verbose=>\$verbose,
     );
 
 die "Usage: $0 -a [ADD] -t [TTX] -o [OUT]\n"
-    unless $addfile && $outfile && $ttxfile;
+    unless $addfile && $outfile && $ttxbase;
 
 my $status = 0;
-my %add = ();
-my %tab = (); my @t = `cat $addfile`; chomp @t;
-foreach (@t) {
-    my($a,$m) = split(/\t/,$_);
-    if ($tab{$a}) {
-	warn "$0: duplicate 'add' char $o\n";
-	++$status;
-    } else {
-	if ($m eq '-' || $m =~ /^[0-9A-F_]+$/) {
-	    $tab{$a} = $m;
-	} else {
-	    warn "$0: bad character in method '$n' for add '$a'\n";
-	    ++$status;
-	}
-    }
-}
+my @add = (); my %add = (); load_adds();
+
+my %hmtx = (); load_hmtx();
 
 die "$0: errors in add table. Stop.\n" if $status;
 
-#print Dumper \%tab; exit 1;
+# print Dumper \%add; exit 1;
+
+my $gid = getgid();
+my @g = ();
+my @h = ();
+my @t = ();
+
+foreach my $a (@add) {
+    push @g, glyphid($a);
+    my $src = $add{$a};
+    if ($hmtx{$src}) {
+	my $h = $hmtx{$src};
+	$h =~ s/name=".*?"/name="$a"/;
+	push @h, $h;
+    } else {
+	warn "$0: bad src $src when adding $a\n";
+    }
+} 
+
+print @h;
 
 1;
 
 ################################################################################
 
+sub getgid {
+    my $g = `grep '<GlyphID' $ttxbase.GlyphOrder.ttx | tail -1 | cut -d'"' -f2`; chomp $g;
+    return $g;
+}
+
+sub glyphid {
+    my $u = shift;
+    ++$gid;
+    "<GlyphID id=\"$gid\" name=\"$u\"/>";
+}
+
+sub load_adds {
+    my @t = `cat $addfile`; chomp @t;
+    foreach (@t) {
+	my($a,$m) = split(/\t/,$_);
+	if ($add{$a}) {
+	    warn "$0: duplicate 'add' char $a\n";
+	    ++$status;
+	} else {
+	    if ($m eq '-' || $m =~ /^[0-9A-F_u]+$/) {
+		$add{$a} = $m;
+		push @add, $a;
+	    } else {
+		warn "$0: bad character in method '$m' for add '$a'\n";
+		++$status;
+	    }
+	}
+    }
+}
+
+sub load_hmtx {
+    my @h = `grep '<mtx' $ttxbase._h_m_t_x.ttx`; chomp @h;
+    foreach (@h) {
+	my($n) = (/name="(.*?)"/);
+	$hmtx{$n} = $_;
+    }
+}

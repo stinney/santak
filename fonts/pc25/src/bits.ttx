@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="4.56">
+
+  <GlyphOrder>
+    <!-- The 'id' attribute is only for humans; it is ignored when parsed. -->
+    <GlyphID id="0" name=".notdef"/>
+    <GlyphID id="1" name=".null"/>
+    <GlyphID id="2" name="uni000D"/>
+    <GlyphID id="3" name="space"/>
+    <GlyphID id="4" name="uni200D"/>
+    <GlyphID id="5" name="uE0100"/>
+    <GlyphID id="6" name="uE0101"/>
+    <GlyphID id="7" name="uE0102"/>
+    <GlyphID id="8" name="uE0103"/>
+    <GlyphID id="9" name="uE0104"/>
+    <GlyphID id="10" name="uE0105"/>
+    <GlyphID id="11" name="uE0106"/>
+    <GlyphID id="12" name="uE0107"/>
+    <GlyphID id="13" name="uE0108"/>
+    <GlyphID id="14" name="uE0109"/>
+    <GlyphID id="15" name="uE010A"/>
+    <GlyphID id="16" name="uE010B"/>
+    <GlyphID id="17" name="uE010C"/>
+    <GlyphID id="18" name="uE010D"/>
+    <GlyphID id="19" name="uE010E"/>
+    <GlyphID id="20" name="uE010F"/>
+    <GlyphID id="21" name="uE0110"/>
+    <GlyphID id="22" name="uE0111"/>
+    <GlyphID id="23" name="uE0112"/>
+    <GlyphID id="24" name="uE0113"/>
+    <GlyphID id="25" name="uE0114"/>
+    <GlyphID id="26" name="uE0115"/>
+    <GlyphID id="27" name="uE0116"/>
+    <GlyphID id="28" name="uE0117"/>
+    <GlyphID id="29" name="uE0118"/>
+    <GlyphID id="30" name="uE0119"/>
+    <GlyphID id="31" name="uE011A"/>
+    <GlyphID id="32" name="uE011B"/>
+    <GlyphID id="33" name="uE011C"/>
+    <GlyphID id="34" name="uE011D"/>
+    <GlyphID id="35" name="uE011E"/>
+    <GlyphID id="36" name="uE011F"/>
+    <GlyphID id="37" name="uE0120"/>
+    <GlyphID id="38" name="uE0121"/>
+    <GlyphID id="39" name="uE0122"/>
+    <GlyphID id="40" name="uE0123"/>
+    <GlyphID id="41" name="uE0124"/>
+    <GlyphID id="42" name="uE0125"/>
+    <GlyphID id="43" name="uE0126"/>
+    <GlyphID id="44" name="uE0127"/>
+    <GlyphID id="45" name="uE0128"/>
+    <GlyphID id="46" name="uE0129"/>
+    <GlyphID id="47" name="uE012A"/>
+    <GlyphID id="48" name="uE012B"/>
+    <GlyphID id="49" name="uE012C"/>
+    <GlyphID id="50" name="uE012D"/>
+    <GlyphID id="51" name="uE012E"/>
+    <GlyphID id="52" name="uE012F"/>
+  </GlyphOrder>
+
+  <head>
+    <!-- Most of this table will be recalculated by the compiler -->
+    <tableVersion value="1.0"/>
+    <fontRevision value="1.0"/>
+    <checkSumAdjustment value="0x11138dba"/>
+    <magicNumber value="0x5f0f3cf5"/>
+    <flags value="00000000 00011011"/>
+    <unitsPerEm value="1000"/>
+    <created value="Wed Apr  2 09:48:04 2025"/>
+    <modified value="Wed Apr  2 10:04:34 2025"/>
+    <xMin value="0"/>
+    <yMin value="0"/>
+    <xMax value="0"/>
+    <yMax value="0"/>
+    <macStyle value="00000000 00000000"/>
+    <lowestRecPPEM value="6"/>
+    <fontDirectionHint value="2"/>
+    <indexToLocFormat value="0"/>
+    <glyphDataFormat value="0"/>
+  </head>
+
+  <hhea>
+    <tableVersion value="0x00010000"/>
+    <ascent value="750"/>
+    <descent value="-250"/>
+    <lineGap value="100"/>
+    <advanceWidthMax value="500"/>
+    <minLeftSideBearing value="0"/>
+    <minRightSideBearing value="0"/>
+    <xMaxExtent value="0"/>
+    <caretSlopeRise value="1"/>
+    <caretSlopeRun value="0"/>
+    <caretOffset value="0"/>
+    <reserved0 value="0"/>
+    <reserved1 value="0"/>
+    <reserved2 value="0"/>
+    <reserved3 value="0"/>
+    <metricDataFormat value="0"/>
+    <numberOfHMetrics value="5"/>
+  </hhea>
+
+  <maxp>
+    <!-- Most of this table will be recalculated by the compiler -->
+    <tableVersion value="0x10000"/>
+    <numGlyphs value="53"/>
+    <maxPoints value="0"/>
+    <maxContours value="0"/>
+    <maxCompositePoints value="0"/>
+    <maxCompositeContours value="0"/>
+    <maxZones value="1"/>
+    <maxTwilightPoints value="0"/>
+    <maxStorage value="0"/>
+    <maxFunctionDefs value="10"/>
+    <maxInstructionDefs value="0"/>
+    <maxStackElements value="512"/>
+    <maxSizeOfInstructions value="0"/>
+    <maxComponentElements value="0"/>
+    <maxComponentDepth value="0"/>
+  </maxp>
+
+  <OS_2>
+    <!-- The fields 'usFirstCharIndex' and 'usLastCharIndex'
+         will be recalculated by the compiler -->
+    <version value="4"/>
+    <xAvgCharWidth value="333"/>
+    <usWeightClass value="400"/>
+    <usWidthClass value="5"/>
+    <fsType value="00000000 00000100"/>
+    <ySubscriptXSize value="650"/>
+    <ySubscriptYSize value="600"/>
+    <ySubscriptXOffset value="0"/>
+    <ySubscriptYOffset value="75"/>
+    <ySuperscriptXSize value="650"/>
+    <ySuperscriptYSize value="600"/>
+    <ySuperscriptXOffset value="0"/>
+    <ySuperscriptYOffset value="350"/>
+    <yStrikeoutSize value="50"/>
+    <yStrikeoutPosition value="300"/>
+    <sFamilyClass value="0"/>
+    <panose>
+      <bFamilyType value="0"/>
+      <bSerifStyle value="0"/>
+      <bWeight value="0"/>
+      <bProportion value="0"/>
+      <bContrast value="0"/>
+      <bStrokeVariation value="0"/>
+      <bArmStyle value="0"/>
+      <bLetterForm value="0"/>
+      <bMidline value="0"/>
+      <bXHeight value="0"/>
+    </panose>
+    <ulUnicodeRange1 value="10000000 00000000 00000000 00000001"/>
+    <ulUnicodeRange2 value="00000010 00000000 00000000 00000000"/>
+    <ulUnicodeRange3 value="00001000 00000000 00000000 00000000"/>
+    <ulUnicodeRange4 value="00000000 00000000 00000000 00000000"/>
+    <achVendID value="    "/>
+    <fsSelection value="00000000 11000000"/>
+    <usFirstCharIndex value="0"/>
+    <usLastCharIndex value="65535"/>
+    <sTypoAscender value="750"/>
+    <sTypoDescender value="-250"/>
+    <sTypoLineGap value="100"/>
+    <usWinAscent value="750"/>
+    <usWinDescent value="250"/>
+    <ulCodePageRange1 value="00000000 00000000 00000000 00000001"/>
+    <ulCodePageRange2 value="00000000 00000000 00000000 00000000"/>
+    <sxHeight value="500"/>
+    <sCapHeight value="700"/>
+    <usDefaultChar value="0"/>
+    <usBreakChar value="32"/>
+    <usMaxContext value="0"/>
+  </OS_2>
+
+  <hmtx>
+    <mtx name=".notdef" width="500" lsb="0"/>
+    <mtx name=".null" width="0" lsb="0"/>
+    <mtx name="space" width="250" lsb="0"/>
+    <mtx name="uE0100" width="333" lsb="0"/>
+    <mtx name="uE0101" width="333" lsb="0"/>
+    <mtx name="uE0102" width="333" lsb="0"/>
+    <mtx name="uE0103" width="333" lsb="0"/>
+    <mtx name="uE0104" width="333" lsb="0"/>
+    <mtx name="uE0105" width="333" lsb="0"/>
+    <mtx name="uE0106" width="333" lsb="0"/>
+    <mtx name="uE0107" width="333" lsb="0"/>
+    <mtx name="uE0108" width="333" lsb="0"/>
+    <mtx name="uE0109" width="333" lsb="0"/>
+    <mtx name="uE010A" width="333" lsb="0"/>
+    <mtx name="uE010B" width="333" lsb="0"/>
+    <mtx name="uE010C" width="333" lsb="0"/>
+    <mtx name="uE010D" width="333" lsb="0"/>
+    <mtx name="uE010E" width="333" lsb="0"/>
+    <mtx name="uE010F" width="333" lsb="0"/>
+    <mtx name="uE0110" width="333" lsb="0"/>
+    <mtx name="uE0111" width="333" lsb="0"/>
+    <mtx name="uE0112" width="333" lsb="0"/>
+    <mtx name="uE0113" width="333" lsb="0"/>
+    <mtx name="uE0114" width="333" lsb="0"/>
+    <mtx name="uE0115" width="333" lsb="0"/>
+    <mtx name="uE0116" width="333" lsb="0"/>
+    <mtx name="uE0117" width="333" lsb="0"/>
+    <mtx name="uE0118" width="333" lsb="0"/>
+    <mtx name="uE0119" width="333" lsb="0"/>
+    <mtx name="uE011A" width="333" lsb="0"/>
+    <mtx name="uE011B" width="333" lsb="0"/>
+    <mtx name="uE011C" width="333" lsb="0"/>
+    <mtx name="uE011D" width="333" lsb="0"/>
+    <mtx name="uE011E" width="333" lsb="0"/>
+    <mtx name="uE011F" width="333" lsb="0"/>
+    <mtx name="uE0120" width="333" lsb="0"/>
+    <mtx name="uE0121" width="333" lsb="0"/>
+    <mtx name="uE0122" width="333" lsb="0"/>
+    <mtx name="uE0123" width="333" lsb="0"/>
+    <mtx name="uE0124" width="333" lsb="0"/>
+    <mtx name="uE0125" width="333" lsb="0"/>
+    <mtx name="uE0126" width="333" lsb="0"/>
+    <mtx name="uE0127" width="333" lsb="0"/>
+    <mtx name="uE0128" width="333" lsb="0"/>
+    <mtx name="uE0129" width="333" lsb="0"/>
+    <mtx name="uE012A" width="333" lsb="0"/>
+    <mtx name="uE012B" width="333" lsb="0"/>
+    <mtx name="uE012C" width="333" lsb="0"/>
+    <mtx name="uE012D" width="333" lsb="0"/>
+    <mtx name="uE012E" width="333" lsb="0"/>
+    <mtx name="uE012F" width="333" lsb="0"/>
+    <mtx name="uni000D" width="250" lsb="0"/>
+    <mtx name="uni200D" width="333" lsb="0"/>
+  </hmtx>
+
+  <cmap>
+    <tableVersion version="0"/>
+    <cmap_format_4 platformID="0" platEncID="3" language="0">
+      <map code="0x0" name=".null"/><!-- ???? -->
+      <map code="0xd" name="uni000D"/><!-- ???? -->
+      <map code="0x20" name="space"/><!-- SPACE -->
+      <map code="0x200d" name="uni200D"/><!-- ZERO WIDTH JOINER -->
+    </cmap_format_4>
+    <cmap_format_12 platformID="0" platEncID="4" format="12" reserved="0" length="76" language="0" nGroups="5">
+      <map code="0x0" name=".null"/><!-- ???? -->
+      <map code="0xd" name="uni000D"/><!-- ???? -->
+      <map code="0x20" name="space"/><!-- SPACE -->
+      <map code="0x200d" name="uni200D"/><!-- ZERO WIDTH JOINER -->
+      <map code="0xe0100" name="uE0100"/><!-- VARIATION SELECTOR-17 -->
+      <map code="0xe0101" name="uE0101"/><!-- VARIATION SELECTOR-18 -->
+      <map code="0xe0102" name="uE0102"/><!-- VARIATION SELECTOR-19 -->
+      <map code="0xe0103" name="uE0103"/><!-- VARIATION SELECTOR-20 -->
+      <map code="0xe0104" name="uE0104"/><!-- VARIATION SELECTOR-21 -->
+      <map code="0xe0105" name="uE0105"/><!-- VARIATION SELECTOR-22 -->
+      <map code="0xe0106" name="uE0106"/><!-- VARIATION SELECTOR-23 -->
+      <map code="0xe0107" name="uE0107"/><!-- VARIATION SELECTOR-24 -->
+      <map code="0xe0108" name="uE0108"/><!-- VARIATION SELECTOR-25 -->
+      <map code="0xe0109" name="uE0109"/><!-- VARIATION SELECTOR-26 -->
+      <map code="0xe010a" name="uE010A"/><!-- VARIATION SELECTOR-27 -->
+      <map code="0xe010b" name="uE010B"/><!-- VARIATION SELECTOR-28 -->
+      <map code="0xe010c" name="uE010C"/><!-- VARIATION SELECTOR-29 -->
+      <map code="0xe010d" name="uE010D"/><!-- VARIATION SELECTOR-30 -->
+      <map code="0xe010e" name="uE010E"/><!-- VARIATION SELECTOR-31 -->
+      <map code="0xe010f" name="uE010F"/><!-- VARIATION SELECTOR-32 -->
+      <map code="0xe0110" name="uE0110"/><!-- VARIATION SELECTOR-33 -->
+      <map code="0xe0111" name="uE0111"/><!-- VARIATION SELECTOR-34 -->
+      <map code="0xe0112" name="uE0112"/><!-- VARIATION SELECTOR-35 -->
+      <map code="0xe0113" name="uE0113"/><!-- VARIATION SELECTOR-36 -->
+      <map code="0xe0114" name="uE0114"/><!-- VARIATION SELECTOR-37 -->
+      <map code="0xe0115" name="uE0115"/><!-- VARIATION SELECTOR-38 -->
+      <map code="0xe0116" name="uE0116"/><!-- VARIATION SELECTOR-39 -->
+      <map code="0xe0117" name="uE0117"/><!-- VARIATION SELECTOR-40 -->
+      <map code="0xe0118" name="uE0118"/><!-- VARIATION SELECTOR-41 -->
+      <map code="0xe0119" name="uE0119"/><!-- VARIATION SELECTOR-42 -->
+      <map code="0xe011a" name="uE011A"/><!-- VARIATION SELECTOR-43 -->
+      <map code="0xe011b" name="uE011B"/><!-- VARIATION SELECTOR-44 -->
+      <map code="0xe011c" name="uE011C"/><!-- VARIATION SELECTOR-45 -->
+      <map code="0xe011d" name="uE011D"/><!-- VARIATION SELECTOR-46 -->
+      <map code="0xe011e" name="uE011E"/><!-- VARIATION SELECTOR-47 -->
+      <map code="0xe011f" name="uE011F"/><!-- VARIATION SELECTOR-48 -->
+      <map code="0xe0120" name="uE0120"/><!-- VARIATION SELECTOR-49 -->
+      <map code="0xe0121" name="uE0121"/><!-- VARIATION SELECTOR-50 -->
+      <map code="0xe0122" name="uE0122"/><!-- VARIATION SELECTOR-51 -->
+      <map code="0xe0123" name="uE0123"/><!-- VARIATION SELECTOR-52 -->
+      <map code="0xe0124" name="uE0124"/><!-- VARIATION SELECTOR-53 -->
+      <map code="0xe0125" name="uE0125"/><!-- VARIATION SELECTOR-54 -->
+      <map code="0xe0126" name="uE0126"/><!-- VARIATION SELECTOR-55 -->
+      <map code="0xe0127" name="uE0127"/><!-- VARIATION SELECTOR-56 -->
+      <map code="0xe0128" name="uE0128"/><!-- VARIATION SELECTOR-57 -->
+      <map code="0xe0129" name="uE0129"/><!-- VARIATION SELECTOR-58 -->
+      <map code="0xe012a" name="uE012A"/><!-- VARIATION SELECTOR-59 -->
+      <map code="0xe012b" name="uE012B"/><!-- VARIATION SELECTOR-60 -->
+      <map code="0xe012c" name="uE012C"/><!-- VARIATION SELECTOR-61 -->
+      <map code="0xe012d" name="uE012D"/><!-- VARIATION SELECTOR-62 -->
+      <map code="0xe012e" name="uE012E"/><!-- VARIATION SELECTOR-63 -->
+      <map code="0xe012f" name="uE012F"/><!-- VARIATION SELECTOR-64 -->
+    </cmap_format_12>
+    <cmap_format_6 platformID="1" platEncID="0" language="0">
+      <map code="0x0" name=".null"/>
+      <map code="0xd" name="uni000D"/>
+      <map code="0x20" name="space"/>
+    </cmap_format_6>
+    <cmap_format_4 platformID="3" platEncID="1" language="0">
+      <map code="0x0" name=".null"/><!-- ???? -->
+      <map code="0xd" name="uni000D"/><!-- ???? -->
+      <map code="0x20" name="space"/><!-- SPACE -->
+      <map code="0x200d" name="uni200D"/><!-- ZERO WIDTH JOINER -->
+    </cmap_format_4>
+    <cmap_format_12 platformID="3" platEncID="10" format="12" reserved="0" length="76" language="0" nGroups="5">
+      <map code="0x0" name=".null"/><!-- ???? -->
+      <map code="0xd" name="uni000D"/><!-- ???? -->
+      <map code="0x20" name="space"/><!-- SPACE -->
+      <map code="0x200d" name="uni200D"/><!-- ZERO WIDTH JOINER -->
+      <map code="0xe0100" name="uE0100"/><!-- VARIATION SELECTOR-17 -->
+      <map code="0xe0101" name="uE0101"/><!-- VARIATION SELECTOR-18 -->
+      <map code="0xe0102" name="uE0102"/><!-- VARIATION SELECTOR-19 -->
+      <map code="0xe0103" name="uE0103"/><!-- VARIATION SELECTOR-20 -->
+      <map code="0xe0104" name="uE0104"/><!-- VARIATION SELECTOR-21 -->
+      <map code="0xe0105" name="uE0105"/><!-- VARIATION SELECTOR-22 -->
+      <map code="0xe0106" name="uE0106"/><!-- VARIATION SELECTOR-23 -->
+      <map code="0xe0107" name="uE0107"/><!-- VARIATION SELECTOR-24 -->
+      <map code="0xe0108" name="uE0108"/><!-- VARIATION SELECTOR-25 -->
+      <map code="0xe0109" name="uE0109"/><!-- VARIATION SELECTOR-26 -->
+      <map code="0xe010a" name="uE010A"/><!-- VARIATION SELECTOR-27 -->
+      <map code="0xe010b" name="uE010B"/><!-- VARIATION SELECTOR-28 -->
+      <map code="0xe010c" name="uE010C"/><!-- VARIATION SELECTOR-29 -->
+      <map code="0xe010d" name="uE010D"/><!-- VARIATION SELECTOR-30 -->
+      <map code="0xe010e" name="uE010E"/><!-- VARIATION SELECTOR-31 -->
+      <map code="0xe010f" name="uE010F"/><!-- VARIATION SELECTOR-32 -->
+      <map code="0xe0110" name="uE0110"/><!-- VARIATION SELECTOR-33 -->
+      <map code="0xe0111" name="uE0111"/><!-- VARIATION SELECTOR-34 -->
+      <map code="0xe0112" name="uE0112"/><!-- VARIATION SELECTOR-35 -->
+      <map code="0xe0113" name="uE0113"/><!-- VARIATION SELECTOR-36 -->
+      <map code="0xe0114" name="uE0114"/><!-- VARIATION SELECTOR-37 -->
+      <map code="0xe0115" name="uE0115"/><!-- VARIATION SELECTOR-38 -->
+      <map code="0xe0116" name="uE0116"/><!-- VARIATION SELECTOR-39 -->
+      <map code="0xe0117" name="uE0117"/><!-- VARIATION SELECTOR-40 -->
+      <map code="0xe0118" name="uE0118"/><!-- VARIATION SELECTOR-41 -->
+      <map code="0xe0119" name="uE0119"/><!-- VARIATION SELECTOR-42 -->
+      <map code="0xe011a" name="uE011A"/><!-- VARIATION SELECTOR-43 -->
+      <map code="0xe011b" name="uE011B"/><!-- VARIATION SELECTOR-44 -->
+      <map code="0xe011c" name="uE011C"/><!-- VARIATION SELECTOR-45 -->
+      <map code="0xe011d" name="uE011D"/><!-- VARIATION SELECTOR-46 -->
+      <map code="0xe011e" name="uE011E"/><!-- VARIATION SELECTOR-47 -->
+      <map code="0xe011f" name="uE011F"/><!-- VARIATION SELECTOR-48 -->
+      <map code="0xe0120" name="uE0120"/><!-- VARIATION SELECTOR-49 -->
+      <map code="0xe0121" name="uE0121"/><!-- VARIATION SELECTOR-50 -->
+      <map code="0xe0122" name="uE0122"/><!-- VARIATION SELECTOR-51 -->
+      <map code="0xe0123" name="uE0123"/><!-- VARIATION SELECTOR-52 -->
+      <map code="0xe0124" name="uE0124"/><!-- VARIATION SELECTOR-53 -->
+      <map code="0xe0125" name="uE0125"/><!-- VARIATION SELECTOR-54 -->
+      <map code="0xe0126" name="uE0126"/><!-- VARIATION SELECTOR-55 -->
+      <map code="0xe0127" name="uE0127"/><!-- VARIATION SELECTOR-56 -->
+      <map code="0xe0128" name="uE0128"/><!-- VARIATION SELECTOR-57 -->
+      <map code="0xe0129" name="uE0129"/><!-- VARIATION SELECTOR-58 -->
+      <map code="0xe012a" name="uE012A"/><!-- VARIATION SELECTOR-59 -->
+      <map code="0xe012b" name="uE012B"/><!-- VARIATION SELECTOR-60 -->
+      <map code="0xe012c" name="uE012C"/><!-- VARIATION SELECTOR-61 -->
+      <map code="0xe012d" name="uE012D"/><!-- VARIATION SELECTOR-62 -->
+      <map code="0xe012e" name="uE012E"/><!-- VARIATION SELECTOR-63 -->
+      <map code="0xe012f" name="uE012F"/><!-- VARIATION SELECTOR-64 -->
+    </cmap_format_12>
+  </cmap>
+
+  <fpgm>
+    <assembly>
+      PUSHW[ ]	/* 1 value pushed */
+      0
+      FDEF[ ]	/* FunctionDefinition */
+        MPPEM[ ]	/* MeasurePixelPerEm */
+        PUSHW[ ]	/* 1 value pushed */
+        9
+        LT[ ]	/* LessThan */
+        IF[ ]	/* If */
+          PUSHB[ ]	/* 2 values pushed */
+          1 1
+          INSTCTRL[ ]	/* SetInstrExecControl */
+        EIF[ ]	/* EndIf */
+        PUSHW[ ]	/* 1 value pushed */
+        511
+        SCANCTRL[ ]	/* ScanConversionControl */
+        PUSHW[ ]	/* 1 value pushed */
+        68
+        SCVTCI[ ]	/* SetCVTCutIn */
+        PUSHW[ ]	/* 2 values pushed */
+        9 3
+        SDS[ ]	/* SetDeltaShiftInGState */
+        SDB[ ]	/* SetDeltaBaseInGState */
+      ENDF[ ]	/* EndFunctionDefinition */
+      PUSHW[ ]	/* 1 value pushed */
+      1
+      FDEF[ ]	/* FunctionDefinition */
+        DUP[ ]	/* DuplicateTopStack */
+        DUP[ ]	/* DuplicateTopStack */
+        RCVT[ ]	/* ReadCVT */
+        ROUND[01]	/* Round */
+        WCVTP[ ]	/* WriteCVTInPixels */
+        PUSHB[ ]	/* 1 value pushed */
+        1
+        ADD[ ]	/* Add */
+      ENDF[ ]	/* EndFunctionDefinition */
+      PUSHW[ ]	/* 1 value pushed */
+      2
+      FDEF[ ]	/* FunctionDefinition */
+        PUSHW[ ]	/* 1 value pushed */
+        1
+        LOOPCALL[ ]	/* LoopAndCallFunction */
+        POP[ ]	/* PopTopStack */
+      ENDF[ ]	/* EndFunctionDefinition */
+      PUSHW[ ]	/* 1 value pushed */
+      3
+      FDEF[ ]	/* FunctionDefinition */
+        DUP[ ]	/* DuplicateTopStack */
+        GC[0]	/* GetCoordOnPVector */
+        PUSHB[ ]	/* 1 value pushed */
+        3
+        CINDEX[ ]	/* CopyXToTopStack */
+        GC[0]	/* GetCoordOnPVector */
+        GT[ ]	/* GreaterThan */
+        IF[ ]	/* If */
+          SWAP[ ]	/* SwapTopStack */
+        EIF[ ]	/* EndIf */
+        DUP[ ]	/* DuplicateTopStack */
+        ROLL[ ]	/* RollTopThreeStack */
+        DUP[ ]	/* DuplicateTopStack */
+        ROLL[ ]	/* RollTopThreeStack */
+        MD[0]	/* MeasureDistance */
+        ABS[ ]	/* Absolute */
+        ROLL[ ]	/* RollTopThreeStack */
+        DUP[ ]	/* DuplicateTopStack */
+        GC[0]	/* GetCoordOnPVector */
+        DUP[ ]	/* DuplicateTopStack */
+        ROUND[00]	/* Round */
+        SUB[ ]	/* Subtract */
+        ABS[ ]	/* Absolute */
+        PUSHB[ ]	/* 1 value pushed */
+        4
+        CINDEX[ ]	/* CopyXToTopStack */
+        GC[0]	/* GetCoordOnPVector */
+        DUP[ ]	/* DuplicateTopStack */
+        ROUND[00]	/* Round */
+        SUB[ ]	/* Subtract */
+        ABS[ ]	/* Absolute */
+        GT[ ]	/* GreaterThan */
+        IF[ ]	/* If */
+          SWAP[ ]	/* SwapTopStack */
+          NEG[ ]	/* Negate */
+          ROLL[ ]	/* RollTopThreeStack */
+        EIF[ ]	/* EndIf */
+        MDAP[1]	/* MoveDirectAbsPt */
+        DUP[ ]	/* DuplicateTopStack */
+        PUSHB[ ]	/* 1 value pushed */
+        0
+        GTEQ[ ]	/* GreaterThanOrEqual */
+        IF[ ]	/* If */
+          ROUND[01]	/* Round */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSHB[ ]	/* 1 value pushed */
+          0
+          EQ[ ]	/* Equal */
+          IF[ ]	/* If */
+            POP[ ]	/* PopTopStack */
+            PUSHB[ ]	/* 1 value pushed */
+            64
+          EIF[ ]	/* EndIf */
+        ELSE[ ]	/* Else */
+          ROUND[01]	/* Round */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSHB[ ]	/* 1 value pushed */
+          0
+          EQ[ ]	/* Equal */
+          IF[ ]	/* If */
+            POP[ ]	/* PopTopStack */
+            PUSHB[ ]	/* 1 value pushed */
+            64
+            NEG[ ]	/* Negate */
+          EIF[ ]	/* EndIf */
+        EIF[ ]	/* EndIf */
+        MSIRP[0]	/* MoveStackIndirRelPt */
+      ENDF[ ]	/* EndFunctionDefinition */
+      PUSHW[ ]	/* 1 value pushed */
+      4
+      FDEF[ ]	/* FunctionDefinition */
+        DUP[ ]	/* DuplicateTopStack */
+        GC[0]	/* GetCoordOnPVector */
+        PUSHB[ ]	/* 1 value pushed */
+        4
+        CINDEX[ ]	/* CopyXToTopStack */
+        GC[0]	/* GetCoordOnPVector */
+        GT[ ]	/* GreaterThan */
+        IF[ ]	/* If */
+          SWAP[ ]	/* SwapTopStack */
+          ROLL[ ]	/* RollTopThreeStack */
+        EIF[ ]	/* EndIf */
+        DUP[ ]	/* DuplicateTopStack */
+        GC[0]	/* GetCoordOnPVector */
+        DUP[ ]	/* DuplicateTopStack */
+        ROUND[10]	/* Round */
+        SUB[ ]	/* Subtract */
+        ABS[ ]	/* Absolute */
+        PUSHB[ ]	/* 1 value pushed */
+        4
+        CINDEX[ ]	/* CopyXToTopStack */
+        GC[0]	/* GetCoordOnPVector */
+        DUP[ ]	/* DuplicateTopStack */
+        ROUND[10]	/* Round */
+        SUB[ ]	/* Subtract */
+        ABS[ ]	/* Absolute */
+        GT[ ]	/* GreaterThan */
+        IF[ ]	/* If */
+          SWAP[ ]	/* SwapTopStack */
+          ROLL[ ]	/* RollTopThreeStack */
+        EIF[ ]	/* EndIf */
+        MDAP[1]	/* MoveDirectAbsPt */
+        MIRP[11101]	/* MoveIndirectRelPt */
+      ENDF[ ]	/* EndFunctionDefinition */
+      PUSHW[ ]	/* 1 value pushed */
+      5
+      FDEF[ ]	/* FunctionDefinition */
+        MPPEM[ ]	/* MeasurePixelPerEm */
+        DUP[ ]	/* DuplicateTopStack */
+        PUSHB[ ]	/* 1 value pushed */
+        3
+        MINDEX[ ]	/* MoveXToTopStack */
+        LT[ ]	/* LessThan */
+        IF[ ]	/* If */
+          LTEQ[ ]	/* LessThenOrEqual */
+          IF[ ]	/* If */
+            PUSHB[ ]	/* 1 value pushed */
+            128
+            WCVTP[ ]	/* WriteCVTInPixels */
+          ELSE[ ]	/* Else */
+            PUSHB[ ]	/* 1 value pushed */
+            64
+            WCVTP[ ]	/* WriteCVTInPixels */
+          EIF[ ]	/* EndIf */
+        ELSE[ ]	/* Else */
+          POP[ ]	/* PopTopStack */
+          POP[ ]	/* PopTopStack */
+          DUP[ ]	/* DuplicateTopStack */
+          RCVT[ ]	/* ReadCVT */
+          PUSHB[ ]	/* 1 value pushed */
+          192
+          LT[ ]	/* LessThan */
+          IF[ ]	/* If */
+            PUSHB[ ]	/* 1 value pushed */
+            192
+            WCVTP[ ]	/* WriteCVTInPixels */
+          ELSE[ ]	/* Else */
+            POP[ ]	/* PopTopStack */
+          EIF[ ]	/* EndIf */
+        EIF[ ]	/* EndIf */
+      ENDF[ ]	/* EndFunctionDefinition */
+      PUSHW[ ]	/* 1 value pushed */
+      6
+      FDEF[ ]	/* FunctionDefinition */
+        DUP[ ]	/* DuplicateTopStack */
+        DUP[ ]	/* DuplicateTopStack */
+        RCVT[ ]	/* ReadCVT */
+        ROUND[01]	/* Round */
+        WCVTP[ ]	/* WriteCVTInPixels */
+        PUSHB[ ]	/* 1 value pushed */
+        1
+        ADD[ ]	/* Add */
+        DUP[ ]	/* DuplicateTopStack */
+        DUP[ ]	/* DuplicateTopStack */
+        RCVT[ ]	/* ReadCVT */
+        RDTG[ ]	/* RoundDownToGrid */
+        ROUND[01]	/* Round */
+        RTG[ ]	/* RoundToGrid */
+        WCVTP[ ]	/* WriteCVTInPixels */
+        PUSHB[ ]	/* 1 value pushed */
+        1
+        ADD[ ]	/* Add */
+      ENDF[ ]	/* EndFunctionDefinition */
+      PUSHW[ ]	/* 1 value pushed */
+      7
+      FDEF[ ]	/* FunctionDefinition */
+        PUSHW[ ]	/* 1 value pushed */
+        6
+        LOOPCALL[ ]	/* LoopAndCallFunction */
+      ENDF[ ]	/* EndFunctionDefinition */
+      PUSHW[ ]	/* 1 value pushed */
+      8
+      FDEF[ ]	/* FunctionDefinition */
+        MPPEM[ ]	/* MeasurePixelPerEm */
+        DUP[ ]	/* DuplicateTopStack */
+        PUSHB[ ]	/* 1 value pushed */
+        3
+        MINDEX[ ]	/* MoveXToTopStack */
+        GTEQ[ ]	/* GreaterThanOrEqual */
+        IF[ ]	/* If */
+          PUSHB[ ]	/* 1 value pushed */
+          64
+        ELSE[ ]	/* Else */
+          PUSHB[ ]	/* 1 value pushed */
+          0
+        EIF[ ]	/* EndIf */
+        ROLL[ ]	/* RollTopThreeStack */
+        ROLL[ ]	/* RollTopThreeStack */
+        DUP[ ]	/* DuplicateTopStack */
+        PUSHB[ ]	/* 1 value pushed */
+        3
+        MINDEX[ ]	/* MoveXToTopStack */
+        GTEQ[ ]	/* GreaterThanOrEqual */
+        IF[ ]	/* If */
+          SWAP[ ]	/* SwapTopStack */
+          POP[ ]	/* PopTopStack */
+          PUSHB[ ]	/* 1 value pushed */
+          128
+          ROLL[ ]	/* RollTopThreeStack */
+          ROLL[ ]	/* RollTopThreeStack */
+        ELSE[ ]	/* Else */
+          ROLL[ ]	/* RollTopThreeStack */
+          SWAP[ ]	/* SwapTopStack */
+        EIF[ ]	/* EndIf */
+        DUP[ ]	/* DuplicateTopStack */
+        PUSHB[ ]	/* 1 value pushed */
+        3
+        MINDEX[ ]	/* MoveXToTopStack */
+        GTEQ[ ]	/* GreaterThanOrEqual */
+        IF[ ]	/* If */
+          SWAP[ ]	/* SwapTopStack */
+          POP[ ]	/* PopTopStack */
+          PUSHW[ ]	/* 1 value pushed */
+          192
+          ROLL[ ]	/* RollTopThreeStack */
+          ROLL[ ]	/* RollTopThreeStack */
+        ELSE[ ]	/* Else */
+          ROLL[ ]	/* RollTopThreeStack */
+          SWAP[ ]	/* SwapTopStack */
+        EIF[ ]	/* EndIf */
+        DUP[ ]	/* DuplicateTopStack */
+        PUSHB[ ]	/* 1 value pushed */
+        3
+        MINDEX[ ]	/* MoveXToTopStack */
+        GTEQ[ ]	/* GreaterThanOrEqual */
+        IF[ ]	/* If */
+          SWAP[ ]	/* SwapTopStack */
+          POP[ ]	/* PopTopStack */
+          PUSHW[ ]	/* 1 value pushed */
+          256
+          ROLL[ ]	/* RollTopThreeStack */
+          ROLL[ ]	/* RollTopThreeStack */
+        ELSE[ ]	/* Else */
+          ROLL[ ]	/* RollTopThreeStack */
+          SWAP[ ]	/* SwapTopStack */
+        EIF[ ]	/* EndIf */
+        DUP[ ]	/* DuplicateTopStack */
+        PUSHB[ ]	/* 1 value pushed */
+        3
+        MINDEX[ ]	/* MoveXToTopStack */
+        GTEQ[ ]	/* GreaterThanOrEqual */
+        IF[ ]	/* If */
+          SWAP[ ]	/* SwapTopStack */
+          POP[ ]	/* PopTopStack */
+          PUSHW[ ]	/* 1 value pushed */
+          320
+          ROLL[ ]	/* RollTopThreeStack */
+          ROLL[ ]	/* RollTopThreeStack */
+        ELSE[ ]	/* Else */
+          ROLL[ ]	/* RollTopThreeStack */
+          SWAP[ ]	/* SwapTopStack */
+        EIF[ ]	/* EndIf */
+        DUP[ ]	/* DuplicateTopStack */
+        PUSHW[ ]	/* 1 value pushed */
+        3
+        MINDEX[ ]	/* MoveXToTopStack */
+        GTEQ[ ]	/* GreaterThanOrEqual */
+        IF[ ]	/* If */
+          PUSHB[ ]	/* 1 value pushed */
+          3
+          CINDEX[ ]	/* CopyXToTopStack */
+          RCVT[ ]	/* ReadCVT */
+          PUSHW[ ]	/* 1 value pushed */
+          384
+          LT[ ]	/* LessThan */
+          IF[ ]	/* If */
+            SWAP[ ]	/* SwapTopStack */
+            POP[ ]	/* PopTopStack */
+            PUSHW[ ]	/* 1 value pushed */
+            384
+            SWAP[ ]	/* SwapTopStack */
+            POP[ ]	/* PopTopStack */
+          ELSE[ ]	/* Else */
+            PUSHB[ ]	/* 1 value pushed */
+            3
+            CINDEX[ ]	/* CopyXToTopStack */
+            RCVT[ ]	/* ReadCVT */
+            SWAP[ ]	/* SwapTopStack */
+            POP[ ]	/* PopTopStack */
+            SWAP[ ]	/* SwapTopStack */
+            POP[ ]	/* PopTopStack */
+          EIF[ ]	/* EndIf */
+        ELSE[ ]	/* Else */
+          POP[ ]	/* PopTopStack */
+        EIF[ ]	/* EndIf */
+        WCVTP[ ]	/* WriteCVTInPixels */
+      ENDF[ ]	/* EndFunctionDefinition */
+      PUSHW[ ]	/* 1 value pushed */
+      9
+      FDEF[ ]	/* FunctionDefinition */
+        MPPEM[ ]	/* MeasurePixelPerEm */
+        GTEQ[ ]	/* GreaterThanOrEqual */
+        IF[ ]	/* If */
+          RCVT[ ]	/* ReadCVT */
+          WCVTP[ ]	/* WriteCVTInPixels */
+        ELSE[ ]	/* Else */
+          POP[ ]	/* PopTopStack */
+          POP[ ]	/* PopTopStack */
+        EIF[ ]	/* EndIf */
+      ENDF[ ]	/* EndFunctionDefinition */
+    </assembly>
+  </fpgm>
+
+  <prep>
+    <assembly>
+      PUSHW[ ]	/* 1 value pushed */
+      0
+      CALL[ ]	/* CallFunction */
+      SVTCA[0]	/* SetFPVectorToAxis */
+      PUSHW[ ]	/* 3 values pushed */
+      1 1 7
+      CALL[ ]	/* CallFunction */
+      PUSHW[ ]	/* 1 value pushed */
+      0
+      DUP[ ]	/* DuplicateTopStack */
+      RCVT[ ]	/* ReadCVT */
+      RDTG[ ]	/* RoundDownToGrid */
+      ROUND[01]	/* Round */
+      RTG[ ]	/* RoundToGrid */
+      WCVTP[ ]	/* WriteCVTInPixels */
+    </assembly>
+  </prep>
+
+  <cvt>
+    <cv index="0" value="10"/>
+    <cv index="1" value="0"/>
+    <cv index="2" value="0"/>
+  </cvt>
+
+  <loca>
+    <!-- The 'loca' table will be calculated by the compiler -->
+  </loca>
+
+  <glyf>
+
+    <!-- The xMin, yMin, xMax and yMax values
+         will be recalculated by the compiler. -->
+
+    <TTGlyph name=".notdef"/><!-- contains no outline data -->
+
+    <TTGlyph name=".null"/><!-- contains no outline data -->
+
+    <TTGlyph name="space"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0100"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0101"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0102"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0103"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0104"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0105"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0106"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0107"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0108"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0109"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE010A"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE010B"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE010C"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE010D"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE010E"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE010F"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0110"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0111"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0112"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0113"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0114"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0115"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0116"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0117"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0118"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0119"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE011A"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE011B"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE011C"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE011D"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE011E"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE011F"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0120"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0121"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0122"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0123"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0124"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0125"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0126"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0127"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0128"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0129"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE012A"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE012B"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE012C"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE012D"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE012E"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE012F"/><!-- contains no outline data -->
+
+    <TTGlyph name="uni000D"/><!-- contains no outline data -->
+
+    <TTGlyph name="uni200D"/><!-- contains no outline data -->
+
+  </glyf>
+
+  <name>
+    <namerecord nameID="1" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Bits
+    </namerecord>
+    <namerecord nameID="2" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Regular
+    </namerecord>
+    <namerecord nameID="4" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Bits Regular
+    </namerecord>
+    <namerecord nameID="5" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Version 1.000
+    </namerecord>
+    <namerecord nameID="6" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Bits-Regular
+    </namerecord>
+    <namerecord nameID="1" platformID="3" platEncID="1" langID="0x409">
+      Bits
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x409">
+      Regular
+    </namerecord>
+    <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
+      Version 1.000;;Bits-Regular;2025;FL842
+    </namerecord>
+    <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
+      Bits Regular
+    </namerecord>
+    <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
+      Version 1.000
+    </namerecord>
+    <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
+      Bits-Regular
+    </namerecord>
+  </name>
+
+  <post>
+    <formatType value="2.0"/>
+    <italicAngle value="0.0"/>
+    <underlinePosition value="-100"/>
+    <underlineThickness value="50"/>
+    <isFixedPitch value="0"/>
+    <minMemType42 value="0"/>
+    <maxMemType42 value="0"/>
+    <minMemType1 value="0"/>
+    <maxMemType1 value="0"/>
+    <psNames>
+      <!-- This file uses unique glyph names based on the information
+           found in the 'post' table. Since these names might not be unique,
+           we have to invent artificial names in case of clashes. In order to
+           be able to retain the original information, we need a name to
+           ps name mapping for those cases where they differ. That's what
+           you see below.
+            -->
+    </psNames>
+    <extraNames>
+      <!-- following are the name that are not taken from the standard Mac glyph order -->
+      <psName name="uni000D"/>
+      <psName name="uni200D"/>
+      <psName name="uE0100"/>
+      <psName name="uE0101"/>
+      <psName name="uE0102"/>
+      <psName name="uE0103"/>
+      <psName name="uE0104"/>
+      <psName name="uE0105"/>
+      <psName name="uE0106"/>
+      <psName name="uE0107"/>
+      <psName name="uE0108"/>
+      <psName name="uE0109"/>
+      <psName name="uE010A"/>
+      <psName name="uE010B"/>
+      <psName name="uE010C"/>
+      <psName name="uE010D"/>
+      <psName name="uE010E"/>
+      <psName name="uE010F"/>
+      <psName name="uE0110"/>
+      <psName name="uE0111"/>
+      <psName name="uE0112"/>
+      <psName name="uE0113"/>
+      <psName name="uE0114"/>
+      <psName name="uE0115"/>
+      <psName name="uE0116"/>
+      <psName name="uE0117"/>
+      <psName name="uE0118"/>
+      <psName name="uE0119"/>
+      <psName name="uE011A"/>
+      <psName name="uE011B"/>
+      <psName name="uE011C"/>
+      <psName name="uE011D"/>
+      <psName name="uE011E"/>
+      <psName name="uE011F"/>
+      <psName name="uE0120"/>
+      <psName name="uE0121"/>
+      <psName name="uE0122"/>
+      <psName name="uE0123"/>
+      <psName name="uE0124"/>
+      <psName name="uE0125"/>
+      <psName name="uE0126"/>
+      <psName name="uE0127"/>
+      <psName name="uE0128"/>
+      <psName name="uE0129"/>
+      <psName name="uE012A"/>
+      <psName name="uE012B"/>
+      <psName name="uE012C"/>
+      <psName name="uE012D"/>
+      <psName name="uE012E"/>
+      <psName name="uE012F"/>
+    </extraNames>
+  </post>
+
+  <gasp>
+    <gaspRange rangeMaxPPEM="65535" rangeGaspBehavior="15"/>
+  </gasp>
+
+  <GDEF>
+    <Version value="0x00010000"/>
+    <GlyphClassDef>
+      <ClassDef glyph="uE0100" class="3"/>
+      <ClassDef glyph="uE0101" class="3"/>
+      <ClassDef glyph="uE0102" class="3"/>
+      <ClassDef glyph="uE0103" class="3"/>
+      <ClassDef glyph="uE0104" class="3"/>
+      <ClassDef glyph="uE0105" class="3"/>
+      <ClassDef glyph="uE0106" class="3"/>
+      <ClassDef glyph="uE0107" class="3"/>
+      <ClassDef glyph="uE0108" class="3"/>
+      <ClassDef glyph="uE0109" class="3"/>
+      <ClassDef glyph="uE010A" class="3"/>
+      <ClassDef glyph="uE010B" class="3"/>
+      <ClassDef glyph="uE010C" class="3"/>
+      <ClassDef glyph="uE010D" class="3"/>
+      <ClassDef glyph="uE010E" class="3"/>
+      <ClassDef glyph="uE010F" class="3"/>
+      <ClassDef glyph="uE0110" class="3"/>
+      <ClassDef glyph="uE0111" class="3"/>
+      <ClassDef glyph="uE0112" class="3"/>
+      <ClassDef glyph="uE0113" class="3"/>
+      <ClassDef glyph="uE0114" class="3"/>
+      <ClassDef glyph="uE0115" class="3"/>
+      <ClassDef glyph="uE0116" class="3"/>
+      <ClassDef glyph="uE0117" class="3"/>
+      <ClassDef glyph="uE0118" class="3"/>
+      <ClassDef glyph="uE0119" class="3"/>
+      <ClassDef glyph="uE011A" class="3"/>
+      <ClassDef glyph="uE011B" class="3"/>
+      <ClassDef glyph="uE011C" class="3"/>
+      <ClassDef glyph="uE011D" class="3"/>
+      <ClassDef glyph="uE011E" class="3"/>
+      <ClassDef glyph="uE011F" class="3"/>
+      <ClassDef glyph="uE0120" class="3"/>
+      <ClassDef glyph="uE0121" class="3"/>
+      <ClassDef glyph="uE0122" class="3"/>
+      <ClassDef glyph="uE0123" class="3"/>
+      <ClassDef glyph="uE0124" class="3"/>
+      <ClassDef glyph="uE0125" class="3"/>
+      <ClassDef glyph="uE0126" class="3"/>
+      <ClassDef glyph="uE0127" class="3"/>
+      <ClassDef glyph="uE0128" class="3"/>
+      <ClassDef glyph="uE0129" class="3"/>
+      <ClassDef glyph="uE012A" class="3"/>
+      <ClassDef glyph="uE012B" class="3"/>
+      <ClassDef glyph="uE012C" class="3"/>
+      <ClassDef glyph="uE012D" class="3"/>
+      <ClassDef glyph="uE012E" class="3"/>
+      <ClassDef glyph="uE012F" class="3"/>
+      <ClassDef glyph="uni200D" class="1"/>
+    </GlyphClassDef>
+  </GDEF>
+
+  <DSIG>
+    <!-- note that the Digital Signature will be invalid after recompilation! -->
+    <tableHeader flag="0x1" numSigs="0" version="1"/>
+  </DSIG>
+
+</ttFont>

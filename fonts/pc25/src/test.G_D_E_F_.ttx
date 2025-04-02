@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ttFont ttLibVersion="4.56">
+
+  <GDEF>
+    <Version value="0x00010000"/>
+    <GlyphClassDef>
+      <ClassDef glyph="u12AB5" class="1"/>
+      <ClassDef glyph="u12D75" class="1"/>
+      <ClassDef glyph="u12D76" class="1"/>
+    </GlyphClassDef>
+  </GDEF>
+
+</ttFont>

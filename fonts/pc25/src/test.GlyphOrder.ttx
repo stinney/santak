@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ttFont ttLibVersion="4.56">
+
+  <GlyphOrder>
+    <!-- The 'id' attribute is only for humans; it is ignored when parsed. -->
+    <GlyphID id="0" name=".notdef"/>
+    <GlyphID id="1" name=".null"/>
+    <GlyphID id="2" name="uni000D"/>
+    <GlyphID id="3" name="space"/>
+    <GlyphID id="4" name="u12AB5"/>
+    <GlyphID id="5" name="u12D75"/>
+    <GlyphID id="6" name="u12D76"/>
+  </GlyphOrder>
+
+</ttFont>

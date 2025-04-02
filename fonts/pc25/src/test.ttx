@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="4.56">
+  <GlyphOrder src="test.GlyphOrder.ttx"/>
+  <head src="test._h_e_a_d.ttx"/>
+  <hhea src="test._h_h_e_a.ttx"/>
+  <maxp src="test._m_a_x_p.ttx"/>
+  <OS_2 src="test.O_S_2f_2.ttx"/>
+  <hmtx src="test._h_m_t_x.ttx"/>
+  <cmap src="test._c_m_a_p.ttx"/>
+  <fpgm src="test._f_p_g_m.ttx"/>
+  <prep src="test._p_r_e_p.ttx"/>
+  <cvt src="test._c_v_t.ttx"/>
+  <loca src="test._l_o_c_a.ttx"/>
+  <glyf src="test._g_l_y_f.ttx"/>
+  <name src="test._n_a_m_e.ttx"/>
+  <post src="test._p_o_s_t.ttx"/>
+  <gasp src="test._g_a_s_p.ttx"/>
+  <GDEF src="test.G_D_E_F_.ttx"/>
+  <DSIG src="test.D_S_I_G_.ttx"/>
+</ttFont>

@@ -1,0 +1,5 @@
+12345	12456	# regular map command
+12345_12356	@F2001	# make liga with F2001 component, use __ for ZWJ
+12345__12356	# add liga with name components and ZWJ for each __
+12345.1	@F3001	# add character name with inclusion of component F3001
+

@@ -3,11 +3,13 @@
 default: pc25
 
 %: %.ttf
-	true
+	(cd out ; ttx $*.ttx)
 
 # For any font that is going to be generated there must be a src/%.ttx
 %.ttf: src/%.ttx src/bits.ttx
-	true
+	rm -f out/$*.ttx out/$*.*.ttx
+	bin/ttxadd.plx -t src/$*
+	bin/cpttx.sh $*
 
 src/%.ttx: src/%.ttf Makefile
 	ttx -o $@ -s -i $<

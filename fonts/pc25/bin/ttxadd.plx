@@ -38,8 +38,20 @@ GetOptions(
     verbose=>\$verbose,
     );
 
-die "Usage: $0 -a [ADD] -t [TTX] -o [OUT]\n"
-    unless $addfile && $outfile && $ttxbase;
+usage() unless $ttxbase;
+
+if ($addfile) {
+    die "$0: unable to read $addfile. Stop.\n"
+	unless -r $addfile
+} else {
+    $addfile = "$ttxbase.add";
+    $addfile =~ s#src/##;
+    usage() unless -r $addfile;
+}
+
+my $glyf = "$ttxbase._g_l_y_f.ttx";
+my $glypho = "$ttxbase.GlyphOrder.ttx";
+my $hmtx = "$ttxbase._h_m_t_x.ttx";
 
 my $status = 0;
 my @add = (); my %add = (); load_adds();
@@ -79,14 +91,16 @@ foreach my $a (@add) {
 
 #print @t;
 
-ttxadd("$ttxbase.GlyphOrder.ttx", '</GlyphOrder>', @g);
+ttxadd($glypho, '</GlyphOrder>', @g);
+ttxadd($hmtx, '</hmtx>', @h);
+ttxadd($glyf, '</glyf>', @t);
 
 1;
 
 ################################################################################
 
 sub getgid {
-    my $g = `grep '<GlyphID' $ttxbase.GlyphOrder.ttx | tail -1 | cut -d'"' -f2`; chomp $g;
+    my $g = `grep '<GlyphID' $glypho | tail -1 | cut -d'"' -f2`; chomp $g;
     return $g;
 }
 
@@ -116,7 +130,7 @@ sub load_adds {
 }
 
 sub load_hmtx {
-    my @x = `grep '<mtx' $ttxbase._h_m_t_x.ttx`; chomp @x;
+    my @x = `grep '<mtx' $hmtx`; chomp @x;
     foreach (@x) {
 	my($n) = (/name="(.*?)"/);
 	$hmtx{$n} = $_;
@@ -124,7 +138,7 @@ sub load_hmtx {
 }
 
 sub load_ttglyph {
-    my @x = `grep '<TTGlyph' $ttxbase._g_l_y_f.ttx`; chomp @x;
+    my @x = `grep '<TTGlyph' $glyf`; chomp @x;
     foreach (@x) {
 	my($n) = (/name="(.*?)"/);
 	$ttglyph{$n} = $_;
@@ -146,4 +160,7 @@ sub ttxadd {
     close(O);
     close(F);
 }
-  
+
+sub usage {
+    die "Usage: $0 [-a [ADD]] -t [TTX]\n"
+}

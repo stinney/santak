@@ -1,0 +1,9 @@
+#!/usr/local/bin/fontforge
+i = 2
+while(i < $argc)
+    Open($1)
+    MergeFonts($argv[i])
+    MergeFeature($1)
+    Generate($argv[i])
+    i = i + 1
+endloop

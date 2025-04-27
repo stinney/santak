@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ttFont ttLibVersion="4.43">
+
+  <glyf>
+
+    <!-- The xMin, yMin, xMax and yMax values
+         will be recalculated by the compiler. -->
+
+    <TTGlyph name=".notdef"/><!-- contains no outline data -->
+
+    <TTGlyph name=".null"/><!-- contains no outline data -->
+
+    <TTGlyph name="space"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0100"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0101"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0102"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0103"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0104"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0105"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0106"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0107"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0108"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0109"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE010A"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE010B"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE010C"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE010D"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE010E"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE010F"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0110"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0111"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0112"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0113"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0114"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0115"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0116"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0117"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0118"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0119"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE011A"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE011B"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE011C"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE011D"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE011E"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE011F"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0120"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0121"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0122"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0123"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0124"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0125"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0126"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0127"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0128"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE0129"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE012A"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE012B"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE012C"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE012D"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE012E"/><!-- contains no outline data -->
+
+    <TTGlyph name="uE012F"/><!-- contains no outline data -->
+
+    <TTGlyph name="uni000D"/><!-- contains no outline data -->
+
+    <TTGlyph name="uni200D"/><!-- contains no outline data -->
+
+  </glyf>
+
+</ttFont>

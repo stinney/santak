@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ttFont ttLibVersion="4.56">
+<ttFont ttLibVersion="4.43">
 
   <glyf>
 
@@ -449,7 +449,7 @@
       </instructions>
     </TTGlyph>
 
-    <TTGlyph name="u12D76" xMin="61" yMin="-27" xMax="453" yMax="777">
+    <TTGlyph name="uF2000" xMin="61" yMin="-27" xMax="453" yMax="777">
       <contour>
         <pt x="212" y="145" on="1"/>
         <pt x="210" y="214" on="0"/>
@@ -785,13 +785,13 @@
       </contour>
       <instructions>
         <bytecode>
-          b800002b 00b80000 4558b801 152f1bb9
-          01150006 3e59b800 004558b8 011a2f1b
-          b9011a00 063e59ba 013c000d 00032bba
-          00e100a3 00032bba 00ce0110 00032bba
-          00940091 00032bba 006a0069 00032bba
-          00a40068 00032bba 002c00cb 00032bba
-          00ae0057 00032bb8 000d10b8 000fd0b8
+          b8000a2b 00b80008 4558b801 152f1bb9
+          0115000e 3e59b800 084558b8 011a2f1b
+          b9011a00 0e3e59ba 013c000d 000d2bba
+          00e100a3 000d2bba 00ce0110 000d2bba
+          00940091 000d2bba 006a0069 000d2bba
+          00a40068 000d2bba 002c00cb 000d2bba
+          00ae0057 000d2bb8 000d10b8 000fd0b8
           000f2fb8 000d10b8 0011d0b8 00112fb8
           011a10b8 001edcb8 0021d0b8 00212fb8
           0024d0b8 00242fb8 0026d0b8 00262fb8
@@ -821,9 +821,9 @@
           0135d0b8 01352fb8 013c10b8 0137d0b8
           01372fb8 013c10b8 0139d0b8 01392fb8
           013c10b8 013fd0b8 013f2fb8 013c10b8
-          0142d0b8 01422f01 ba001501 2e00032b
-          ba00a301 4200032b ba00b700 4600032b
-          ba00fc00 7b00032b ba00c100 3800032b
+          0142d0b8 01422f01 ba001501 2e000d2b
+          ba00a301 42000d2b ba00b700 46000d2b
+          ba00fc00 7b000d2b ba00c100 38000d2b
           b8014210 b80000d0 b800002f b8014210
           b80003d0 b800032f b8014210 b80140d0
           b801402f b80004d0 b800042f b8014210

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ttFont ttLibVersion="4.43">
+
+  <post>
+    <formatType value="2.0"/>
+    <italicAngle value="0.0"/>
+    <underlinePosition value="-100"/>
+    <underlineThickness value="50"/>
+    <isFixedPitch value="0"/>
+    <minMemType42 value="0"/>
+    <maxMemType42 value="0"/>
+    <minMemType1 value="0"/>
+    <maxMemType1 value="0"/>
+    <psNames>
+      <!-- This file uses unique glyph names based on the information
+           found in the 'post' table. Since these names might not be unique,
+           we have to invent artificial names in case of clashes. In order to
+           be able to retain the original information, we need a name to
+           ps name mapping for those cases where they differ. That's what
+           you see below.
+            -->
+    </psNames>
+    <extraNames>
+      <!-- following are the name that are not taken from the standard Mac glyph order -->
+      <psName name="uni000D"/>
+      <psName name="uni200D"/>
+      <psName name="uE0100"/>
+      <psName name="uE0101"/>
+      <psName name="uE0102"/>
+      <psName name="uE0103"/>
+      <psName name="uE0104"/>
+      <psName name="uE0105"/>
+      <psName name="uE0106"/>
+      <psName name="uE0107"/>
+      <psName name="uE0108"/>
+      <psName name="uE0109"/>
+      <psName name="uE010A"/>
+      <psName name="uE010B"/>
+      <psName name="uE010C"/>
+      <psName name="uE010D"/>
+      <psName name="uE010E"/>
+      <psName name="uE010F"/>
+      <psName name="uE0110"/>
+      <psName name="uE0111"/>
+      <psName name="uE0112"/>
+      <psName name="uE0113"/>
+      <psName name="uE0114"/>
+      <psName name="uE0115"/>
+      <psName name="uE0116"/>
+      <psName name="uE0117"/>
+      <psName name="uE0118"/>
+      <psName name="uE0119"/>
+      <psName name="uE011A"/>
+      <psName name="uE011B"/>
+      <psName name="uE011C"/>
+      <psName name="uE011D"/>
+      <psName name="uE011E"/>
+      <psName name="uE011F"/>
+      <psName name="uE0120"/>
+      <psName name="uE0121"/>
+      <psName name="uE0122"/>
+      <psName name="uE0123"/>
+      <psName name="uE0124"/>
+      <psName name="uE0125"/>
+      <psName name="uE0126"/>
+      <psName name="uE0127"/>
+      <psName name="uE0128"/>
+      <psName name="uE0129"/>
+      <psName name="uE012A"/>
+      <psName name="uE012B"/>
+      <psName name="uE012C"/>
+      <psName name="uE012D"/>
+      <psName name="uE012E"/>
+      <psName name="uE012F"/>
+    </extraNames>
+  </post>
+
+</ttFont>

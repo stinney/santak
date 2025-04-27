@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ttFont ttLibVersion="4.43">
+
+  <GDEF>
+    <Version value="0x00010000"/>
+    <GlyphClassDef>
+      <ClassDef glyph="uE0100" class="3"/>
+      <ClassDef glyph="uE0101" class="3"/>
+      <ClassDef glyph="uE0102" class="3"/>
+      <ClassDef glyph="uE0103" class="3"/>
+      <ClassDef glyph="uE0104" class="3"/>
+      <ClassDef glyph="uE0105" class="3"/>
+      <ClassDef glyph="uE0106" class="3"/>
+      <ClassDef glyph="uE0107" class="3"/>
+      <ClassDef glyph="uE0108" class="3"/>
+      <ClassDef glyph="uE0109" class="3"/>
+      <ClassDef glyph="uE010A" class="3"/>
+      <ClassDef glyph="uE010B" class="3"/>
+      <ClassDef glyph="uE010C" class="3"/>
+      <ClassDef glyph="uE010D" class="3"/>
+      <ClassDef glyph="uE010E" class="3"/>
+      <ClassDef glyph="uE010F" class="3"/>
+      <ClassDef glyph="uE0110" class="3"/>
+      <ClassDef glyph="uE0111" class="3"/>
+      <ClassDef glyph="uE0112" class="3"/>
+      <ClassDef glyph="uE0113" class="3"/>
+      <ClassDef glyph="uE0114" class="3"/>
+      <ClassDef glyph="uE0115" class="3"/>
+      <ClassDef glyph="uE0116" class="3"/>
+      <ClassDef glyph="uE0117" class="3"/>
+      <ClassDef glyph="uE0118" class="3"/>
+      <ClassDef glyph="uE0119" class="3"/>
+      <ClassDef glyph="uE011A" class="3"/>
+      <ClassDef glyph="uE011B" class="3"/>
+      <ClassDef glyph="uE011C" class="3"/>
+      <ClassDef glyph="uE011D" class="3"/>
+      <ClassDef glyph="uE011E" class="3"/>
+      <ClassDef glyph="uE011F" class="3"/>
+      <ClassDef glyph="uE0120" class="3"/>
+      <ClassDef glyph="uE0121" class="3"/>
+      <ClassDef glyph="uE0122" class="3"/>
+      <ClassDef glyph="uE0123" class="3"/>
+      <ClassDef glyph="uE0124" class="3"/>
+      <ClassDef glyph="uE0125" class="3"/>
+      <ClassDef glyph="uE0126" class="3"/>
+      <ClassDef glyph="uE0127" class="3"/>
+      <ClassDef glyph="uE0128" class="3"/>
+      <ClassDef glyph="uE0129" class="3"/>
+      <ClassDef glyph="uE012A" class="3"/>
+      <ClassDef glyph="uE012B" class="3"/>
+      <ClassDef glyph="uE012C" class="3"/>
+      <ClassDef glyph="uE012D" class="3"/>
+      <ClassDef glyph="uE012E" class="3"/>
+      <ClassDef glyph="uE012F" class="3"/>
+      <ClassDef glyph="uni200D" class="1"/>
+    </GlyphClassDef>
+  </GDEF>
+
+</ttFont>

@@ -1,0 +1,2552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="4.56">
+
+  <GlyphOrder>
+    <!-- The 'id' attribute is only for humans; it is ignored when parsed. -->
+    <GlyphID id="0" name=".notdef"/>
+    <GlyphID id="1" name=".null"/>
+    <GlyphID id="2" name="uni000D"/>
+    <GlyphID id="3" name="space"/>
+    <GlyphID id="4" name="u12000"/>
+<GlyphID name="u12004"/>
+<GlyphID name="u12009"/>
+<GlyphID name="u1200A"/>
+<GlyphID name="u12016"/>
+<GlyphID name="u1201C"/>
+<GlyphID name="u1201D"/>
+<GlyphID name="u12020"/>
+<GlyphID name="u1202B"/>
+<GlyphID name="u1202D"/>
+<GlyphID name="u1202F"/>
+<GlyphID name="u12032"/>
+<GlyphID name="u12033"/>
+<GlyphID name="u12034"/>
+<GlyphID name="u12035"/>
+<GlyphID name="u12038"/>
+<GlyphID name="u1203E"/>
+<GlyphID name="u12040"/>
+<GlyphID name="u12041"/>
+<GlyphID name="u12043"/>
+<GlyphID name="u12044"/>
+<GlyphID name="u12046"/>
+<GlyphID name="u12047"/>
+<GlyphID name="u1204D"/>
+<GlyphID name="u12053"/>
+<GlyphID name="u12054"/>
+<GlyphID name="u12055"/>
+<GlyphID name="u12056"/>
+<GlyphID name="u1206E"/>
+<GlyphID name="u1206F"/>
+<GlyphID name="u12072"/>
+<GlyphID name="u12073"/>
+<GlyphID name="u12074"/>
+<GlyphID name="u12076"/>
+<GlyphID name="u12077"/>
+<GlyphID name="u1207A"/>
+<GlyphID name="u1207B"/>
+<GlyphID name="u1207C"/>
+<GlyphID name="u1207D"/>
+<GlyphID name="u1207E"/>
+<GlyphID name="u12081"/>
+<GlyphID name="u12083"/>
+<GlyphID name="u12086"/>
+<GlyphID name="u12089"/>
+<GlyphID name="u1208A"/>
+<GlyphID name="u1208D"/>
+<GlyphID name="u12094"/>
+<GlyphID name="u12096"/>
+<GlyphID name="u12097"/>
+<GlyphID name="u1209F"/>
+<GlyphID name="u120A0"/>
+<GlyphID name="u120A6"/>
+<GlyphID name="u120B5"/>
+<GlyphID name="u120B7"/>
+<GlyphID name="u120BC"/>
+<GlyphID name="u120DE"/>
+<GlyphID name="u120E1"/>
+<GlyphID name="u120E2"/>
+<GlyphID name="u120EE"/>
+<GlyphID name="u120F0"/>
+<GlyphID name="u120F2"/>
+<GlyphID name="u120F5"/>
+<GlyphID name="u120F6"/>
+<GlyphID name="u120F7"/>
+<GlyphID name="u120F8"/>
+<GlyphID name="u120FB"/>
+<GlyphID name="u120FC"/>
+<GlyphID name="u120FE"/>
+<GlyphID name="u120FF"/>
+<GlyphID name="u12100"/>
+<GlyphID name="u12104"/>
+<GlyphID name="u12108"/>
+<GlyphID name="u12109"/>
+<GlyphID name="u1210B"/>
+<GlyphID name="u12111"/>
+<GlyphID name="u12116"/>
+<GlyphID name="u12118"/>
+<GlyphID name="u12119"/>
+<GlyphID name="u1211B"/>
+<GlyphID name="u1211E"/>
+<GlyphID name="u12120"/>
+<GlyphID name="u12122"/>
+<GlyphID name="u12123"/>
+<GlyphID name="u12125"/>
+<GlyphID name="u12128"/>
+<GlyphID name="u12129"/>
+<GlyphID name="u1212B"/>
+<GlyphID name="u1212C"/>
+<GlyphID name="u1212D"/>
+<GlyphID name="u1212F"/>
+<GlyphID name="u12134"/>
+<GlyphID name="u12137"/>
+<GlyphID name="u12138"/>
+<GlyphID name="u1213D"/>
+<GlyphID name="u1213E"/>
+<GlyphID name="u1213F"/>
+<GlyphID name="u12141"/>
+<GlyphID name="u12145"/>
+<GlyphID name="u12146"/>
+<GlyphID name="u12147"/>
+<GlyphID name="u12148"/>
+<GlyphID name="u1214D"/>
+<GlyphID name="u1214E"/>
+<GlyphID name="u12154"/>
+<GlyphID name="u12155"/>
+<GlyphID name="u12156"/>
+<GlyphID name="u12157"/>
+<GlyphID name="u12164"/>
+<GlyphID name="u12165"/>
+<GlyphID name="u12172"/>
+<GlyphID name="u12174"/>
+<GlyphID name="u1217E"/>
+<GlyphID name="u1218F"/>
+<GlyphID name="u12192"/>
+<GlyphID name="u12195"/>
+<GlyphID name="u12197"/>
+<GlyphID name="u1219B"/>
+<GlyphID name="u1219C"/>
+<GlyphID name="u1219F"/>
+<GlyphID name="u121A0"/>
+<GlyphID name="u121A2"/>
+<GlyphID name="u121A4"/>
+<GlyphID name="u121A5"/>
+<GlyphID name="u121A6"/>
+<GlyphID name="u121A7"/>
+<GlyphID name="u121AA"/>
+<GlyphID name="u121AC"/>
+<GlyphID name="u121AF"/>
+<GlyphID name="u121B0"/>
+<GlyphID name="u121B3"/>
+<GlyphID name="u121B7"/>
+<GlyphID name="u121B8"/>
+<GlyphID name="u121B9"/>
+<GlyphID name="u121C0"/>
+<GlyphID name="u121C7"/>
+<GlyphID name="u121C9"/>
+<GlyphID name="u121CB"/>
+<GlyphID name="u121E5"/>
+<GlyphID name="u121EC"/>
+<GlyphID name="u121EF"/>
+<GlyphID name="u121F2"/>
+<GlyphID name="u121F4"/>
+<GlyphID name="u121F5"/>
+<GlyphID name="u121F7"/>
+<GlyphID name="u121FA"/>
+<GlyphID name="u121FB"/>
+<GlyphID name="u121FD"/>
+<GlyphID name="u121FF"/>
+<GlyphID name="u12216"/>
+<GlyphID name="u1221B"/>
+<GlyphID name="u1221C"/>
+<GlyphID name="u1221D"/>
+<GlyphID name="u12220"/>
+<GlyphID name="u12223"/>
+<GlyphID name="u12224"/>
+<GlyphID name="u12225"/>
+<GlyphID name="u12226"/>
+<GlyphID name="u12227"/>
+<GlyphID name="u12228"/>
+<GlyphID name="u12229"/>
+<GlyphID name="u1222A"/>
+<GlyphID name="u1222B"/>
+<GlyphID name="u1222C"/>
+<GlyphID name="u1222D"/>
+<GlyphID name="u1222E"/>
+<GlyphID name="u12231"/>
+<GlyphID name="u12232"/>
+<GlyphID name="u12238"/>
+<GlyphID name="u12239"/>
+<GlyphID name="u1223E"/>
+<GlyphID name="u1223F"/>
+<GlyphID name="u12240"/>
+<GlyphID name="u12244"/>
+<GlyphID name="u12246"/>
+<GlyphID name="u12248"/>
+<GlyphID name="u1224B"/>
+<GlyphID name="u1224C"/>
+<GlyphID name="u12250"/>
+<GlyphID name="u12258"/>
+<GlyphID name="u12261"/>
+<GlyphID name="u12262"/>
+<GlyphID name="u12263"/>
+<GlyphID name="u1226A"/>
+<GlyphID name="u1227A"/>
+<GlyphID name="u1227B"/>
+<GlyphID name="u1227C"/>
+<GlyphID name="u1227D"/>
+<GlyphID name="u1227E"/>
+<GlyphID name="u1227F"/>
+<GlyphID name="u1228D"/>
+<GlyphID name="u1228F"/>
+<GlyphID name="u12291"/>
+<GlyphID name="u12292"/>
+<GlyphID name="u12293"/>
+<GlyphID name="u12295"/>
+<GlyphID name="u122A8"/>
+<GlyphID name="u122A9"/>
+<GlyphID name="u122AB"/>
+<GlyphID name="u122AC"/>
+<GlyphID name="u122AD"/>
+<GlyphID name="u122AE"/>
+<GlyphID name="u122B7"/>
+<GlyphID name="u122BA"/>
+<GlyphID name="u122C0"/>
+<GlyphID name="u122C3"/>
+<GlyphID name="u122C6"/>
+<GlyphID name="u122D2"/>
+<GlyphID name="u122D7"/>
+<GlyphID name="u122D9"/>
+<GlyphID name="u122DA"/>
+<GlyphID name="u122DB"/>
+<GlyphID name="u122DC"/>
+<GlyphID name="u122DD"/>
+<GlyphID name="u122DE"/>
+<GlyphID name="u122E0"/>
+<GlyphID name="u122E1"/>
+<GlyphID name="u122E2"/>
+<GlyphID name="u122E7"/>
+<GlyphID name="u122E9"/>
+<GlyphID name="u122EB"/>
+<GlyphID name="u122ED"/>
+<GlyphID name="u122F0"/>
+<GlyphID name="u122F3"/>
+<GlyphID name="u122FA"/>
+<GlyphID name="u122FB"/>
+<GlyphID name="u122FC"/>
+<GlyphID name="u122FD"/>
+<GlyphID name="u122FE"/>
+<GlyphID name="u12300"/>
+<GlyphID name="u12301"/>
+<GlyphID name="u12303"/>
+<GlyphID name="u12305"/>
+<GlyphID name="u12306"/>
+<GlyphID name="u12307"/>
+<GlyphID name="u12308"/>
+<GlyphID name="u12309"/>
+<GlyphID name="u1230B"/>
+<GlyphID name="u1230C"/>
+<GlyphID name="u12311"/>
+<GlyphID name="u12312"/>
+<GlyphID name="u12313"/>
+<GlyphID name="u12317"/>
+<GlyphID name="u1231D"/>
+<GlyphID name="u12324"/>
+<GlyphID name="u12328"/>
+<GlyphID name="u1232B"/>
+<GlyphID name="u12334"/>
+<GlyphID name="u12335"/>
+<GlyphID name="u12336"/>
+<GlyphID name="u12337"/>
+<GlyphID name="u1233A"/>
+<GlyphID name="u12340"/>
+<GlyphID name="u12342"/>
+<GlyphID name="u1234E"/>
+<GlyphID name="u1234F"/>
+<GlyphID name="u12351"/>
+<GlyphID name="u12355"/>
+<GlyphID name="u12356"/>
+<GlyphID name="u1235A"/>
+<GlyphID name="u1235D"/>
+<GlyphID name="u12362"/>
+<GlyphID name="u12363"/>
+<GlyphID name="u1236A"/>
+<GlyphID name="u1236E"/>
+<GlyphID name="u1237C"/>
+<GlyphID name="u1238F"/>
+<GlyphID name="u12408"/>
+<GlyphID name="u12409"/>
+<GlyphID name="u1244A"/>
+<GlyphID name="u1244F"/>
+<GlyphID name="u1245A"/>
+<GlyphID name="u124CB"/>
+<GlyphID name="u124E5"/>
+<GlyphID name="uF0086"/>
+  </GlyphOrder>
+
+  <head>
+    <!-- Most of this table will be recalculated by the compiler -->
+    <tableVersion value="1.0"/>
+    <fontRevision value="1.0"/>
+    <checkSumAdjustment value="0xf61cd89f"/>
+    <magicNumber value="0x5f0f3cf5"/>
+    <flags value="00000000 00011011"/>
+    <unitsPerEm value="1000"/>
+    <created value="Thu Jun 26 01:52:01 2025"/>
+    <modified value="Thu Jun 26 01:52:34 2025"/>
+    <xMin value="0"/>
+    <yMin value="0"/>
+    <xMax value="0"/>
+    <yMax value="0"/>
+    <macStyle value="00000000 00000000"/>
+    <lowestRecPPEM value="6"/>
+    <fontDirectionHint value="2"/>
+    <indexToLocFormat value="0"/>
+    <glyphDataFormat value="0"/>
+  </head>
+
+  <hhea>
+    <tableVersion value="0x00010000"/>
+    <ascent value="750"/>
+    <descent value="-250"/>
+    <lineGap value="100"/>
+    <advanceWidthMax value="727"/>
+    <minLeftSideBearing value="0"/>
+    <minRightSideBearing value="0"/>
+    <xMaxExtent value="0"/>
+    <caretSlopeRise value="1"/>
+    <caretSlopeRun value="0"/>
+    <caretOffset value="0"/>
+    <reserved0 value="0"/>
+    <reserved1 value="0"/>
+    <reserved2 value="0"/>
+    <reserved3 value="0"/>
+    <metricDataFormat value="0"/>
+    <numberOfHMetrics value="5"/>
+  </hhea>
+
+  <maxp>
+    <!-- Most of this table will be recalculated by the compiler -->
+    <tableVersion value="0x10000"/>
+    <numGlyphs value="5"/>
+    <maxPoints value="0"/>
+    <maxContours value="0"/>
+    <maxCompositePoints value="0"/>
+    <maxCompositeContours value="0"/>
+    <maxZones value="1"/>
+    <maxTwilightPoints value="0"/>
+    <maxStorage value="0"/>
+    <maxFunctionDefs value="10"/>
+    <maxInstructionDefs value="0"/>
+    <maxStackElements value="512"/>
+    <maxSizeOfInstructions value="0"/>
+    <maxComponentElements value="0"/>
+    <maxComponentDepth value="0"/>
+  </maxp>
+
+  <OS_2>
+    <!-- The fields 'usFirstCharIndex' and 'usLastCharIndex'
+         will be recalculated by the compiler -->
+    <version value="4"/>
+    <xAvgCharWidth value="369"/>
+    <usWeightClass value="400"/>
+    <usWidthClass value="5"/>
+    <fsType value="00000000 00000100"/>
+    <ySubscriptXSize value="650"/>
+    <ySubscriptYSize value="600"/>
+    <ySubscriptXOffset value="0"/>
+    <ySubscriptYOffset value="75"/>
+    <ySuperscriptXSize value="650"/>
+    <ySuperscriptYSize value="600"/>
+    <ySuperscriptXOffset value="0"/>
+    <ySuperscriptYOffset value="350"/>
+    <yStrikeoutSize value="50"/>
+    <yStrikeoutPosition value="300"/>
+    <sFamilyClass value="0"/>
+    <panose>
+      <bFamilyType value="0"/>
+      <bSerifStyle value="0"/>
+      <bWeight value="0"/>
+      <bProportion value="0"/>
+      <bContrast value="0"/>
+      <bStrokeVariation value="0"/>
+      <bArmStyle value="0"/>
+      <bLetterForm value="0"/>
+      <bMidline value="0"/>
+      <bXHeight value="0"/>
+    </panose>
+    <ulUnicodeRange1 value="00000000 00000000 00000000 00000001"/>
+    <ulUnicodeRange2 value="00000010 00000000 00000000 00000000"/>
+    <ulUnicodeRange3 value="00000000 00000000 00000000 00000000"/>
+    <ulUnicodeRange4 value="00000000 00000000 01000000 00000000"/>
+    <achVendID value="    "/>
+    <fsSelection value="00000000 11000000"/>
+    <usFirstCharIndex value="0"/>
+    <usLastCharIndex value="65535"/>
+    <sTypoAscender value="750"/>
+    <sTypoDescender value="-250"/>
+    <sTypoLineGap value="100"/>
+    <usWinAscent value="750"/>
+    <usWinDescent value="250"/>
+    <ulCodePageRange1 value="00000000 00000000 00000000 00000001"/>
+    <ulCodePageRange2 value="00000000 00000000 00000000 00000000"/>
+    <sxHeight value="500"/>
+    <sCapHeight value="700"/>
+    <usDefaultChar value="0"/>
+    <usBreakChar value="32"/>
+    <usMaxContext value="0"/>
+  </OS_2>
+
+  <hmtx>
+    <mtx name=".notdef" width="250" lsb="0"/>
+    <mtx name=".null" width="0" lsb="0"/>
+    <mtx name="space" width="250" lsb="0"/>
+    <mtx name="u12000" width="727" lsb="0"/>
+    <mtx name="uni000D" width="250" lsb="0"/>
+<mtx name="u12004" width="0" lsb="0"/>
+<mtx name="u12009" width="0" lsb="0"/>
+<mtx name="u1200A" width="0" lsb="0"/>
+<mtx name="u12016" width="0" lsb="0"/>
+<mtx name="u1201C" width="0" lsb="0"/>
+<mtx name="u1201D" width="0" lsb="0"/>
+<mtx name="u12020" width="0" lsb="0"/>
+<mtx name="u1202B" width="0" lsb="0"/>
+<mtx name="u1202D" width="0" lsb="0"/>
+<mtx name="u1202F" width="0" lsb="0"/>
+<mtx name="u12032" width="0" lsb="0"/>
+<mtx name="u12033" width="0" lsb="0"/>
+<mtx name="u12034" width="0" lsb="0"/>
+<mtx name="u12035" width="0" lsb="0"/>
+<mtx name="u12038" width="0" lsb="0"/>
+<mtx name="u1203E" width="0" lsb="0"/>
+<mtx name="u12040" width="0" lsb="0"/>
+<mtx name="u12041" width="0" lsb="0"/>
+<mtx name="u12043" width="0" lsb="0"/>
+<mtx name="u12044" width="0" lsb="0"/>
+<mtx name="u12046" width="0" lsb="0"/>
+<mtx name="u12047" width="0" lsb="0"/>
+<mtx name="u1204D" width="0" lsb="0"/>
+<mtx name="u12053" width="0" lsb="0"/>
+<mtx name="u12054" width="0" lsb="0"/>
+<mtx name="u12055" width="0" lsb="0"/>
+<mtx name="u12056" width="0" lsb="0"/>
+<mtx name="u1206E" width="0" lsb="0"/>
+<mtx name="u1206F" width="0" lsb="0"/>
+<mtx name="u12072" width="0" lsb="0"/>
+<mtx name="u12073" width="0" lsb="0"/>
+<mtx name="u12074" width="0" lsb="0"/>
+<mtx name="u12076" width="0" lsb="0"/>
+<mtx name="u12077" width="0" lsb="0"/>
+<mtx name="u1207A" width="0" lsb="0"/>
+<mtx name="u1207B" width="0" lsb="0"/>
+<mtx name="u1207C" width="0" lsb="0"/>
+<mtx name="u1207D" width="0" lsb="0"/>
+<mtx name="u1207E" width="0" lsb="0"/>
+<mtx name="u12081" width="0" lsb="0"/>
+<mtx name="u12083" width="0" lsb="0"/>
+<mtx name="u12086" width="0" lsb="0"/>
+<mtx name="u12089" width="0" lsb="0"/>
+<mtx name="u1208A" width="0" lsb="0"/>
+<mtx name="u1208D" width="0" lsb="0"/>
+<mtx name="u12094" width="0" lsb="0"/>
+<mtx name="u12096" width="0" lsb="0"/>
+<mtx name="u12097" width="0" lsb="0"/>
+<mtx name="u1209F" width="0" lsb="0"/>
+<mtx name="u120A0" width="0" lsb="0"/>
+<mtx name="u120A6" width="0" lsb="0"/>
+<mtx name="u120B5" width="0" lsb="0"/>
+<mtx name="u120B7" width="0" lsb="0"/>
+<mtx name="u120BC" width="0" lsb="0"/>
+<mtx name="u120DE" width="0" lsb="0"/>
+<mtx name="u120E1" width="0" lsb="0"/>
+<mtx name="u120E2" width="0" lsb="0"/>
+<mtx name="u120EE" width="0" lsb="0"/>
+<mtx name="u120F0" width="0" lsb="0"/>
+<mtx name="u120F2" width="0" lsb="0"/>
+<mtx name="u120F5" width="0" lsb="0"/>
+<mtx name="u120F6" width="0" lsb="0"/>
+<mtx name="u120F7" width="0" lsb="0"/>
+<mtx name="u120F8" width="0" lsb="0"/>
+<mtx name="u120FB" width="0" lsb="0"/>
+<mtx name="u120FC" width="0" lsb="0"/>
+<mtx name="u120FE" width="0" lsb="0"/>
+<mtx name="u120FF" width="0" lsb="0"/>
+<mtx name="u12100" width="0" lsb="0"/>
+<mtx name="u12104" width="0" lsb="0"/>
+<mtx name="u12108" width="0" lsb="0"/>
+<mtx name="u12109" width="0" lsb="0"/>
+<mtx name="u1210B" width="0" lsb="0"/>
+<mtx name="u12111" width="0" lsb="0"/>
+<mtx name="u12116" width="0" lsb="0"/>
+<mtx name="u12118" width="0" lsb="0"/>
+<mtx name="u12119" width="0" lsb="0"/>
+<mtx name="u1211B" width="0" lsb="0"/>
+<mtx name="u1211E" width="0" lsb="0"/>
+<mtx name="u12120" width="0" lsb="0"/>
+<mtx name="u12122" width="0" lsb="0"/>
+<mtx name="u12123" width="0" lsb="0"/>
+<mtx name="u12125" width="0" lsb="0"/>
+<mtx name="u12128" width="0" lsb="0"/>
+<mtx name="u12129" width="0" lsb="0"/>
+<mtx name="u1212B" width="0" lsb="0"/>
+<mtx name="u1212C" width="0" lsb="0"/>
+<mtx name="u1212D" width="0" lsb="0"/>
+<mtx name="u1212F" width="0" lsb="0"/>
+<mtx name="u12134" width="0" lsb="0"/>
+<mtx name="u12137" width="0" lsb="0"/>
+<mtx name="u12138" width="0" lsb="0"/>
+<mtx name="u1213D" width="0" lsb="0"/>
+<mtx name="u1213E" width="0" lsb="0"/>
+<mtx name="u1213F" width="0" lsb="0"/>
+<mtx name="u12141" width="0" lsb="0"/>
+<mtx name="u12145" width="0" lsb="0"/>
+<mtx name="u12146" width="0" lsb="0"/>
+<mtx name="u12147" width="0" lsb="0"/>
+<mtx name="u12148" width="0" lsb="0"/>
+<mtx name="u1214D" width="0" lsb="0"/>
+<mtx name="u1214E" width="0" lsb="0"/>
+<mtx name="u12154" width="0" lsb="0"/>
+<mtx name="u12155" width="0" lsb="0"/>
+<mtx name="u12156" width="0" lsb="0"/>
+<mtx name="u12157" width="0" lsb="0"/>
+<mtx name="u12164" width="0" lsb="0"/>
+<mtx name="u12165" width="0" lsb="0"/>
+<mtx name="u12172" width="0" lsb="0"/>
+<mtx name="u12174" width="0" lsb="0"/>
+<mtx name="u1217E" width="0" lsb="0"/>
+<mtx name="u1218F" width="0" lsb="0"/>
+<mtx name="u12192" width="0" lsb="0"/>
+<mtx name="u12195" width="0" lsb="0"/>
+<mtx name="u12197" width="0" lsb="0"/>
+<mtx name="u1219B" width="0" lsb="0"/>
+<mtx name="u1219C" width="0" lsb="0"/>
+<mtx name="u1219F" width="0" lsb="0"/>
+<mtx name="u121A0" width="0" lsb="0"/>
+<mtx name="u121A2" width="0" lsb="0"/>
+<mtx name="u121A4" width="0" lsb="0"/>
+<mtx name="u121A5" width="0" lsb="0"/>
+<mtx name="u121A6" width="0" lsb="0"/>
+<mtx name="u121A7" width="0" lsb="0"/>
+<mtx name="u121AA" width="0" lsb="0"/>
+<mtx name="u121AC" width="0" lsb="0"/>
+<mtx name="u121AF" width="0" lsb="0"/>
+<mtx name="u121B0" width="0" lsb="0"/>
+<mtx name="u121B3" width="0" lsb="0"/>
+<mtx name="u121B7" width="0" lsb="0"/>
+<mtx name="u121B8" width="0" lsb="0"/>
+<mtx name="u121B9" width="0" lsb="0"/>
+<mtx name="u121C0" width="0" lsb="0"/>
+<mtx name="u121C7" width="0" lsb="0"/>
+<mtx name="u121C9" width="0" lsb="0"/>
+<mtx name="u121CB" width="0" lsb="0"/>
+<mtx name="u121E5" width="0" lsb="0"/>
+<mtx name="u121EC" width="0" lsb="0"/>
+<mtx name="u121EF" width="0" lsb="0"/>
+<mtx name="u121F2" width="0" lsb="0"/>
+<mtx name="u121F4" width="0" lsb="0"/>
+<mtx name="u121F5" width="0" lsb="0"/>
+<mtx name="u121F7" width="0" lsb="0"/>
+<mtx name="u121FA" width="0" lsb="0"/>
+<mtx name="u121FB" width="0" lsb="0"/>
+<mtx name="u121FD" width="0" lsb="0"/>
+<mtx name="u121FF" width="0" lsb="0"/>
+<mtx name="u12216" width="0" lsb="0"/>
+<mtx name="u1221B" width="0" lsb="0"/>
+<mtx name="u1221C" width="0" lsb="0"/>
+<mtx name="u1221D" width="0" lsb="0"/>
+<mtx name="u12220" width="0" lsb="0"/>
+<mtx name="u12223" width="0" lsb="0"/>
+<mtx name="u12224" width="0" lsb="0"/>
+<mtx name="u12225" width="0" lsb="0"/>
+<mtx name="u12226" width="0" lsb="0"/>
+<mtx name="u12227" width="0" lsb="0"/>
+<mtx name="u12228" width="0" lsb="0"/>
+<mtx name="u12229" width="0" lsb="0"/>
+<mtx name="u1222A" width="0" lsb="0"/>
+<mtx name="u1222B" width="0" lsb="0"/>
+<mtx name="u1222C" width="0" lsb="0"/>
+<mtx name="u1222D" width="0" lsb="0"/>
+<mtx name="u1222E" width="0" lsb="0"/>
+<mtx name="u12231" width="0" lsb="0"/>
+<mtx name="u12232" width="0" lsb="0"/>
+<mtx name="u12238" width="0" lsb="0"/>
+<mtx name="u12239" width="0" lsb="0"/>
+<mtx name="u1223E" width="0" lsb="0"/>
+<mtx name="u1223F" width="0" lsb="0"/>
+<mtx name="u12240" width="0" lsb="0"/>
+<mtx name="u12244" width="0" lsb="0"/>
+<mtx name="u12246" width="0" lsb="0"/>
+<mtx name="u12248" width="0" lsb="0"/>
+<mtx name="u1224B" width="0" lsb="0"/>
+<mtx name="u1224C" width="0" lsb="0"/>
+<mtx name="u12250" width="0" lsb="0"/>
+<mtx name="u12258" width="0" lsb="0"/>
+<mtx name="u12261" width="0" lsb="0"/>
+<mtx name="u12262" width="0" lsb="0"/>
+<mtx name="u12263" width="0" lsb="0"/>
+<mtx name="u1226A" width="0" lsb="0"/>
+<mtx name="u1227A" width="0" lsb="0"/>
+<mtx name="u1227B" width="0" lsb="0"/>
+<mtx name="u1227C" width="0" lsb="0"/>
+<mtx name="u1227D" width="0" lsb="0"/>
+<mtx name="u1227E" width="0" lsb="0"/>
+<mtx name="u1227F" width="0" lsb="0"/>
+<mtx name="u1228D" width="0" lsb="0"/>
+<mtx name="u1228F" width="0" lsb="0"/>
+<mtx name="u12291" width="0" lsb="0"/>
+<mtx name="u12292" width="0" lsb="0"/>
+<mtx name="u12293" width="0" lsb="0"/>
+<mtx name="u12295" width="0" lsb="0"/>
+<mtx name="u122A8" width="0" lsb="0"/>
+<mtx name="u122A9" width="0" lsb="0"/>
+<mtx name="u122AB" width="0" lsb="0"/>
+<mtx name="u122AC" width="0" lsb="0"/>
+<mtx name="u122AD" width="0" lsb="0"/>
+<mtx name="u122AE" width="0" lsb="0"/>
+<mtx name="u122B7" width="0" lsb="0"/>
+<mtx name="u122BA" width="0" lsb="0"/>
+<mtx name="u122C0" width="0" lsb="0"/>
+<mtx name="u122C3" width="0" lsb="0"/>
+<mtx name="u122C6" width="0" lsb="0"/>
+<mtx name="u122D2" width="0" lsb="0"/>
+<mtx name="u122D7" width="0" lsb="0"/>
+<mtx name="u122D9" width="0" lsb="0"/>
+<mtx name="u122DA" width="0" lsb="0"/>
+<mtx name="u122DB" width="0" lsb="0"/>
+<mtx name="u122DC" width="0" lsb="0"/>
+<mtx name="u122DD" width="0" lsb="0"/>
+<mtx name="u122DE" width="0" lsb="0"/>
+<mtx name="u122E0" width="0" lsb="0"/>
+<mtx name="u122E1" width="0" lsb="0"/>
+<mtx name="u122E2" width="0" lsb="0"/>
+<mtx name="u122E7" width="0" lsb="0"/>
+<mtx name="u122E9" width="0" lsb="0"/>
+<mtx name="u122EB" width="0" lsb="0"/>
+<mtx name="u122ED" width="0" lsb="0"/>
+<mtx name="u122F0" width="0" lsb="0"/>
+<mtx name="u122F3" width="0" lsb="0"/>
+<mtx name="u122FA" width="0" lsb="0"/>
+<mtx name="u122FB" width="0" lsb="0"/>
+<mtx name="u122FC" width="0" lsb="0"/>
+<mtx name="u122FD" width="0" lsb="0"/>
+<mtx name="u122FE" width="0" lsb="0"/>
+<mtx name="u12300" width="0" lsb="0"/>
+<mtx name="u12301" width="0" lsb="0"/>
+<mtx name="u12303" width="0" lsb="0"/>
+<mtx name="u12305" width="0" lsb="0"/>
+<mtx name="u12306" width="0" lsb="0"/>
+<mtx name="u12307" width="0" lsb="0"/>
+<mtx name="u12308" width="0" lsb="0"/>
+<mtx name="u12309" width="0" lsb="0"/>
+<mtx name="u1230B" width="0" lsb="0"/>
+<mtx name="u1230C" width="0" lsb="0"/>
+<mtx name="u12311" width="0" lsb="0"/>
+<mtx name="u12312" width="0" lsb="0"/>
+<mtx name="u12313" width="0" lsb="0"/>
+<mtx name="u12317" width="0" lsb="0"/>
+<mtx name="u1231D" width="0" lsb="0"/>
+<mtx name="u12324" width="0" lsb="0"/>
+<mtx name="u12328" width="0" lsb="0"/>
+<mtx name="u1232B" width="0" lsb="0"/>
+<mtx name="u12334" width="0" lsb="0"/>
+<mtx name="u12335" width="0" lsb="0"/>
+<mtx name="u12336" width="0" lsb="0"/>
+<mtx name="u12337" width="0" lsb="0"/>
+<mtx name="u1233A" width="0" lsb="0"/>
+<mtx name="u12340" width="0" lsb="0"/>
+<mtx name="u12342" width="0" lsb="0"/>
+<mtx name="u1234E" width="0" lsb="0"/>
+<mtx name="u1234F" width="0" lsb="0"/>
+<mtx name="u12351" width="0" lsb="0"/>
+<mtx name="u12355" width="0" lsb="0"/>
+<mtx name="u12356" width="0" lsb="0"/>
+<mtx name="u1235A" width="0" lsb="0"/>
+<mtx name="u1235D" width="0" lsb="0"/>
+<mtx name="u12362" width="0" lsb="0"/>
+<mtx name="u12363" width="0" lsb="0"/>
+<mtx name="u1236A" width="0" lsb="0"/>
+<mtx name="u1236E" width="0" lsb="0"/>
+<mtx name="u1237C" width="0" lsb="0"/>
+<mtx name="u1238F" width="0" lsb="0"/>
+<mtx name="u12408" width="0" lsb="0"/>
+<mtx name="u12409" width="0" lsb="0"/>
+<mtx name="u1244A" width="0" lsb="0"/>
+<mtx name="u1244F" width="0" lsb="0"/>
+<mtx name="u1245A" width="0" lsb="0"/>
+<mtx name="u124CB" width="0" lsb="0"/>
+<mtx name="u124E5" width="0" lsb="0"/>
+<mtx name="uF0086" width="0" lsb="0"/>
+  </hmtx>
+
+  <cmap>
+    <tableVersion version="0"/>
+    <cmap_format_4 platformID="0" platEncID="3" language="0">
+      <map code="0x0" name=".null"/><!-- ???? -->
+      <map code="0xd" name="uni000D"/><!-- ???? -->
+      <map code="0x20" name="space"/><!-- SPACE -->
+    </cmap_format_4>
+    <cmap_format_12 platformID="0" platEncID="4" format="12" reserved="0" length="64" language="0" nGroups="4">
+      <map code="0x0" name=".null"/><!-- ???? -->
+      <map code="0xd" name="uni000D"/><!-- ???? -->
+      <map code="0x20" name="space"/><!-- SPACE -->
+      <map code="0x12000" name="u12000"/><!-- CUNEIFORM SIGN A -->
+<map code="0x12004" name="u12004"/><!--xxx-->
+<map code="0x12009" name="u12009"/><!--xxx-->
+<map code="0x1200a" name="u1200A"/><!--xxx-->
+<map code="0x12016" name="u12016"/><!--xxx-->
+<map code="0x1201c" name="u1201C"/><!--xxx-->
+<map code="0x1201d" name="u1201D"/><!--xxx-->
+<map code="0x12020" name="u12020"/><!--xxx-->
+<map code="0x1202b" name="u1202B"/><!--xxx-->
+<map code="0x1202d" name="u1202D"/><!--xxx-->
+<map code="0x1202f" name="u1202F"/><!--xxx-->
+<map code="0x12032" name="u12032"/><!--xxx-->
+<map code="0x12033" name="u12033"/><!--xxx-->
+<map code="0x12034" name="u12034"/><!--xxx-->
+<map code="0x12035" name="u12035"/><!--xxx-->
+<map code="0x12038" name="u12038"/><!--xxx-->
+<map code="0x1203e" name="u1203E"/><!--xxx-->
+<map code="0x12040" name="u12040"/><!--xxx-->
+<map code="0x12041" name="u12041"/><!--xxx-->
+<map code="0x12043" name="u12043"/><!--xxx-->
+<map code="0x12044" name="u12044"/><!--xxx-->
+<map code="0x12046" name="u12046"/><!--xxx-->
+<map code="0x12047" name="u12047"/><!--xxx-->
+<map code="0x1204d" name="u1204D"/><!--xxx-->
+<map code="0x12053" name="u12053"/><!--xxx-->
+<map code="0x12054" name="u12054"/><!--xxx-->
+<map code="0x12055" name="u12055"/><!--xxx-->
+<map code="0x12056" name="u12056"/><!--xxx-->
+<map code="0x1206e" name="u1206E"/><!--xxx-->
+<map code="0x1206f" name="u1206F"/><!--xxx-->
+<map code="0x12072" name="u12072"/><!--xxx-->
+<map code="0x12073" name="u12073"/><!--xxx-->
+<map code="0x12074" name="u12074"/><!--xxx-->
+<map code="0x12076" name="u12076"/><!--xxx-->
+<map code="0x12077" name="u12077"/><!--xxx-->
+<map code="0x1207a" name="u1207A"/><!--xxx-->
+<map code="0x1207b" name="u1207B"/><!--xxx-->
+<map code="0x1207c" name="u1207C"/><!--xxx-->
+<map code="0x1207d" name="u1207D"/><!--xxx-->
+<map code="0x1207e" name="u1207E"/><!--xxx-->
+<map code="0x12081" name="u12081"/><!--xxx-->
+<map code="0x12083" name="u12083"/><!--xxx-->
+<map code="0x12086" name="u12086"/><!--xxx-->
+<map code="0x12089" name="u12089"/><!--xxx-->
+<map code="0x1208a" name="u1208A"/><!--xxx-->
+<map code="0x1208d" name="u1208D"/><!--xxx-->
+<map code="0x12094" name="u12094"/><!--xxx-->
+<map code="0x12096" name="u12096"/><!--xxx-->
+<map code="0x12097" name="u12097"/><!--xxx-->
+<map code="0x1209f" name="u1209F"/><!--xxx-->
+<map code="0x120a0" name="u120A0"/><!--xxx-->
+<map code="0x120a6" name="u120A6"/><!--xxx-->
+<map code="0x120b5" name="u120B5"/><!--xxx-->
+<map code="0x120b7" name="u120B7"/><!--xxx-->
+<map code="0x120bc" name="u120BC"/><!--xxx-->
+<map code="0x120de" name="u120DE"/><!--xxx-->
+<map code="0x120e1" name="u120E1"/><!--xxx-->
+<map code="0x120e2" name="u120E2"/><!--xxx-->
+<map code="0x120ee" name="u120EE"/><!--xxx-->
+<map code="0x120f0" name="u120F0"/><!--xxx-->
+<map code="0x120f2" name="u120F2"/><!--xxx-->
+<map code="0x120f5" name="u120F5"/><!--xxx-->
+<map code="0x120f6" name="u120F6"/><!--xxx-->
+<map code="0x120f7" name="u120F7"/><!--xxx-->
+<map code="0x120f8" name="u120F8"/><!--xxx-->
+<map code="0x120fb" name="u120FB"/><!--xxx-->
+<map code="0x120fc" name="u120FC"/><!--xxx-->
+<map code="0x120fe" name="u120FE"/><!--xxx-->
+<map code="0x120ff" name="u120FF"/><!--xxx-->
+<map code="0x12100" name="u12100"/><!--xxx-->
+<map code="0x12104" name="u12104"/><!--xxx-->
+<map code="0x12108" name="u12108"/><!--xxx-->
+<map code="0x12109" name="u12109"/><!--xxx-->
+<map code="0x1210b" name="u1210B"/><!--xxx-->
+<map code="0x12111" name="u12111"/><!--xxx-->
+<map code="0x12116" name="u12116"/><!--xxx-->
+<map code="0x12118" name="u12118"/><!--xxx-->
+<map code="0x12119" name="u12119"/><!--xxx-->
+<map code="0x1211b" name="u1211B"/><!--xxx-->
+<map code="0x1211e" name="u1211E"/><!--xxx-->
+<map code="0x12120" name="u12120"/><!--xxx-->
+<map code="0x12122" name="u12122"/><!--xxx-->
+<map code="0x12123" name="u12123"/><!--xxx-->
+<map code="0x12125" name="u12125"/><!--xxx-->
+<map code="0x12128" name="u12128"/><!--xxx-->
+<map code="0x12129" name="u12129"/><!--xxx-->
+<map code="0x1212b" name="u1212B"/><!--xxx-->
+<map code="0x1212c" name="u1212C"/><!--xxx-->
+<map code="0x1212d" name="u1212D"/><!--xxx-->
+<map code="0x1212f" name="u1212F"/><!--xxx-->
+<map code="0x12134" name="u12134"/><!--xxx-->
+<map code="0x12137" name="u12137"/><!--xxx-->
+<map code="0x12138" name="u12138"/><!--xxx-->
+<map code="0x1213d" name="u1213D"/><!--xxx-->
+<map code="0x1213e" name="u1213E"/><!--xxx-->
+<map code="0x1213f" name="u1213F"/><!--xxx-->
+<map code="0x12141" name="u12141"/><!--xxx-->
+<map code="0x12145" name="u12145"/><!--xxx-->
+<map code="0x12146" name="u12146"/><!--xxx-->
+<map code="0x12147" name="u12147"/><!--xxx-->
+<map code="0x12148" name="u12148"/><!--xxx-->
+<map code="0x1214d" name="u1214D"/><!--xxx-->
+<map code="0x1214e" name="u1214E"/><!--xxx-->
+<map code="0x12154" name="u12154"/><!--xxx-->
+<map code="0x12155" name="u12155"/><!--xxx-->
+<map code="0x12156" name="u12156"/><!--xxx-->
+<map code="0x12157" name="u12157"/><!--xxx-->
+<map code="0x12164" name="u12164"/><!--xxx-->
+<map code="0x12165" name="u12165"/><!--xxx-->
+<map code="0x12172" name="u12172"/><!--xxx-->
+<map code="0x12174" name="u12174"/><!--xxx-->
+<map code="0x1217e" name="u1217E"/><!--xxx-->
+<map code="0x1218f" name="u1218F"/><!--xxx-->
+<map code="0x12192" name="u12192"/><!--xxx-->
+<map code="0x12195" name="u12195"/><!--xxx-->
+<map code="0x12197" name="u12197"/><!--xxx-->
+<map code="0x1219b" name="u1219B"/><!--xxx-->
+<map code="0x1219c" name="u1219C"/><!--xxx-->
+<map code="0x1219f" name="u1219F"/><!--xxx-->
+<map code="0x121a0" name="u121A0"/><!--xxx-->
+<map code="0x121a2" name="u121A2"/><!--xxx-->
+<map code="0x121a4" name="u121A4"/><!--xxx-->
+<map code="0x121a5" name="u121A5"/><!--xxx-->
+<map code="0x121a6" name="u121A6"/><!--xxx-->
+<map code="0x121a7" name="u121A7"/><!--xxx-->
+<map code="0x121aa" name="u121AA"/><!--xxx-->
+<map code="0x121ac" name="u121AC"/><!--xxx-->
+<map code="0x121af" name="u121AF"/><!--xxx-->
+<map code="0x121b0" name="u121B0"/><!--xxx-->
+<map code="0x121b3" name="u121B3"/><!--xxx-->
+<map code="0x121b7" name="u121B7"/><!--xxx-->
+<map code="0x121b8" name="u121B8"/><!--xxx-->
+<map code="0x121b9" name="u121B9"/><!--xxx-->
+<map code="0x121c0" name="u121C0"/><!--xxx-->
+<map code="0x121c7" name="u121C7"/><!--xxx-->
+<map code="0x121c9" name="u121C9"/><!--xxx-->
+<map code="0x121cb" name="u121CB"/><!--xxx-->
+<map code="0x121e5" name="u121E5"/><!--xxx-->
+<map code="0x121ec" name="u121EC"/><!--xxx-->
+<map code="0x121ef" name="u121EF"/><!--xxx-->
+<map code="0x121f2" name="u121F2"/><!--xxx-->
+<map code="0x121f4" name="u121F4"/><!--xxx-->
+<map code="0x121f5" name="u121F5"/><!--xxx-->
+<map code="0x121f7" name="u121F7"/><!--xxx-->
+<map code="0x121fa" name="u121FA"/><!--xxx-->
+<map code="0x121fb" name="u121FB"/><!--xxx-->
+<map code="0x121fd" name="u121FD"/><!--xxx-->
+<map code="0x121ff" name="u121FF"/><!--xxx-->
+<map code="0x12216" name="u12216"/><!--xxx-->
+<map code="0x1221b" name="u1221B"/><!--xxx-->
+<map code="0x1221c" name="u1221C"/><!--xxx-->
+<map code="0x1221d" name="u1221D"/><!--xxx-->
+<map code="0x12220" name="u12220"/><!--xxx-->
+<map code="0x12223" name="u12223"/><!--xxx-->
+<map code="0x12224" name="u12224"/><!--xxx-->
+<map code="0x12225" name="u12225"/><!--xxx-->
+<map code="0x12226" name="u12226"/><!--xxx-->
+<map code="0x12227" name="u12227"/><!--xxx-->
+<map code="0x12228" name="u12228"/><!--xxx-->
+<map code="0x12229" name="u12229"/><!--xxx-->
+<map code="0x1222a" name="u1222A"/><!--xxx-->
+<map code="0x1222b" name="u1222B"/><!--xxx-->
+<map code="0x1222c" name="u1222C"/><!--xxx-->
+<map code="0x1222d" name="u1222D"/><!--xxx-->
+<map code="0x1222e" name="u1222E"/><!--xxx-->
+<map code="0x12231" name="u12231"/><!--xxx-->
+<map code="0x12232" name="u12232"/><!--xxx-->
+<map code="0x12238" name="u12238"/><!--xxx-->
+<map code="0x12239" name="u12239"/><!--xxx-->
+<map code="0x1223e" name="u1223E"/><!--xxx-->
+<map code="0x1223f" name="u1223F"/><!--xxx-->
+<map code="0x12240" name="u12240"/><!--xxx-->
+<map code="0x12244" name="u12244"/><!--xxx-->
+<map code="0x12246" name="u12246"/><!--xxx-->
+<map code="0x12248" name="u12248"/><!--xxx-->
+<map code="0x1224b" name="u1224B"/><!--xxx-->
+<map code="0x1224c" name="u1224C"/><!--xxx-->
+<map code="0x12250" name="u12250"/><!--xxx-->
+<map code="0x12258" name="u12258"/><!--xxx-->
+<map code="0x12261" name="u12261"/><!--xxx-->
+<map code="0x12262" name="u12262"/><!--xxx-->
+<map code="0x12263" name="u12263"/><!--xxx-->
+<map code="0x1226a" name="u1226A"/><!--xxx-->
+<map code="0x1227a" name="u1227A"/><!--xxx-->
+<map code="0x1227b" name="u1227B"/><!--xxx-->
+<map code="0x1227c" name="u1227C"/><!--xxx-->
+<map code="0x1227d" name="u1227D"/><!--xxx-->
+<map code="0x1227e" name="u1227E"/><!--xxx-->
+<map code="0x1227f" name="u1227F"/><!--xxx-->
+<map code="0x1228d" name="u1228D"/><!--xxx-->
+<map code="0x1228f" name="u1228F"/><!--xxx-->
+<map code="0x12291" name="u12291"/><!--xxx-->
+<map code="0x12292" name="u12292"/><!--xxx-->
+<map code="0x12293" name="u12293"/><!--xxx-->
+<map code="0x12295" name="u12295"/><!--xxx-->
+<map code="0x122a8" name="u122A8"/><!--xxx-->
+<map code="0x122a9" name="u122A9"/><!--xxx-->
+<map code="0x122ab" name="u122AB"/><!--xxx-->
+<map code="0x122ac" name="u122AC"/><!--xxx-->
+<map code="0x122ad" name="u122AD"/><!--xxx-->
+<map code="0x122ae" name="u122AE"/><!--xxx-->
+<map code="0x122b7" name="u122B7"/><!--xxx-->
+<map code="0x122ba" name="u122BA"/><!--xxx-->
+<map code="0x122c0" name="u122C0"/><!--xxx-->
+<map code="0x122c3" name="u122C3"/><!--xxx-->
+<map code="0x122c6" name="u122C6"/><!--xxx-->
+<map code="0x122d2" name="u122D2"/><!--xxx-->
+<map code="0x122d7" name="u122D7"/><!--xxx-->
+<map code="0x122d9" name="u122D9"/><!--xxx-->
+<map code="0x122da" name="u122DA"/><!--xxx-->
+<map code="0x122db" name="u122DB"/><!--xxx-->
+<map code="0x122dc" name="u122DC"/><!--xxx-->
+<map code="0x122dd" name="u122DD"/><!--xxx-->
+<map code="0x122de" name="u122DE"/><!--xxx-->
+<map code="0x122e0" name="u122E0"/><!--xxx-->
+<map code="0x122e1" name="u122E1"/><!--xxx-->
+<map code="0x122e2" name="u122E2"/><!--xxx-->
+<map code="0x122e7" name="u122E7"/><!--xxx-->
+<map code="0x122e9" name="u122E9"/><!--xxx-->
+<map code="0x122eb" name="u122EB"/><!--xxx-->
+<map code="0x122ed" name="u122ED"/><!--xxx-->
+<map code="0x122f0" name="u122F0"/><!--xxx-->
+<map code="0x122f3" name="u122F3"/><!--xxx-->
+<map code="0x122fa" name="u122FA"/><!--xxx-->
+<map code="0x122fb" name="u122FB"/><!--xxx-->
+<map code="0x122fc" name="u122FC"/><!--xxx-->
+<map code="0x122fd" name="u122FD"/><!--xxx-->
+<map code="0x122fe" name="u122FE"/><!--xxx-->
+<map code="0x12300" name="u12300"/><!--xxx-->
+<map code="0x12301" name="u12301"/><!--xxx-->
+<map code="0x12303" name="u12303"/><!--xxx-->
+<map code="0x12305" name="u12305"/><!--xxx-->
+<map code="0x12306" name="u12306"/><!--xxx-->
+<map code="0x12307" name="u12307"/><!--xxx-->
+<map code="0x12308" name="u12308"/><!--xxx-->
+<map code="0x12309" name="u12309"/><!--xxx-->
+<map code="0x1230b" name="u1230B"/><!--xxx-->
+<map code="0x1230c" name="u1230C"/><!--xxx-->
+<map code="0x12311" name="u12311"/><!--xxx-->
+<map code="0x12312" name="u12312"/><!--xxx-->
+<map code="0x12313" name="u12313"/><!--xxx-->
+<map code="0x12317" name="u12317"/><!--xxx-->
+<map code="0x1231d" name="u1231D"/><!--xxx-->
+<map code="0x12324" name="u12324"/><!--xxx-->
+<map code="0x12328" name="u12328"/><!--xxx-->
+<map code="0x1232b" name="u1232B"/><!--xxx-->
+<map code="0x12334" name="u12334"/><!--xxx-->
+<map code="0x12335" name="u12335"/><!--xxx-->
+<map code="0x12336" name="u12336"/><!--xxx-->
+<map code="0x12337" name="u12337"/><!--xxx-->
+<map code="0x1233a" name="u1233A"/><!--xxx-->
+<map code="0x12340" name="u12340"/><!--xxx-->
+<map code="0x12342" name="u12342"/><!--xxx-->
+<map code="0x1234e" name="u1234E"/><!--xxx-->
+<map code="0x1234f" name="u1234F"/><!--xxx-->
+<map code="0x12351" name="u12351"/><!--xxx-->
+<map code="0x12355" name="u12355"/><!--xxx-->
+<map code="0x12356" name="u12356"/><!--xxx-->
+<map code="0x1235a" name="u1235A"/><!--xxx-->
+<map code="0x1235d" name="u1235D"/><!--xxx-->
+<map code="0x12362" name="u12362"/><!--xxx-->
+<map code="0x12363" name="u12363"/><!--xxx-->
+<map code="0x1236a" name="u1236A"/><!--xxx-->
+<map code="0x1236e" name="u1236E"/><!--xxx-->
+<map code="0x1237c" name="u1237C"/><!--xxx-->
+<map code="0x1238f" name="u1238F"/><!--xxx-->
+<map code="0x12408" name="u12408"/><!--xxx-->
+<map code="0x12409" name="u12409"/><!--xxx-->
+<map code="0x1244a" name="u1244A"/><!--xxx-->
+<map code="0x1244f" name="u1244F"/><!--xxx-->
+<map code="0x1245a" name="u1245A"/><!--xxx-->
+<map code="0x124cb" name="u124CB"/><!--xxx-->
+<map code="0x124e5" name="u124E5"/><!--xxx-->
+<map code="0xf0086" name="uF0086"/><!--xxx-->
+    </cmap_format_12>
+    <cmap_format_6 platformID="1" platEncID="0" language="0">
+      <map code="0x0" name=".null"/>
+      <map code="0xd" name="uni000D"/>
+      <map code="0x20" name="space"/>
+    </cmap_format_6>
+    <cmap_format_4 platformID="3" platEncID="1" language="0">
+      <map code="0x0" name=".null"/><!-- ???? -->
+      <map code="0xd" name="uni000D"/><!-- ???? -->
+      <map code="0x20" name="space"/><!-- SPACE -->
+    </cmap_format_4>
+    <cmap_format_12 platformID="3" platEncID="10" format="12" reserved="0" length="64" language="0" nGroups="4">
+      <map code="0x0" name=".null"/><!-- ???? -->
+      <map code="0xd" name="uni000D"/><!-- ???? -->
+      <map code="0x20" name="space"/><!-- SPACE -->
+      <map code="0x12000" name="u12000"/><!-- CUNEIFORM SIGN A -->
+<map code="0x12004" name="u12004"/><!--xxx-->
+<map code="0x12009" name="u12009"/><!--xxx-->
+<map code="0x1200a" name="u1200A"/><!--xxx-->
+<map code="0x12016" name="u12016"/><!--xxx-->
+<map code="0x1201c" name="u1201C"/><!--xxx-->
+<map code="0x1201d" name="u1201D"/><!--xxx-->
+<map code="0x12020" name="u12020"/><!--xxx-->
+<map code="0x1202b" name="u1202B"/><!--xxx-->
+<map code="0x1202d" name="u1202D"/><!--xxx-->
+<map code="0x1202f" name="u1202F"/><!--xxx-->
+<map code="0x12032" name="u12032"/><!--xxx-->
+<map code="0x12033" name="u12033"/><!--xxx-->
+<map code="0x12034" name="u12034"/><!--xxx-->
+<map code="0x12035" name="u12035"/><!--xxx-->
+<map code="0x12038" name="u12038"/><!--xxx-->
+<map code="0x1203e" name="u1203E"/><!--xxx-->
+<map code="0x12040" name="u12040"/><!--xxx-->
+<map code="0x12041" name="u12041"/><!--xxx-->
+<map code="0x12043" name="u12043"/><!--xxx-->
+<map code="0x12044" name="u12044"/><!--xxx-->
+<map code="0x12046" name="u12046"/><!--xxx-->
+<map code="0x12047" name="u12047"/><!--xxx-->
+<map code="0x1204d" name="u1204D"/><!--xxx-->
+<map code="0x12053" name="u12053"/><!--xxx-->
+<map code="0x12054" name="u12054"/><!--xxx-->
+<map code="0x12055" name="u12055"/><!--xxx-->
+<map code="0x12056" name="u12056"/><!--xxx-->
+<map code="0x1206e" name="u1206E"/><!--xxx-->
+<map code="0x1206f" name="u1206F"/><!--xxx-->
+<map code="0x12072" name="u12072"/><!--xxx-->
+<map code="0x12073" name="u12073"/><!--xxx-->
+<map code="0x12074" name="u12074"/><!--xxx-->
+<map code="0x12076" name="u12076"/><!--xxx-->
+<map code="0x12077" name="u12077"/><!--xxx-->
+<map code="0x1207a" name="u1207A"/><!--xxx-->
+<map code="0x1207b" name="u1207B"/><!--xxx-->
+<map code="0x1207c" name="u1207C"/><!--xxx-->
+<map code="0x1207d" name="u1207D"/><!--xxx-->
+<map code="0x1207e" name="u1207E"/><!--xxx-->
+<map code="0x12081" name="u12081"/><!--xxx-->
+<map code="0x12083" name="u12083"/><!--xxx-->
+<map code="0x12086" name="u12086"/><!--xxx-->
+<map code="0x12089" name="u12089"/><!--xxx-->
+<map code="0x1208a" name="u1208A"/><!--xxx-->
+<map code="0x1208d" name="u1208D"/><!--xxx-->
+<map code="0x12094" name="u12094"/><!--xxx-->
+<map code="0x12096" name="u12096"/><!--xxx-->
+<map code="0x12097" name="u12097"/><!--xxx-->
+<map code="0x1209f" name="u1209F"/><!--xxx-->
+<map code="0x120a0" name="u120A0"/><!--xxx-->
+<map code="0x120a6" name="u120A6"/><!--xxx-->
+<map code="0x120b5" name="u120B5"/><!--xxx-->
+<map code="0x120b7" name="u120B7"/><!--xxx-->
+<map code="0x120bc" name="u120BC"/><!--xxx-->
+<map code="0x120de" name="u120DE"/><!--xxx-->
+<map code="0x120e1" name="u120E1"/><!--xxx-->
+<map code="0x120e2" name="u120E2"/><!--xxx-->
+<map code="0x120ee" name="u120EE"/><!--xxx-->
+<map code="0x120f0" name="u120F0"/><!--xxx-->
+<map code="0x120f2" name="u120F2"/><!--xxx-->
+<map code="0x120f5" name="u120F5"/><!--xxx-->
+<map code="0x120f6" name="u120F6"/><!--xxx-->
+<map code="0x120f7" name="u120F7"/><!--xxx-->
+<map code="0x120f8" name="u120F8"/><!--xxx-->
+<map code="0x120fb" name="u120FB"/><!--xxx-->
+<map code="0x120fc" name="u120FC"/><!--xxx-->
+<map code="0x120fe" name="u120FE"/><!--xxx-->
+<map code="0x120ff" name="u120FF"/><!--xxx-->
+<map code="0x12100" name="u12100"/><!--xxx-->
+<map code="0x12104" name="u12104"/><!--xxx-->
+<map code="0x12108" name="u12108"/><!--xxx-->
+<map code="0x12109" name="u12109"/><!--xxx-->
+<map code="0x1210b" name="u1210B"/><!--xxx-->
+<map code="0x12111" name="u12111"/><!--xxx-->
+<map code="0x12116" name="u12116"/><!--xxx-->
+<map code="0x12118" name="u12118"/><!--xxx-->
+<map code="0x12119" name="u12119"/><!--xxx-->
+<map code="0x1211b" name="u1211B"/><!--xxx-->
+<map code="0x1211e" name="u1211E"/><!--xxx-->
+<map code="0x12120" name="u12120"/><!--xxx-->
+<map code="0x12122" name="u12122"/><!--xxx-->
+<map code="0x12123" name="u12123"/><!--xxx-->
+<map code="0x12125" name="u12125"/><!--xxx-->
+<map code="0x12128" name="u12128"/><!--xxx-->
+<map code="0x12129" name="u12129"/><!--xxx-->
+<map code="0x1212b" name="u1212B"/><!--xxx-->
+<map code="0x1212c" name="u1212C"/><!--xxx-->
+<map code="0x1212d" name="u1212D"/><!--xxx-->
+<map code="0x1212f" name="u1212F"/><!--xxx-->
+<map code="0x12134" name="u12134"/><!--xxx-->
+<map code="0x12137" name="u12137"/><!--xxx-->
+<map code="0x12138" name="u12138"/><!--xxx-->
+<map code="0x1213d" name="u1213D"/><!--xxx-->
+<map code="0x1213e" name="u1213E"/><!--xxx-->
+<map code="0x1213f" name="u1213F"/><!--xxx-->
+<map code="0x12141" name="u12141"/><!--xxx-->
+<map code="0x12145" name="u12145"/><!--xxx-->
+<map code="0x12146" name="u12146"/><!--xxx-->
+<map code="0x12147" name="u12147"/><!--xxx-->
+<map code="0x12148" name="u12148"/><!--xxx-->
+<map code="0x1214d" name="u1214D"/><!--xxx-->
+<map code="0x1214e" name="u1214E"/><!--xxx-->
+<map code="0x12154" name="u12154"/><!--xxx-->
+<map code="0x12155" name="u12155"/><!--xxx-->
+<map code="0x12156" name="u12156"/><!--xxx-->
+<map code="0x12157" name="u12157"/><!--xxx-->
+<map code="0x12164" name="u12164"/><!--xxx-->
+<map code="0x12165" name="u12165"/><!--xxx-->
+<map code="0x12172" name="u12172"/><!--xxx-->
+<map code="0x12174" name="u12174"/><!--xxx-->
+<map code="0x1217e" name="u1217E"/><!--xxx-->
+<map code="0x1218f" name="u1218F"/><!--xxx-->
+<map code="0x12192" name="u12192"/><!--xxx-->
+<map code="0x12195" name="u12195"/><!--xxx-->
+<map code="0x12197" name="u12197"/><!--xxx-->
+<map code="0x1219b" name="u1219B"/><!--xxx-->
+<map code="0x1219c" name="u1219C"/><!--xxx-->
+<map code="0x1219f" name="u1219F"/><!--xxx-->
+<map code="0x121a0" name="u121A0"/><!--xxx-->
+<map code="0x121a2" name="u121A2"/><!--xxx-->
+<map code="0x121a4" name="u121A4"/><!--xxx-->
+<map code="0x121a5" name="u121A5"/><!--xxx-->
+<map code="0x121a6" name="u121A6"/><!--xxx-->
+<map code="0x121a7" name="u121A7"/><!--xxx-->
+<map code="0x121aa" name="u121AA"/><!--xxx-->
+<map code="0x121ac" name="u121AC"/><!--xxx-->
+<map code="0x121af" name="u121AF"/><!--xxx-->
+<map code="0x121b0" name="u121B0"/><!--xxx-->
+<map code="0x121b3" name="u121B3"/><!--xxx-->
+<map code="0x121b7" name="u121B7"/><!--xxx-->
+<map code="0x121b8" name="u121B8"/><!--xxx-->
+<map code="0x121b9" name="u121B9"/><!--xxx-->
+<map code="0x121c0" name="u121C0"/><!--xxx-->
+<map code="0x121c7" name="u121C7"/><!--xxx-->
+<map code="0x121c9" name="u121C9"/><!--xxx-->
+<map code="0x121cb" name="u121CB"/><!--xxx-->
+<map code="0x121e5" name="u121E5"/><!--xxx-->
+<map code="0x121ec" name="u121EC"/><!--xxx-->
+<map code="0x121ef" name="u121EF"/><!--xxx-->
+<map code="0x121f2" name="u121F2"/><!--xxx-->
+<map code="0x121f4" name="u121F4"/><!--xxx-->
+<map code="0x121f5" name="u121F5"/><!--xxx-->
+<map code="0x121f7" name="u121F7"/><!--xxx-->
+<map code="0x121fa" name="u121FA"/><!--xxx-->
+<map code="0x121fb" name="u121FB"/><!--xxx-->
+<map code="0x121fd" name="u121FD"/><!--xxx-->
+<map code="0x121ff" name="u121FF"/><!--xxx-->
+<map code="0x12216" name="u12216"/><!--xxx-->
+<map code="0x1221b" name="u1221B"/><!--xxx-->
+<map code="0x1221c" name="u1221C"/><!--xxx-->
+<map code="0x1221d" name="u1221D"/><!--xxx-->
+<map code="0x12220" name="u12220"/><!--xxx-->
+<map code="0x12223" name="u12223"/><!--xxx-->
+<map code="0x12224" name="u12224"/><!--xxx-->
+<map code="0x12225" name="u12225"/><!--xxx-->
+<map code="0x12226" name="u12226"/><!--xxx-->
+<map code="0x12227" name="u12227"/><!--xxx-->
+<map code="0x12228" name="u12228"/><!--xxx-->
+<map code="0x12229" name="u12229"/><!--xxx-->
+<map code="0x1222a" name="u1222A"/><!--xxx-->
+<map code="0x1222b" name="u1222B"/><!--xxx-->
+<map code="0x1222c" name="u1222C"/><!--xxx-->
+<map code="0x1222d" name="u1222D"/><!--xxx-->
+<map code="0x1222e" name="u1222E"/><!--xxx-->
+<map code="0x12231" name="u12231"/><!--xxx-->
+<map code="0x12232" name="u12232"/><!--xxx-->
+<map code="0x12238" name="u12238"/><!--xxx-->
+<map code="0x12239" name="u12239"/><!--xxx-->
+<map code="0x1223e" name="u1223E"/><!--xxx-->
+<map code="0x1223f" name="u1223F"/><!--xxx-->
+<map code="0x12240" name="u12240"/><!--xxx-->
+<map code="0x12244" name="u12244"/><!--xxx-->
+<map code="0x12246" name="u12246"/><!--xxx-->
+<map code="0x12248" name="u12248"/><!--xxx-->
+<map code="0x1224b" name="u1224B"/><!--xxx-->
+<map code="0x1224c" name="u1224C"/><!--xxx-->
+<map code="0x12250" name="u12250"/><!--xxx-->
+<map code="0x12258" name="u12258"/><!--xxx-->
+<map code="0x12261" name="u12261"/><!--xxx-->
+<map code="0x12262" name="u12262"/><!--xxx-->
+<map code="0x12263" name="u12263"/><!--xxx-->
+<map code="0x1226a" name="u1226A"/><!--xxx-->
+<map code="0x1227a" name="u1227A"/><!--xxx-->
+<map code="0x1227b" name="u1227B"/><!--xxx-->
+<map code="0x1227c" name="u1227C"/><!--xxx-->
+<map code="0x1227d" name="u1227D"/><!--xxx-->
+<map code="0x1227e" name="u1227E"/><!--xxx-->
+<map code="0x1227f" name="u1227F"/><!--xxx-->
+<map code="0x1228d" name="u1228D"/><!--xxx-->
+<map code="0x1228f" name="u1228F"/><!--xxx-->
+<map code="0x12291" name="u12291"/><!--xxx-->
+<map code="0x12292" name="u12292"/><!--xxx-->
+<map code="0x12293" name="u12293"/><!--xxx-->
+<map code="0x12295" name="u12295"/><!--xxx-->
+<map code="0x122a8" name="u122A8"/><!--xxx-->
+<map code="0x122a9" name="u122A9"/><!--xxx-->
+<map code="0x122ab" name="u122AB"/><!--xxx-->
+<map code="0x122ac" name="u122AC"/><!--xxx-->
+<map code="0x122ad" name="u122AD"/><!--xxx-->
+<map code="0x122ae" name="u122AE"/><!--xxx-->
+<map code="0x122b7" name="u122B7"/><!--xxx-->
+<map code="0x122ba" name="u122BA"/><!--xxx-->
+<map code="0x122c0" name="u122C0"/><!--xxx-->
+<map code="0x122c3" name="u122C3"/><!--xxx-->
+<map code="0x122c6" name="u122C6"/><!--xxx-->
+<map code="0x122d2" name="u122D2"/><!--xxx-->
+<map code="0x122d7" name="u122D7"/><!--xxx-->
+<map code="0x122d9" name="u122D9"/><!--xxx-->
+<map code="0x122da" name="u122DA"/><!--xxx-->
+<map code="0x122db" name="u122DB"/><!--xxx-->
+<map code="0x122dc" name="u122DC"/><!--xxx-->
+<map code="0x122dd" name="u122DD"/><!--xxx-->
+<map code="0x122de" name="u122DE"/><!--xxx-->
+<map code="0x122e0" name="u122E0"/><!--xxx-->
+<map code="0x122e1" name="u122E1"/><!--xxx-->
+<map code="0x122e2" name="u122E2"/><!--xxx-->
+<map code="0x122e7" name="u122E7"/><!--xxx-->
+<map code="0x122e9" name="u122E9"/><!--xxx-->
+<map code="0x122eb" name="u122EB"/><!--xxx-->
+<map code="0x122ed" name="u122ED"/><!--xxx-->
+<map code="0x122f0" name="u122F0"/><!--xxx-->
+<map code="0x122f3" name="u122F3"/><!--xxx-->
+<map code="0x122fa" name="u122FA"/><!--xxx-->
+<map code="0x122fb" name="u122FB"/><!--xxx-->
+<map code="0x122fc" name="u122FC"/><!--xxx-->
+<map code="0x122fd" name="u122FD"/><!--xxx-->
+<map code="0x122fe" name="u122FE"/><!--xxx-->
+<map code="0x12300" name="u12300"/><!--xxx-->
+<map code="0x12301" name="u12301"/><!--xxx-->
+<map code="0x12303" name="u12303"/><!--xxx-->
+<map code="0x12305" name="u12305"/><!--xxx-->
+<map code="0x12306" name="u12306"/><!--xxx-->
+<map code="0x12307" name="u12307"/><!--xxx-->
+<map code="0x12308" name="u12308"/><!--xxx-->
+<map code="0x12309" name="u12309"/><!--xxx-->
+<map code="0x1230b" name="u1230B"/><!--xxx-->
+<map code="0x1230c" name="u1230C"/><!--xxx-->
+<map code="0x12311" name="u12311"/><!--xxx-->
+<map code="0x12312" name="u12312"/><!--xxx-->
+<map code="0x12313" name="u12313"/><!--xxx-->
+<map code="0x12317" name="u12317"/><!--xxx-->
+<map code="0x1231d" name="u1231D"/><!--xxx-->
+<map code="0x12324" name="u12324"/><!--xxx-->
+<map code="0x12328" name="u12328"/><!--xxx-->
+<map code="0x1232b" name="u1232B"/><!--xxx-->
+<map code="0x12334" name="u12334"/><!--xxx-->
+<map code="0x12335" name="u12335"/><!--xxx-->
+<map code="0x12336" name="u12336"/><!--xxx-->
+<map code="0x12337" name="u12337"/><!--xxx-->
+<map code="0x1233a" name="u1233A"/><!--xxx-->
+<map code="0x12340" name="u12340"/><!--xxx-->
+<map code="0x12342" name="u12342"/><!--xxx-->
+<map code="0x1234e" name="u1234E"/><!--xxx-->
+<map code="0x1234f" name="u1234F"/><!--xxx-->
+<map code="0x12351" name="u12351"/><!--xxx-->
+<map code="0x12355" name="u12355"/><!--xxx-->
+<map code="0x12356" name="u12356"/><!--xxx-->
+<map code="0x1235a" name="u1235A"/><!--xxx-->
+<map code="0x1235d" name="u1235D"/><!--xxx-->
+<map code="0x12362" name="u12362"/><!--xxx-->
+<map code="0x12363" name="u12363"/><!--xxx-->
+<map code="0x1236a" name="u1236A"/><!--xxx-->
+<map code="0x1236e" name="u1236E"/><!--xxx-->
+<map code="0x1237c" name="u1237C"/><!--xxx-->
+<map code="0x1238f" name="u1238F"/><!--xxx-->
+<map code="0x12408" name="u12408"/><!--xxx-->
+<map code="0x12409" name="u12409"/><!--xxx-->
+<map code="0x1244a" name="u1244A"/><!--xxx-->
+<map code="0x1244f" name="u1244F"/><!--xxx-->
+<map code="0x1245a" name="u1245A"/><!--xxx-->
+<map code="0x124cb" name="u124CB"/><!--xxx-->
+<map code="0x124e5" name="u124E5"/><!--xxx-->
+<map code="0xf0086" name="uF0086"/><!--xxx-->
+    </cmap_format_12>
+  </cmap>
+
+  <fpgm>
+    <assembly>
+      PUSHW[ ]	/* 1 value pushed */
+      0
+      FDEF[ ]	/* FunctionDefinition */
+        MPPEM[ ]	/* MeasurePixelPerEm */
+        PUSHW[ ]	/* 1 value pushed */
+        9
+        LT[ ]	/* LessThan */
+        IF[ ]	/* If */
+          PUSHB[ ]	/* 2 values pushed */
+          1 1
+          INSTCTRL[ ]	/* SetInstrExecControl */
+        EIF[ ]	/* EndIf */
+        PUSHW[ ]	/* 1 value pushed */
+        511
+        SCANCTRL[ ]	/* ScanConversionControl */
+        PUSHW[ ]	/* 1 value pushed */
+        68
+        SCVTCI[ ]	/* SetCVTCutIn */
+        PUSHW[ ]	/* 2 values pushed */
+        9 3
+        SDS[ ]	/* SetDeltaShiftInGState */
+        SDB[ ]	/* SetDeltaBaseInGState */
+      ENDF[ ]	/* EndFunctionDefinition */
+      PUSHW[ ]	/* 1 value pushed */
+      1
+      FDEF[ ]	/* FunctionDefinition */
+        DUP[ ]	/* DuplicateTopStack */
+        DUP[ ]	/* DuplicateTopStack */
+        RCVT[ ]	/* ReadCVT */
+        ROUND[01]	/* Round */
+        WCVTP[ ]	/* WriteCVTInPixels */
+        PUSHB[ ]	/* 1 value pushed */
+        1
+        ADD[ ]	/* Add */
+      ENDF[ ]	/* EndFunctionDefinition */
+      PUSHW[ ]	/* 1 value pushed */
+      2
+      FDEF[ ]	/* FunctionDefinition */
+        PUSHW[ ]	/* 1 value pushed */
+        1
+        LOOPCALL[ ]	/* LoopAndCallFunction */
+        POP[ ]	/* PopTopStack */
+      ENDF[ ]	/* EndFunctionDefinition */
+      PUSHW[ ]	/* 1 value pushed */
+      3
+      FDEF[ ]	/* FunctionDefinition */
+        DUP[ ]	/* DuplicateTopStack */
+        GC[0]	/* GetCoordOnPVector */
+        PUSHB[ ]	/* 1 value pushed */
+        3
+        CINDEX[ ]	/* CopyXToTopStack */
+        GC[0]	/* GetCoordOnPVector */
+        GT[ ]	/* GreaterThan */
+        IF[ ]	/* If */
+          SWAP[ ]	/* SwapTopStack */
+        EIF[ ]	/* EndIf */
+        DUP[ ]	/* DuplicateTopStack */
+        ROLL[ ]	/* RollTopThreeStack */
+        DUP[ ]	/* DuplicateTopStack */
+        ROLL[ ]	/* RollTopThreeStack */
+        MD[0]	/* MeasureDistance */
+        ABS[ ]	/* Absolute */
+        ROLL[ ]	/* RollTopThreeStack */
+        DUP[ ]	/* DuplicateTopStack */
+        GC[0]	/* GetCoordOnPVector */
+        DUP[ ]	/* DuplicateTopStack */
+        ROUND[00]	/* Round */
+        SUB[ ]	/* Subtract */
+        ABS[ ]	/* Absolute */
+        PUSHB[ ]	/* 1 value pushed */
+        4
+        CINDEX[ ]	/* CopyXToTopStack */
+        GC[0]	/* GetCoordOnPVector */
+        DUP[ ]	/* DuplicateTopStack */
+        ROUND[00]	/* Round */
+        SUB[ ]	/* Subtract */
+        ABS[ ]	/* Absolute */
+        GT[ ]	/* GreaterThan */
+        IF[ ]	/* If */
+          SWAP[ ]	/* SwapTopStack */
+          NEG[ ]	/* Negate */
+          ROLL[ ]	/* RollTopThreeStack */
+        EIF[ ]	/* EndIf */
+        MDAP[1]	/* MoveDirectAbsPt */
+        DUP[ ]	/* DuplicateTopStack */
+        PUSHB[ ]	/* 1 value pushed */
+        0
+        GTEQ[ ]	/* GreaterThanOrEqual */
+        IF[ ]	/* If */
+          ROUND[01]	/* Round */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSHB[ ]	/* 1 value pushed */
+          0
+          EQ[ ]	/* Equal */
+          IF[ ]	/* If */
+            POP[ ]	/* PopTopStack */
+            PUSHB[ ]	/* 1 value pushed */
+            64
+          EIF[ ]	/* EndIf */
+        ELSE[ ]	/* Else */
+          ROUND[01]	/* Round */
+          DUP[ ]	/* DuplicateTopStack */
+          PUSHB[ ]	/* 1 value pushed */
+          0
+          EQ[ ]	/* Equal */
+          IF[ ]	/* If */
+            POP[ ]	/* PopTopStack */
+            PUSHB[ ]	/* 1 value pushed */
+            64
+            NEG[ ]	/* Negate */
+          EIF[ ]	/* EndIf */
+        EIF[ ]	/* EndIf */
+        MSIRP[0]	/* MoveStackIndirRelPt */
+      ENDF[ ]	/* EndFunctionDefinition */
+      PUSHW[ ]	/* 1 value pushed */
+      4
+      FDEF[ ]	/* FunctionDefinition */
+        DUP[ ]	/* DuplicateTopStack */
+        GC[0]	/* GetCoordOnPVector */
+        PUSHB[ ]	/* 1 value pushed */
+        4
+        CINDEX[ ]	/* CopyXToTopStack */
+        GC[0]	/* GetCoordOnPVector */
+        GT[ ]	/* GreaterThan */
+        IF[ ]	/* If */
+          SWAP[ ]	/* SwapTopStack */
+          ROLL[ ]	/* RollTopThreeStack */
+        EIF[ ]	/* EndIf */
+        DUP[ ]	/* DuplicateTopStack */
+        GC[0]	/* GetCoordOnPVector */
+        DUP[ ]	/* DuplicateTopStack */
+        ROUND[10]	/* Round */
+        SUB[ ]	/* Subtract */
+        ABS[ ]	/* Absolute */
+        PUSHB[ ]	/* 1 value pushed */
+        4
+        CINDEX[ ]	/* CopyXToTopStack */
+        GC[0]	/* GetCoordOnPVector */
+        DUP[ ]	/* DuplicateTopStack */
+        ROUND[10]	/* Round */
+        SUB[ ]	/* Subtract */
+        ABS[ ]	/* Absolute */
+        GT[ ]	/* GreaterThan */
+        IF[ ]	/* If */
+          SWAP[ ]	/* SwapTopStack */
+          ROLL[ ]	/* RollTopThreeStack */
+        EIF[ ]	/* EndIf */
+        MDAP[1]	/* MoveDirectAbsPt */
+        MIRP[11101]	/* MoveIndirectRelPt */
+      ENDF[ ]	/* EndFunctionDefinition */
+      PUSHW[ ]	/* 1 value pushed */
+      5
+      FDEF[ ]	/* FunctionDefinition */
+        MPPEM[ ]	/* MeasurePixelPerEm */
+        DUP[ ]	/* DuplicateTopStack */
+        PUSHB[ ]	/* 1 value pushed */
+        3
+        MINDEX[ ]	/* MoveXToTopStack */
+        LT[ ]	/* LessThan */
+        IF[ ]	/* If */
+          LTEQ[ ]	/* LessThenOrEqual */
+          IF[ ]	/* If */
+            PUSHB[ ]	/* 1 value pushed */
+            128
+            WCVTP[ ]	/* WriteCVTInPixels */
+          ELSE[ ]	/* Else */
+            PUSHB[ ]	/* 1 value pushed */
+            64
+            WCVTP[ ]	/* WriteCVTInPixels */
+          EIF[ ]	/* EndIf */
+        ELSE[ ]	/* Else */
+          POP[ ]	/* PopTopStack */
+          POP[ ]	/* PopTopStack */
+          DUP[ ]	/* DuplicateTopStack */
+          RCVT[ ]	/* ReadCVT */
+          PUSHB[ ]	/* 1 value pushed */
+          192
+          LT[ ]	/* LessThan */
+          IF[ ]	/* If */
+            PUSHB[ ]	/* 1 value pushed */
+            192
+            WCVTP[ ]	/* WriteCVTInPixels */
+          ELSE[ ]	/* Else */
+            POP[ ]	/* PopTopStack */
+          EIF[ ]	/* EndIf */
+        EIF[ ]	/* EndIf */
+      ENDF[ ]	/* EndFunctionDefinition */
+      PUSHW[ ]	/* 1 value pushed */
+      6
+      FDEF[ ]	/* FunctionDefinition */
+        DUP[ ]	/* DuplicateTopStack */
+        DUP[ ]	/* DuplicateTopStack */
+        RCVT[ ]	/* ReadCVT */
+        ROUND[01]	/* Round */
+        WCVTP[ ]	/* WriteCVTInPixels */
+        PUSHB[ ]	/* 1 value pushed */
+        1
+        ADD[ ]	/* Add */
+        DUP[ ]	/* DuplicateTopStack */
+        DUP[ ]	/* DuplicateTopStack */
+        RCVT[ ]	/* ReadCVT */
+        RDTG[ ]	/* RoundDownToGrid */
+        ROUND[01]	/* Round */
+        RTG[ ]	/* RoundToGrid */
+        WCVTP[ ]	/* WriteCVTInPixels */
+        PUSHB[ ]	/* 1 value pushed */
+        1
+        ADD[ ]	/* Add */
+      ENDF[ ]	/* EndFunctionDefinition */
+      PUSHW[ ]	/* 1 value pushed */
+      7
+      FDEF[ ]	/* FunctionDefinition */
+        PUSHW[ ]	/* 1 value pushed */
+        6
+        LOOPCALL[ ]	/* LoopAndCallFunction */
+      ENDF[ ]	/* EndFunctionDefinition */
+      PUSHW[ ]	/* 1 value pushed */
+      8
+      FDEF[ ]	/* FunctionDefinition */
+        MPPEM[ ]	/* MeasurePixelPerEm */
+        DUP[ ]	/* DuplicateTopStack */
+        PUSHB[ ]	/* 1 value pushed */
+        3
+        MINDEX[ ]	/* MoveXToTopStack */
+        GTEQ[ ]	/* GreaterThanOrEqual */
+        IF[ ]	/* If */
+          PUSHB[ ]	/* 1 value pushed */
+          64
+        ELSE[ ]	/* Else */
+          PUSHB[ ]	/* 1 value pushed */
+          0
+        EIF[ ]	/* EndIf */
+        ROLL[ ]	/* RollTopThreeStack */
+        ROLL[ ]	/* RollTopThreeStack */
+        DUP[ ]	/* DuplicateTopStack */
+        PUSHB[ ]	/* 1 value pushed */
+        3
+        MINDEX[ ]	/* MoveXToTopStack */
+        GTEQ[ ]	/* GreaterThanOrEqual */
+        IF[ ]	/* If */
+          SWAP[ ]	/* SwapTopStack */
+          POP[ ]	/* PopTopStack */
+          PUSHB[ ]	/* 1 value pushed */
+          128
+          ROLL[ ]	/* RollTopThreeStack */
+          ROLL[ ]	/* RollTopThreeStack */
+        ELSE[ ]	/* Else */
+          ROLL[ ]	/* RollTopThreeStack */
+          SWAP[ ]	/* SwapTopStack */
+        EIF[ ]	/* EndIf */
+        DUP[ ]	/* DuplicateTopStack */
+        PUSHB[ ]	/* 1 value pushed */
+        3
+        MINDEX[ ]	/* MoveXToTopStack */
+        GTEQ[ ]	/* GreaterThanOrEqual */
+        IF[ ]	/* If */
+          SWAP[ ]	/* SwapTopStack */
+          POP[ ]	/* PopTopStack */
+          PUSHW[ ]	/* 1 value pushed */
+          192
+          ROLL[ ]	/* RollTopThreeStack */
+          ROLL[ ]	/* RollTopThreeStack */
+        ELSE[ ]	/* Else */
+          ROLL[ ]	/* RollTopThreeStack */
+          SWAP[ ]	/* SwapTopStack */
+        EIF[ ]	/* EndIf */
+        DUP[ ]	/* DuplicateTopStack */
+        PUSHB[ ]	/* 1 value pushed */
+        3
+        MINDEX[ ]	/* MoveXToTopStack */
+        GTEQ[ ]	/* GreaterThanOrEqual */
+        IF[ ]	/* If */
+          SWAP[ ]	/* SwapTopStack */
+          POP[ ]	/* PopTopStack */
+          PUSHW[ ]	/* 1 value pushed */
+          256
+          ROLL[ ]	/* RollTopThreeStack */
+          ROLL[ ]	/* RollTopThreeStack */
+        ELSE[ ]	/* Else */
+          ROLL[ ]	/* RollTopThreeStack */
+          SWAP[ ]	/* SwapTopStack */
+        EIF[ ]	/* EndIf */
+        DUP[ ]	/* DuplicateTopStack */
+        PUSHB[ ]	/* 1 value pushed */
+        3
+        MINDEX[ ]	/* MoveXToTopStack */
+        GTEQ[ ]	/* GreaterThanOrEqual */
+        IF[ ]	/* If */
+          SWAP[ ]	/* SwapTopStack */
+          POP[ ]	/* PopTopStack */
+          PUSHW[ ]	/* 1 value pushed */
+          320
+          ROLL[ ]	/* RollTopThreeStack */
+          ROLL[ ]	/* RollTopThreeStack */
+        ELSE[ ]	/* Else */
+          ROLL[ ]	/* RollTopThreeStack */
+          SWAP[ ]	/* SwapTopStack */
+        EIF[ ]	/* EndIf */
+        DUP[ ]	/* DuplicateTopStack */
+        PUSHW[ ]	/* 1 value pushed */
+        3
+        MINDEX[ ]	/* MoveXToTopStack */
+        GTEQ[ ]	/* GreaterThanOrEqual */
+        IF[ ]	/* If */
+          PUSHB[ ]	/* 1 value pushed */
+          3
+          CINDEX[ ]	/* CopyXToTopStack */
+          RCVT[ ]	/* ReadCVT */
+          PUSHW[ ]	/* 1 value pushed */
+          384
+          LT[ ]	/* LessThan */
+          IF[ ]	/* If */
+            SWAP[ ]	/* SwapTopStack */
+            POP[ ]	/* PopTopStack */
+            PUSHW[ ]	/* 1 value pushed */
+            384
+            SWAP[ ]	/* SwapTopStack */
+            POP[ ]	/* PopTopStack */
+          ELSE[ ]	/* Else */
+            PUSHB[ ]	/* 1 value pushed */
+            3
+            CINDEX[ ]	/* CopyXToTopStack */
+            RCVT[ ]	/* ReadCVT */
+            SWAP[ ]	/* SwapTopStack */
+            POP[ ]	/* PopTopStack */
+            SWAP[ ]	/* SwapTopStack */
+            POP[ ]	/* PopTopStack */
+          EIF[ ]	/* EndIf */
+        ELSE[ ]	/* Else */
+          POP[ ]	/* PopTopStack */
+        EIF[ ]	/* EndIf */
+        WCVTP[ ]	/* WriteCVTInPixels */
+      ENDF[ ]	/* EndFunctionDefinition */
+      PUSHW[ ]	/* 1 value pushed */
+      9
+      FDEF[ ]	/* FunctionDefinition */
+        MPPEM[ ]	/* MeasurePixelPerEm */
+        GTEQ[ ]	/* GreaterThanOrEqual */
+        IF[ ]	/* If */
+          RCVT[ ]	/* ReadCVT */
+          WCVTP[ ]	/* WriteCVTInPixels */
+        ELSE[ ]	/* Else */
+          POP[ ]	/* PopTopStack */
+          POP[ ]	/* PopTopStack */
+        EIF[ ]	/* EndIf */
+      ENDF[ ]	/* EndFunctionDefinition */
+    </assembly>
+  </fpgm>
+
+  <prep>
+    <assembly>
+      PUSHW[ ]	/* 1 value pushed */
+      0
+      CALL[ ]	/* CallFunction */
+      SVTCA[0]	/* SetFPVectorToAxis */
+      PUSHW[ ]	/* 3 values pushed */
+      1 1 7
+      CALL[ ]	/* CallFunction */
+      PUSHW[ ]	/* 1 value pushed */
+      0
+      DUP[ ]	/* DuplicateTopStack */
+      RCVT[ ]	/* ReadCVT */
+      RDTG[ ]	/* RoundDownToGrid */
+      ROUND[01]	/* Round */
+      RTG[ ]	/* RoundToGrid */
+      WCVTP[ ]	/* WriteCVTInPixels */
+    </assembly>
+  </prep>
+
+  <cvt>
+    <cv index="0" value="10"/>
+    <cv index="1" value="0"/>
+    <cv index="2" value="0"/>
+  </cvt>
+
+  <loca>
+    <!-- The 'loca' table will be calculated by the compiler -->
+  </loca>
+
+  <glyf>
+
+    <!-- The xMin, yMin, xMax and yMax values
+         will be recalculated by the compiler. -->
+
+    <TTGlyph name=".notdef"/><!-- contains no outline data -->
+
+    <TTGlyph name=".null"/><!-- contains no outline data -->
+
+    <TTGlyph name="space"/><!-- contains no outline data -->
+
+    <TTGlyph name="u12000"/><!-- contains no outline data -->
+
+    <TTGlyph name="uni000D"/><!-- contains no outline data -->
+
+<TTGlyph name="u12004" >
+
+</TTGlyph>
+<TTGlyph name="u12009" >
+
+</TTGlyph>
+<TTGlyph name="u1200A" >
+
+</TTGlyph>
+<TTGlyph name="u12016" >
+
+</TTGlyph>
+<TTGlyph name="u1201C" >
+
+</TTGlyph>
+<TTGlyph name="u1201D" >
+
+</TTGlyph>
+<TTGlyph name="u12020" >
+
+</TTGlyph>
+<TTGlyph name="u1202B" >
+
+</TTGlyph>
+<TTGlyph name="u1202D" >
+
+</TTGlyph>
+<TTGlyph name="u1202F" >
+
+</TTGlyph>
+<TTGlyph name="u12032" >
+
+</TTGlyph>
+<TTGlyph name="u12033" >
+
+</TTGlyph>
+<TTGlyph name="u12034" >
+
+</TTGlyph>
+<TTGlyph name="u12035" >
+
+</TTGlyph>
+<TTGlyph name="u12038" >
+
+</TTGlyph>
+<TTGlyph name="u1203E" >
+
+</TTGlyph>
+<TTGlyph name="u12040" >
+
+</TTGlyph>
+<TTGlyph name="u12041" >
+
+</TTGlyph>
+<TTGlyph name="u12043" >
+
+</TTGlyph>
+<TTGlyph name="u12044" >
+
+</TTGlyph>
+<TTGlyph name="u12046" >
+
+</TTGlyph>
+<TTGlyph name="u12047" >
+
+</TTGlyph>
+<TTGlyph name="u1204D" >
+
+</TTGlyph>
+<TTGlyph name="u12053" >
+
+</TTGlyph>
+<TTGlyph name="u12054" >
+
+</TTGlyph>
+<TTGlyph name="u12055" >
+
+</TTGlyph>
+<TTGlyph name="u12056" >
+
+</TTGlyph>
+<TTGlyph name="u1206E" >
+
+</TTGlyph>
+<TTGlyph name="u1206F" >
+
+</TTGlyph>
+<TTGlyph name="u12072" >
+
+</TTGlyph>
+<TTGlyph name="u12073" >
+
+</TTGlyph>
+<TTGlyph name="u12074" >
+
+</TTGlyph>
+<TTGlyph name="u12076" >
+
+</TTGlyph>
+<TTGlyph name="u12077" >
+
+</TTGlyph>
+<TTGlyph name="u1207A" >
+
+</TTGlyph>
+<TTGlyph name="u1207B" >
+
+</TTGlyph>
+<TTGlyph name="u1207C" >
+
+</TTGlyph>
+<TTGlyph name="u1207D" >
+
+</TTGlyph>
+<TTGlyph name="u1207E" >
+
+</TTGlyph>
+<TTGlyph name="u12081" >
+
+</TTGlyph>
+<TTGlyph name="u12083" >
+
+</TTGlyph>
+<TTGlyph name="u12086" >
+
+</TTGlyph>
+<TTGlyph name="u12089" >
+
+</TTGlyph>
+<TTGlyph name="u1208A" >
+
+</TTGlyph>
+<TTGlyph name="u1208D" >
+
+</TTGlyph>
+<TTGlyph name="u12094" >
+
+</TTGlyph>
+<TTGlyph name="u12096" >
+
+</TTGlyph>
+<TTGlyph name="u12097" >
+
+</TTGlyph>
+<TTGlyph name="u1209F" >
+
+</TTGlyph>
+<TTGlyph name="u120A0" >
+
+</TTGlyph>
+<TTGlyph name="u120A6" >
+
+</TTGlyph>
+<TTGlyph name="u120B5" >
+
+</TTGlyph>
+<TTGlyph name="u120B7" >
+
+</TTGlyph>
+<TTGlyph name="u120BC" >
+
+</TTGlyph>
+<TTGlyph name="u120DE" >
+
+</TTGlyph>
+<TTGlyph name="u120E1" >
+
+</TTGlyph>
+<TTGlyph name="u120E2" >
+
+</TTGlyph>
+<TTGlyph name="u120EE" >
+
+</TTGlyph>
+<TTGlyph name="u120F0" >
+
+</TTGlyph>
+<TTGlyph name="u120F2" >
+
+</TTGlyph>
+<TTGlyph name="u120F5" >
+
+</TTGlyph>
+<TTGlyph name="u120F6" >
+
+</TTGlyph>
+<TTGlyph name="u120F7" >
+
+</TTGlyph>
+<TTGlyph name="u120F8" >
+
+</TTGlyph>
+<TTGlyph name="u120FB" >
+
+</TTGlyph>
+<TTGlyph name="u120FC" >
+
+</TTGlyph>
+<TTGlyph name="u120FE" >
+
+</TTGlyph>
+<TTGlyph name="u120FF" >
+
+</TTGlyph>
+<TTGlyph name="u12100" >
+
+</TTGlyph>
+<TTGlyph name="u12104" >
+
+</TTGlyph>
+<TTGlyph name="u12108" >
+
+</TTGlyph>
+<TTGlyph name="u12109" >
+
+</TTGlyph>
+<TTGlyph name="u1210B" >
+
+</TTGlyph>
+<TTGlyph name="u12111" >
+
+</TTGlyph>
+<TTGlyph name="u12116" >
+
+</TTGlyph>
+<TTGlyph name="u12118" >
+
+</TTGlyph>
+<TTGlyph name="u12119" >
+
+</TTGlyph>
+<TTGlyph name="u1211B" >
+
+</TTGlyph>
+<TTGlyph name="u1211E" >
+
+</TTGlyph>
+<TTGlyph name="u12120" >
+
+</TTGlyph>
+<TTGlyph name="u12122" >
+
+</TTGlyph>
+<TTGlyph name="u12123" >
+
+</TTGlyph>
+<TTGlyph name="u12125" >
+
+</TTGlyph>
+<TTGlyph name="u12128" >
+
+</TTGlyph>
+<TTGlyph name="u12129" >
+
+</TTGlyph>
+<TTGlyph name="u1212B" >
+
+</TTGlyph>
+<TTGlyph name="u1212C" >
+
+</TTGlyph>
+<TTGlyph name="u1212D" >
+
+</TTGlyph>
+<TTGlyph name="u1212F" >
+
+</TTGlyph>
+<TTGlyph name="u12134" >
+
+</TTGlyph>
+<TTGlyph name="u12137" >
+
+</TTGlyph>
+<TTGlyph name="u12138" >
+
+</TTGlyph>
+<TTGlyph name="u1213D" >
+
+</TTGlyph>
+<TTGlyph name="u1213E" >
+
+</TTGlyph>
+<TTGlyph name="u1213F" >
+
+</TTGlyph>
+<TTGlyph name="u12141" >
+
+</TTGlyph>
+<TTGlyph name="u12145" >
+
+</TTGlyph>
+<TTGlyph name="u12146" >
+
+</TTGlyph>
+<TTGlyph name="u12147" >
+
+</TTGlyph>
+<TTGlyph name="u12148" >
+
+</TTGlyph>
+<TTGlyph name="u1214D" >
+
+</TTGlyph>
+<TTGlyph name="u1214E" >
+
+</TTGlyph>
+<TTGlyph name="u12154" >
+
+</TTGlyph>
+<TTGlyph name="u12155" >
+
+</TTGlyph>
+<TTGlyph name="u12156" >
+
+</TTGlyph>
+<TTGlyph name="u12157" >
+
+</TTGlyph>
+<TTGlyph name="u12164" >
+
+</TTGlyph>
+<TTGlyph name="u12165" >
+
+</TTGlyph>
+<TTGlyph name="u12172" >
+
+</TTGlyph>
+<TTGlyph name="u12174" >
+
+</TTGlyph>
+<TTGlyph name="u1217E" >
+
+</TTGlyph>
+<TTGlyph name="u1218F" >
+
+</TTGlyph>
+<TTGlyph name="u12192" >
+
+</TTGlyph>
+<TTGlyph name="u12195" >
+
+</TTGlyph>
+<TTGlyph name="u12197" >
+
+</TTGlyph>
+<TTGlyph name="u1219B" >
+
+</TTGlyph>
+<TTGlyph name="u1219C" >
+
+</TTGlyph>
+<TTGlyph name="u1219F" >
+
+</TTGlyph>
+<TTGlyph name="u121A0" >
+
+</TTGlyph>
+<TTGlyph name="u121A2" >
+
+</TTGlyph>
+<TTGlyph name="u121A4" >
+
+</TTGlyph>
+<TTGlyph name="u121A5" >
+
+</TTGlyph>
+<TTGlyph name="u121A6" >
+
+</TTGlyph>
+<TTGlyph name="u121A7" >
+
+</TTGlyph>
+<TTGlyph name="u121AA" >
+
+</TTGlyph>
+<TTGlyph name="u121AC" >
+
+</TTGlyph>
+<TTGlyph name="u121AF" >
+
+</TTGlyph>
+<TTGlyph name="u121B0" >
+
+</TTGlyph>
+<TTGlyph name="u121B3" >
+
+</TTGlyph>
+<TTGlyph name="u121B7" >
+
+</TTGlyph>
+<TTGlyph name="u121B8" >
+
+</TTGlyph>
+<TTGlyph name="u121B9" >
+
+</TTGlyph>
+<TTGlyph name="u121C0" >
+
+</TTGlyph>
+<TTGlyph name="u121C7" >
+
+</TTGlyph>
+<TTGlyph name="u121C9" >
+
+</TTGlyph>
+<TTGlyph name="u121CB" >
+
+</TTGlyph>
+<TTGlyph name="u121E5" >
+
+</TTGlyph>
+<TTGlyph name="u121EC" >
+
+</TTGlyph>
+<TTGlyph name="u121EF" >
+
+</TTGlyph>
+<TTGlyph name="u121F2" >
+
+</TTGlyph>
+<TTGlyph name="u121F4" >
+
+</TTGlyph>
+<TTGlyph name="u121F5" >
+
+</TTGlyph>
+<TTGlyph name="u121F7" >
+
+</TTGlyph>
+<TTGlyph name="u121FA" >
+
+</TTGlyph>
+<TTGlyph name="u121FB" >
+
+</TTGlyph>
+<TTGlyph name="u121FD" >
+
+</TTGlyph>
+<TTGlyph name="u121FF" >
+
+</TTGlyph>
+<TTGlyph name="u12216" >
+
+</TTGlyph>
+<TTGlyph name="u1221B" >
+
+</TTGlyph>
+<TTGlyph name="u1221C" >
+
+</TTGlyph>
+<TTGlyph name="u1221D" >
+
+</TTGlyph>
+<TTGlyph name="u12220" >
+
+</TTGlyph>
+<TTGlyph name="u12223" >
+
+</TTGlyph>
+<TTGlyph name="u12224" >
+
+</TTGlyph>
+<TTGlyph name="u12225" >
+
+</TTGlyph>
+<TTGlyph name="u12226" >
+
+</TTGlyph>
+<TTGlyph name="u12227" >
+
+</TTGlyph>
+<TTGlyph name="u12228" >
+
+</TTGlyph>
+<TTGlyph name="u12229" >
+
+</TTGlyph>
+<TTGlyph name="u1222A" >
+
+</TTGlyph>
+<TTGlyph name="u1222B" >
+
+</TTGlyph>
+<TTGlyph name="u1222C" >
+
+</TTGlyph>
+<TTGlyph name="u1222D" >
+
+</TTGlyph>
+<TTGlyph name="u1222E" >
+
+</TTGlyph>
+<TTGlyph name="u12231" >
+
+</TTGlyph>
+<TTGlyph name="u12232" >
+
+</TTGlyph>
+<TTGlyph name="u12238" >
+
+</TTGlyph>
+<TTGlyph name="u12239" >
+
+</TTGlyph>
+<TTGlyph name="u1223E" >
+
+</TTGlyph>
+<TTGlyph name="u1223F" >
+
+</TTGlyph>
+<TTGlyph name="u12240" >
+
+</TTGlyph>
+<TTGlyph name="u12244" >
+
+</TTGlyph>
+<TTGlyph name="u12246" >
+
+</TTGlyph>
+<TTGlyph name="u12248" >
+
+</TTGlyph>
+<TTGlyph name="u1224B" >
+
+</TTGlyph>
+<TTGlyph name="u1224C" >
+
+</TTGlyph>
+<TTGlyph name="u12250" >
+
+</TTGlyph>
+<TTGlyph name="u12258" >
+
+</TTGlyph>
+<TTGlyph name="u12261" >
+
+</TTGlyph>
+<TTGlyph name="u12262" >
+
+</TTGlyph>
+<TTGlyph name="u12263" >
+
+</TTGlyph>
+<TTGlyph name="u1226A" >
+
+</TTGlyph>
+<TTGlyph name="u1227A" >
+
+</TTGlyph>
+<TTGlyph name="u1227B" >
+
+</TTGlyph>
+<TTGlyph name="u1227C" >
+
+</TTGlyph>
+<TTGlyph name="u1227D" >
+
+</TTGlyph>
+<TTGlyph name="u1227E" >
+
+</TTGlyph>
+<TTGlyph name="u1227F" >
+
+</TTGlyph>
+<TTGlyph name="u1228D" >
+
+</TTGlyph>
+<TTGlyph name="u1228F" >
+
+</TTGlyph>
+<TTGlyph name="u12291" >
+
+</TTGlyph>
+<TTGlyph name="u12292" >
+
+</TTGlyph>
+<TTGlyph name="u12293" >
+
+</TTGlyph>
+<TTGlyph name="u12295" >
+
+</TTGlyph>
+<TTGlyph name="u122A8" >
+
+</TTGlyph>
+<TTGlyph name="u122A9" >
+
+</TTGlyph>
+<TTGlyph name="u122AB" >
+
+</TTGlyph>
+<TTGlyph name="u122AC" >
+
+</TTGlyph>
+<TTGlyph name="u122AD" >
+
+</TTGlyph>
+<TTGlyph name="u122AE" >
+
+</TTGlyph>
+<TTGlyph name="u122B7" >
+
+</TTGlyph>
+<TTGlyph name="u122BA" >
+
+</TTGlyph>
+<TTGlyph name="u122C0" >
+
+</TTGlyph>
+<TTGlyph name="u122C3" >
+
+</TTGlyph>
+<TTGlyph name="u122C6" >
+
+</TTGlyph>
+<TTGlyph name="u122D2" >
+
+</TTGlyph>
+<TTGlyph name="u122D7" >
+
+</TTGlyph>
+<TTGlyph name="u122D9" >
+
+</TTGlyph>
+<TTGlyph name="u122DA" >
+
+</TTGlyph>
+<TTGlyph name="u122DB" >
+
+</TTGlyph>
+<TTGlyph name="u122DC" >
+
+</TTGlyph>
+<TTGlyph name="u122DD" >
+
+</TTGlyph>
+<TTGlyph name="u122DE" >
+
+</TTGlyph>
+<TTGlyph name="u122E0" >
+
+</TTGlyph>
+<TTGlyph name="u122E1" >
+
+</TTGlyph>
+<TTGlyph name="u122E2" >
+
+</TTGlyph>
+<TTGlyph name="u122E7" >
+
+</TTGlyph>
+<TTGlyph name="u122E9" >
+
+</TTGlyph>
+<TTGlyph name="u122EB" >
+
+</TTGlyph>
+<TTGlyph name="u122ED" >
+
+</TTGlyph>
+<TTGlyph name="u122F0" >
+
+</TTGlyph>
+<TTGlyph name="u122F3" >
+
+</TTGlyph>
+<TTGlyph name="u122FA" >
+
+</TTGlyph>
+<TTGlyph name="u122FB" >
+
+</TTGlyph>
+<TTGlyph name="u122FC" >
+
+</TTGlyph>
+<TTGlyph name="u122FD" >
+
+</TTGlyph>
+<TTGlyph name="u122FE" >
+
+</TTGlyph>
+<TTGlyph name="u12300" >
+
+</TTGlyph>
+<TTGlyph name="u12301" >
+
+</TTGlyph>
+<TTGlyph name="u12303" >
+
+</TTGlyph>
+<TTGlyph name="u12305" >
+
+</TTGlyph>
+<TTGlyph name="u12306" >
+
+</TTGlyph>
+<TTGlyph name="u12307" >
+
+</TTGlyph>
+<TTGlyph name="u12308" >
+
+</TTGlyph>
+<TTGlyph name="u12309" >
+
+</TTGlyph>
+<TTGlyph name="u1230B" >
+
+</TTGlyph>
+<TTGlyph name="u1230C" >
+
+</TTGlyph>
+<TTGlyph name="u12311" >
+
+</TTGlyph>
+<TTGlyph name="u12312" >
+
+</TTGlyph>
+<TTGlyph name="u12313" >
+
+</TTGlyph>
+<TTGlyph name="u12317" >
+
+</TTGlyph>
+<TTGlyph name="u1231D" >
+
+</TTGlyph>
+<TTGlyph name="u12324" >
+
+</TTGlyph>
+<TTGlyph name="u12328" >
+
+</TTGlyph>
+<TTGlyph name="u1232B" >
+
+</TTGlyph>
+<TTGlyph name="u12334" >
+
+</TTGlyph>
+<TTGlyph name="u12335" >
+
+</TTGlyph>
+<TTGlyph name="u12336" >
+
+</TTGlyph>
+<TTGlyph name="u12337" >
+
+</TTGlyph>
+<TTGlyph name="u1233A" >
+
+</TTGlyph>
+<TTGlyph name="u12340" >
+
+</TTGlyph>
+<TTGlyph name="u12342" >
+
+</TTGlyph>
+<TTGlyph name="u1234E" >
+
+</TTGlyph>
+<TTGlyph name="u1234F" >
+
+</TTGlyph>
+<TTGlyph name="u12351" >
+
+</TTGlyph>
+<TTGlyph name="u12355" >
+
+</TTGlyph>
+<TTGlyph name="u12356" >
+
+</TTGlyph>
+<TTGlyph name="u1235A" >
+
+</TTGlyph>
+<TTGlyph name="u1235D" >
+
+</TTGlyph>
+<TTGlyph name="u12362" >
+
+</TTGlyph>
+<TTGlyph name="u12363" >
+
+</TTGlyph>
+<TTGlyph name="u1236A" >
+
+</TTGlyph>
+<TTGlyph name="u1236E" >
+
+</TTGlyph>
+<TTGlyph name="u1237C" >
+
+</TTGlyph>
+<TTGlyph name="u1238F" >
+
+</TTGlyph>
+<TTGlyph name="u12408" >
+
+</TTGlyph>
+<TTGlyph name="u12409" >
+
+</TTGlyph>
+<TTGlyph name="u1244A" >
+
+</TTGlyph>
+<TTGlyph name="u1244F" >
+
+</TTGlyph>
+<TTGlyph name="u1245A" >
+
+</TTGlyph>
+<TTGlyph name="u124CB" >
+
+</TTGlyph>
+<TTGlyph name="u124E5" >
+
+</TTGlyph>
+<TTGlyph name="uF0086" >
+
+</TTGlyph>
+  </glyf>
+
+  <name>
+    <namerecord nameID="1" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Unnamed1
+    </namerecord>
+    <namerecord nameID="2" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Regular
+    </namerecord>
+    <namerecord nameID="4" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Unnamed1 Regular
+    </namerecord>
+    <namerecord nameID="5" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Version 1.000
+    </namerecord>
+    <namerecord nameID="6" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Unnamed1-Regular
+    </namerecord>
+    <namerecord nameID="1" platformID="3" platEncID="1" langID="0x409">
+      Unnamed1
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x409">
+      Regular
+    </namerecord>
+    <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
+      Version 1.000;;Unnamed1-Regular;2025;FL842
+    </namerecord>
+    <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
+      Unnamed1 Regular
+    </namerecord>
+    <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
+      Version 1.000
+    </namerecord>
+    <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
+      Unnamed1-Regular
+    </namerecord>
+  </name>
+
+  <post>
+    <formatType value="2.0"/>
+    <italicAngle value="0.0"/>
+    <underlinePosition value="-100"/>
+    <underlineThickness value="50"/>
+    <isFixedPitch value="0"/>
+    <minMemType42 value="0"/>
+    <maxMemType42 value="0"/>
+    <minMemType1 value="0"/>
+    <maxMemType1 value="0"/>
+    <psNames>
+      <!-- This file uses unique glyph names based on the information
+           found in the 'post' table. Since these names might not be unique,
+           we have to invent artificial names in case of clashes. In order to
+           be able to retain the original information, we need a name to
+           ps name mapping for those cases where they differ. That's what
+           you see below.
+            -->
+    </psNames>
+    <extraNames>
+      <!-- following are the name that are not taken from the standard Mac glyph order -->
+      <psName name="uni000D"/>
+      <psName name="u12000"/>
+    </extraNames>
+  </post>
+
+  <gasp>
+    <gaspRange rangeMaxPPEM="65535" rangeGaspBehavior="15"/>
+  </gasp>
+
+  <GDEF>
+    <Version value="0x00010000"/>
+    <GlyphClassDef>
+      <ClassDef glyph="u12000" class="1"/>
+    </GlyphClassDef>
+  </GDEF>
+
+  <DSIG>
+    <!-- note that the Digital Signature will be invalid after recompilation! -->
+    <tableHeader flag="0x1" numSigs="0" version="1"/>
+  </DSIG>
+
+</ttFont>

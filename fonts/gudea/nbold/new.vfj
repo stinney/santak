@@ -1,9 +1,76 @@
 {
   "version":8,
   "font":{
-    "glyphsCount":1160,
+    "glyphsCount":189,
     "upm":1000,
     "glyphs":[
+      {
+        "name":".notdef",
+        "lastModified":"2025-09-17 17:19:28",
+        "layers":[
+          {
+            "name":"Regular",
+            "advanceWidth":415,
+            "elements":[
+              {
+                "elementData":{
+                  "contours":[
+                    {
+                      "nodes":[
+                        "75 0",
+                        "75 666",
+                        "340 666",
+                        "340 0"
+                      ]
+                    },
+                    {
+                      "nodes":[
+                        "108 33",
+                        "307 33",
+                        "307 633",
+                        "108 633"
+                      ]
+                    }
+                  ]
+                },
+                "active":true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name":"NULL",
+        "unicode":"0000",
+        "lastModified":"2024-05-14 21:44:40",
+        "layers":[
+          {
+            "name":"Regular",
+            "advanceWidth":0
+          }
+        ]
+      },
+      {
+        "name":"CR",
+        "lastModified":"2024-05-14 21:44:40",
+        "layers":[
+          {
+            "name":"Regular",
+            "advanceWidth":333
+          }
+        ]
+      },
+      {
+        "name":"u0020",
+        "unicode":"0020",
+        "lastModified":"2024-05-14 21:44:40",
+        "layers":[
+          {
+            "name":"Regular",
+            "advanceWidth":1000
+          }
+        ]
+      },
       {
         "name":"u12000",
         "unicode":"12000",
@@ -16,8 +83,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12009",
         "unicode":"12009",
@@ -30,8 +96,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1200A",
         "unicode":"1200a",
@@ -44,8 +109,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1200F",
         "unicode":"1200f",
@@ -58,8 +122,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12015",
         "unicode":"12015",
@@ -72,8 +135,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12016",
         "unicode":"12016",
@@ -86,8 +148,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1201D",
         "unicode":"1201d",
@@ -100,8 +161,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12020",
         "unicode":"12020",
@@ -114,8 +174,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12029",
         "unicode":"12029",
@@ -128,8 +187,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1202B",
         "unicode":"1202b",
@@ -142,8 +200,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1202D",
         "unicode":"1202d",
@@ -156,8 +213,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1202F",
         "unicode":"1202f",
@@ -170,8 +226,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12032",
         "unicode":"12032",
@@ -184,8 +239,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12033",
         "unicode":"12033",
@@ -198,8 +252,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12035",
         "unicode":"12035",
@@ -212,8 +265,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12038",
         "unicode":"12038",
@@ -226,8 +278,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12040",
         "unicode":"12040",
@@ -240,8 +291,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12044",
         "unicode":"12044",
@@ -254,8 +304,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12046",
         "unicode":"12046",
@@ -268,8 +317,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12047",
         "unicode":"12047",
@@ -282,8 +330,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12049",
         "unicode":"12049",
@@ -296,8 +343,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1204D",
         "unicode":"1204d",
@@ -310,8 +356,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12055",
         "unicode":"12055",
@@ -324,8 +369,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1206E",
         "unicode":"1206e",
@@ -338,8 +382,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12072",
         "unicode":"12072",
@@ -352,8 +395,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12076",
         "unicode":"12076",
@@ -366,8 +408,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1207A",
         "unicode":"1207a",
@@ -380,8 +421,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1207C",
         "unicode":"1207c",
@@ -394,8 +434,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1207D",
         "unicode":"1207d",
@@ -408,8 +447,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1207E",
         "unicode":"1207e",
@@ -422,8 +460,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12082",
         "unicode":"12082",
@@ -436,8 +473,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12083",
         "unicode":"12083",
@@ -450,8 +486,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12084",
         "unicode":"12084",
@@ -464,8 +499,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12085",
         "unicode":"12085",
@@ -478,8 +512,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12088",
         "unicode":"12088",
@@ -492,8 +525,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12089",
         "unicode":"12089",
@@ -506,8 +538,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1208A",
         "unicode":"1208a",
@@ -520,8 +551,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1208D",
         "unicode":"1208d",
@@ -534,8 +564,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12095",
         "unicode":"12095",
@@ -548,8 +577,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12096",
         "unicode":"12096",
@@ -562,8 +590,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12097",
         "unicode":"12097",
@@ -576,8 +603,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1209E",
         "unicode":"1209e",
@@ -590,8 +616,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u120A0",
         "unicode":"120a0",
@@ -604,8 +629,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u120A1",
         "unicode":"120a1",
@@ -618,8 +642,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u120B5",
         "unicode":"120b5",
@@ -632,8 +655,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u120B7",
         "unicode":"120b7",
@@ -646,8 +668,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u120BC",
         "unicode":"120bc",
@@ -660,8 +681,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u120E1",
         "unicode":"120e1",
@@ -674,8 +694,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u120E2",
         "unicode":"120e2",
@@ -688,8 +707,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u120F0",
         "unicode":"120f0",
@@ -702,8 +720,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u120F2",
         "unicode":"120f2",
@@ -716,8 +733,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u120F6",
         "unicode":"120f6",
@@ -730,8 +746,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u120FB",
         "unicode":"120fb",
@@ -744,8 +759,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12100",
         "unicode":"12100",
@@ -758,8 +772,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12103",
         "unicode":"12103",
@@ -772,8 +785,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12104",
         "unicode":"12104",
@@ -786,8 +798,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12108",
         "unicode":"12108",
@@ -800,8 +811,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1210A",
         "unicode":"1210a",
@@ -814,8 +824,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1210B",
         "unicode":"1210b",
@@ -828,8 +837,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12111",
         "unicode":"12111",
@@ -842,8 +850,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12116",
         "unicode":"12116",
@@ -856,8 +863,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12118",
         "unicode":"12118",
@@ -870,8 +876,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1211E",
         "unicode":"1211e",
@@ -884,8 +889,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12129",
         "unicode":"12129",
@@ -898,8 +902,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1212D",
         "unicode":"1212d",
@@ -912,8 +915,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1212F",
         "unicode":"1212f",
@@ -926,8 +928,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12130",
         "unicode":"12130",
@@ -940,8 +941,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12137",
         "unicode":"12137",
@@ -954,8 +954,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1213E",
         "unicode":"1213e",
@@ -968,8 +967,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1213F",
         "unicode":"1213f",
@@ -982,8 +980,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12145",
         "unicode":"12145",
@@ -996,8 +993,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12146",
         "unicode":"12146",
@@ -1010,8 +1006,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12147",
         "unicode":"12147",
@@ -1024,8 +1019,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1214D",
         "unicode":"1214d",
@@ -1038,8 +1032,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1214E",
         "unicode":"1214e",
@@ -1052,8 +1045,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12154",
         "unicode":"12154",
@@ -1066,8 +1058,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12155",
         "unicode":"12155",
@@ -1080,8 +1071,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12157",
         "unicode":"12157",
@@ -1094,8 +1084,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12165",
         "unicode":"12165",
@@ -1108,8 +1097,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1218D",
         "unicode":"1218d",
@@ -1122,8 +1110,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12195",
         "unicode":"12195",
@@ -1136,8 +1123,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12197",
         "unicode":"12197",
@@ -1150,8 +1136,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1219F",
         "unicode":"1219f",
@@ -1164,8 +1149,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u121A0",
         "unicode":"121a0",
@@ -1178,8 +1162,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u121A4",
         "unicode":"121a4",
@@ -1192,8 +1175,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u121A6",
         "unicode":"121a6",
@@ -1206,8 +1188,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u121AC",
         "unicode":"121ac",
@@ -1220,8 +1201,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u121AD",
         "unicode":"121ad",
@@ -1234,8 +1214,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u121B0",
         "unicode":"121b0",
@@ -1248,8 +1227,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u121B3",
         "unicode":"121b3",
@@ -1262,8 +1240,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u121B7",
         "unicode":"121b7",
@@ -1276,8 +1253,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u121C7",
         "unicode":"121c7",
@@ -1290,8 +1266,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u121F2",
         "unicode":"121f2",
@@ -1304,8 +1279,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u121F4",
         "unicode":"121f4",
@@ -1318,8 +1292,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u121F7",
         "unicode":"121f7",
@@ -1332,8 +1305,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u121FB",
         "unicode":"121fb",
@@ -1346,8 +1318,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u121FD",
         "unicode":"121fd",
@@ -1360,8 +1331,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12217",
         "unicode":"12217",
@@ -1374,8 +1344,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1221B",
         "unicode":"1221b",
@@ -1388,8 +1357,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1221C",
         "unicode":"1221c",
@@ -1402,8 +1370,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1221D",
         "unicode":"1221d",
@@ -1416,8 +1383,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12220",
         "unicode":"12220",
@@ -1430,8 +1396,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12223",
         "unicode":"12223",
@@ -1444,8 +1409,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12224",
         "unicode":"12224",
@@ -1458,8 +1422,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12227",
         "unicode":"12227",
@@ -1472,8 +1435,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12228",
         "unicode":"12228",
@@ -1486,8 +1448,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1222A",
         "unicode":"1222a",
@@ -1500,8 +1461,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1222C",
         "unicode":"1222c",
@@ -1514,8 +1474,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1222D",
         "unicode":"1222d",
@@ -1528,8 +1487,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12239",
         "unicode":"12239",
@@ -1542,8 +1500,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1223E",
         "unicode":"1223e",
@@ -1556,8 +1513,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12246",
         "unicode":"12246",
@@ -1570,8 +1526,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12248",
         "unicode":"12248",
@@ -1584,8 +1539,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1224B",
         "unicode":"1224b",
@@ -1598,8 +1552,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1224C",
         "unicode":"1224c",
@@ -1612,8 +1565,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1224E",
         "unicode":"1224e",
@@ -1626,8 +1578,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12250",
         "unicode":"12250",
@@ -1640,8 +1591,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12258",
         "unicode":"12258",
@@ -1654,8 +1604,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12261",
         "unicode":"12261",
@@ -1668,8 +1617,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12263",
         "unicode":"12263",
@@ -1682,8 +1630,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1226A",
         "unicode":"1226a",
@@ -1696,8 +1643,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1227A",
         "unicode":"1227a",
@@ -1710,8 +1656,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1227B",
         "unicode":"1227b",
@@ -1724,8 +1669,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1227F",
         "unicode":"1227f",
@@ -1738,8 +1682,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1228F",
         "unicode":"1228f",
@@ -1752,8 +1695,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12291",
         "unicode":"12291",
@@ -1766,8 +1708,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12292",
         "unicode":"12292",
@@ -1780,8 +1721,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12293",
         "unicode":"12293",
@@ -1794,8 +1734,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12295",
         "unicode":"12295",
@@ -1808,8 +1747,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u122A9",
         "unicode":"122a9",
@@ -1822,8 +1760,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u122AC",
         "unicode":"122ac",
@@ -1836,8 +1773,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u122AE",
         "unicode":"122ae",
@@ -1850,8 +1786,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u122B7",
         "unicode":"122b7",
@@ -1864,8 +1799,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u122B9",
         "unicode":"122b9",
@@ -1878,8 +1812,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u122BA",
         "unicode":"122ba",
@@ -1892,8 +1825,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u122BB",
         "unicode":"122bb",
@@ -1906,8 +1838,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u122BF",
         "unicode":"122bf",
@@ -1920,8 +1851,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u122C6",
         "unicode":"122c6",
@@ -1934,8 +1864,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u122D7",
         "unicode":"122d7",
@@ -1948,8 +1877,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u122DB",
         "unicode":"122db",
@@ -1962,8 +1890,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u122DE",
         "unicode":"122de",
@@ -1976,8 +1903,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u122E2",
         "unicode":"122e2",
@@ -1990,8 +1916,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u122E4",
         "unicode":"122e4",
@@ -2004,8 +1929,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u122E6",
         "unicode":"122e6",
@@ -2018,8 +1942,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u122E7",
         "unicode":"122e7",
@@ -2032,8 +1955,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u122E9",
         "unicode":"122e9",
@@ -2046,8 +1968,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u122EB",
         "unicode":"122eb",
@@ -2060,8 +1981,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u122F3",
         "unicode":"122f3",
@@ -2074,8 +1994,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u122FB",
         "unicode":"122fb",
@@ -2088,8 +2007,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u122FC",
         "unicode":"122fc",
@@ -2102,8 +2020,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u122FD",
         "unicode":"122fd",
@@ -2116,8 +2033,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u122FE",
         "unicode":"122fe",
@@ -2130,8 +2046,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12300",
         "unicode":"12300",
@@ -2144,8 +2059,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12305",
         "unicode":"12305",
@@ -2158,8 +2072,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12307",
         "unicode":"12307",
@@ -2172,8 +2085,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12308",
         "unicode":"12308",
@@ -2186,8 +2098,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12309",
         "unicode":"12309",
@@ -2200,8 +2111,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1230B",
         "unicode":"1230b",
@@ -2214,8 +2124,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1230C",
         "unicode":"1230c",
@@ -2228,8 +2137,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1230D",
         "unicode":"1230d",
@@ -2242,8 +2150,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12311",
         "unicode":"12311",
@@ -2256,8 +2163,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12312",
         "unicode":"12312",
@@ -2270,8 +2176,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12313",
         "unicode":"12313",
@@ -2284,8 +2189,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12324",
         "unicode":"12324",
@@ -2298,8 +2202,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12328",
         "unicode":"12328",
@@ -2312,8 +2215,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12336",
         "unicode":"12336",
@@ -2326,8 +2228,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12337",
         "unicode":"12337",
@@ -2340,8 +2241,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1233A",
         "unicode":"1233a",
@@ -2354,8 +2254,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12351",
         "unicode":"12351",
@@ -2368,8 +2267,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1235A",
         "unicode":"1235a",
@@ -2382,8 +2280,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1235D",
         "unicode":"1235d",
@@ -2396,8 +2293,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12360",
         "unicode":"12360",
@@ -2410,8 +2306,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12363",
         "unicode":"12363",
@@ -2424,8 +2319,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1236A",
         "unicode":"1236a",
@@ -2438,8 +2332,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1238E",
         "unicode":"1238e",
@@ -2452,8 +2345,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1238F",
         "unicode":"1238f",
@@ -2466,8 +2358,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12400",
         "unicode":"12400",
@@ -2480,8 +2371,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12401",
         "unicode":"12401",
@@ -2494,8 +2384,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12402",
         "unicode":"12402",
@@ -2508,8 +2397,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12403",
         "unicode":"12403",
@@ -2522,8 +2410,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12404",
         "unicode":"12404",
@@ -2536,8 +2423,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12405",
         "unicode":"12405",
@@ -2550,8 +2436,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1240C",
         "unicode":"1240c",
@@ -2564,8 +2449,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u1240F",
         "unicode":"1240f",
@@ -2578,8 +2462,7 @@
             "advanceWidth":1447
           }
         ]
-      }
-,
+      },
       {
         "name":"u12410",
         "unicode":"12410",

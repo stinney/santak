@@ -9,9 +9,6 @@ use lib "$ENV{'ORACC_BUILDS'}/lib";
 
 use Getopt::Long;
 
-GetOptions(
-    );
-
 my @u = (<>); chomp @u;
 for (my $i = 0; $i < $#u; ++$i) {
     print ",\n" if $i;

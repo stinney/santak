@@ -48,7 +48,7 @@ foreach (@png) {
 		my $x = $font{$lak{$l}} + $s;
 		warn "mv $l-$s.png $l-$x.png\n";
 	    } else {
-		print "cp lak/$l-$s.png png/$lak{$l},$s.png\n";
+		print "cp lak/$l-$s.png ucp/$lak{$l},$s.png\n";
 	    }
 	}
     } else {

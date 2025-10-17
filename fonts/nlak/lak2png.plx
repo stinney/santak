@@ -23,8 +23,9 @@ foreach (@lak) {
     $l =~ s/K0+/K/;
     if ($u !~ s/^U\+//) {
 	$u =~ s/=.*$//;
+    } else {
+	$u =~ s/\..*$//;
     }
-    $u =~ tr/./,/;
     $lak{"\L$l"} = $u;
 }
 #print Dumper \%lak;
@@ -42,41 +43,28 @@ foreach (@font) {
 
 my @png = map { s#lak/##; s/\.png$//; $_} (sort <lak/*.png>);
 #print @png;
-
+my @cp = ();
+my @mv = ();
 foreach my $p (@png) {
     my($l,$s) = split(/-/,$p);
     if ($lak{$l}) {
 	if (exists $font{$lak{$l}}) {
 	    #warn "processing $lak{$l} via $font{$lak{$l}} with l=$l and s=$s\n";
 	    if ($s <= $font{$lak{$l}}) {
-		my $x=0;
- 		my $mv = '';
-	      inner:
-		{
-		    do {
-			$x = $font{$lak{$l}} + 1; 	# reset SALT number starting after font-max-salt
-			$mv = "$l-$x.png";
-			if (-r "lak/$mv" || $seen_mv{$mv}) {
-			    #			warn "font $lak{$l} before++ = $font{$lak{$l}}; s=$s; x=$x\n";
-			    ++$font{$lak{$l}};
-			    #			warn "font $lak{$l} after++ = $font{$lak{$l}}; s=$s; x=$x\n"
-			} else {
-			    last inner;
-			}
-		    };
-		}
+		my $x = ++$font{$lak{$l}};
+		my $mv = "$lak{$l},$x.png";
 		if ($seen_mv{$mv}++) {
 		    warn "duplicate mv target $mv\n";
-		} else {
-		    warn "mv $l-$s.png $mv\n";
-		}
+	        } else {
+		    push @mv, "cp lak/$l-$s.png ucp/$mv\n";
+	        }
 	    } else {
 		my $fr = "$l-$s.png";
 		my $to = "$lak{$l},$s.png";
 		if (-r $seen_to{$to}++) {
-		    warn "duplicate output file name ucp/$to\n";
+		    warn "duplicate cp target $to\n";
 		} else {
-		    print "cp lak/$fr ucp/$to\n";
+		    push @cp, "cp lak/$fr ucp/$to\n";
 		}
 	    }
 	} else {
@@ -86,6 +74,8 @@ foreach my $p (@png) {
 	warn "$l not found in LAK\n";
     }
 }
+
+print sort @cp, @mv;
 
 1;
 

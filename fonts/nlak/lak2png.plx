@@ -9,7 +9,14 @@ use lib "$ENV{'ORACC_BUILDS'}/lib";
 
 use Getopt::Long;
 
+my $status = 0;
+
+my $check = 0;
+my $file = 0;
+
 GetOptions(
+    c=>\$check,
+    'f:s'=>\$file,
     );
 
 my %seen_mv = ();
@@ -41,8 +48,16 @@ foreach (@font) {
     }
 }
 
-my @png = map { s#lak/##; s/\.png$//; $_} (sort <lak/*.png>);
+my @png = ();
+if ($file) {
+    @png = `cat $file`; chomp @png;
+} else {
+    @png = <lak/*.png>;
+}
+@png = map { s#lak/##; s/\.png$//; $_} sort @png;
+
 #print @png;
+
 my @cp = ();
 my @mv = ();
 foreach my $p (@png) {
@@ -55,6 +70,7 @@ foreach my $p (@png) {
 		my $mv = "$lak{$l},$x.png";
 		if ($seen_mv{$mv}++) {
 		    warn "duplicate mv target $mv\n";
+		    ++$status;
 	        } else {
 		    push @mv, "cp lak/$l-$s.png ucp/$mv\n";
 	        }
@@ -63,21 +79,25 @@ foreach my $p (@png) {
 		my $to = "$lak{$l},$s.png";
 		if (-r $seen_to{$to}++) {
 		    warn "duplicate cp target $to\n";
+		    ++$status;
 		} else {
 		    push @cp, "cp lak/$fr ucp/$to\n";
 		}
 	    }
 	} else {
 	    warn "$lak{$l} not in \%font hash\n";
+	    ++$status;
 	}
     } else {
 	warn "$l not found in LAK\n";
+	++$status;
     }
 }
 
-print sort @cp, @mv;
+print sort @cp, @mv
+    unless $check;
 
-1;
+exit $status;
 
 ################################################################################
 

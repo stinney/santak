@@ -69,12 +69,13 @@ files = os.listdir(INPUTFOLDER)
 codetuples = [(tuple(filename[:-4].split('-')), filename) for filename in files if filename.endswith('.svg')]
 
 # Start by loading up all the single codepoint characters.
+# 20251019 replace n = int(x[0],16) with n = -1 for SALT 
 simplecharacters = [(codepoints[0],filename) for codepoints,filename in codetuples if len(codepoints)==1]
 for codepoint, filename in simplecharacters:
     if "," in codepoint:
         x = codepoint.split(",")
-## 	code = x[0]
-        n = int(x[0],16)
+ 	code = x[0]
+        n = -1
         point = x[1]
         name = 'u'+code+'.'+point
     else:

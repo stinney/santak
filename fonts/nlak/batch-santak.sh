@@ -27,14 +27,20 @@ if [ "$1" != "ucp/*.png" ]; then
     mv -f ucp/* ucp-done
 fi
 rm -fr lak ; ln -sf $batch lak
-rm -fr svg
+rm -fr svg ttf
+mkdir -p ttf
 
 # set up the new batch
 ./lak2png.plx | /bin/sh -s
 make svg
 ./ttf-on-build.sh
-mv ttf ttf-$b_base
-
+ttfd=ttf-$b_base
+mv ttf $ttfd
+find $ttfd -name '*.ttf' >$ttfd/pyft.txt
+ttf=$batch.ttf
+pyftmerge --input-file=$ttfd/pyft.txt --output-file=$ttf
 cat <<EOF
-Individual ttf written to ttf-$b_base.
+Created $ttf. Open it with FontLab; CMD-U to sort by name,
+and delete duplicates.
 EOF
+

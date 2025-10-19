@@ -74,8 +74,8 @@ simplecharacters = [(codepoints[0],filename) for codepoints,filename in codetupl
 for codepoint, filename in simplecharacters:
     if "," in codepoint:
         x = codepoint.split(",")
- 	code = x[0]
-        n = -1
+	code = x[0]
+	n = -1
         point = x[1]
         name = 'u'+code+'.'+point
     else:

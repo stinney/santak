@@ -21,7 +21,20 @@ if [ -r $ttf ]; then
     exit 1
 fi
 
+# move/remove the previous batch
 set ucp/*.png
-mv -f ucp/* ucp-done
+if [ "$1" != "ucp/*.png" ]; then
+    mv -f ucp/* ucp-done
+fi
 rm -fr lak ; ln -sf $batch lak
+rm -fr svg
+
+# set up the new batch
 ./lak2png.plx | /bin/sh -s
+make svg
+./ttf-on-build.sh
+mv ttf ttf-$b_base
+
+cat <<EOF
+Individual ttf written to ttf-$b_base.
+EOF
